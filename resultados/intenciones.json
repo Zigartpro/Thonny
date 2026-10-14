@@ -1,0 +1,299 @@
+{
+  "fecha": "2026-10-13T00:01:55",
+  "dataset": {
+    "frases": 295,
+    "por_intencion": {
+      "apagar_bombillo": 30,
+      "apagar_cautin": 30,
+      "apagar_plancha": 30,
+      "apagar_ventilador": 30,
+      "desconocido": 30,
+      "prender_bombillo": 30,
+      "prender_cautin": 30,
+      "prender_plancha": 30,
+      "prender_ventilador": 30,
+      "saludo": 25
+    }
+  },
+  "modelo": {
+    "rasgos": "tfidf palabras (1-2) + caracteres char_wb (2-5)",
+    "clasificador": "LogisticRegression C=10"
+  },
+  "validacion_cruzada": {
+    "folds": 5,
+    "exactitud_por_fold": [
+      0.983,
+      1.0,
+      0.864,
+      0.932,
+      0.932
+    ],
+    "exactitud_media": 0.942,
+    "desviacion": 0.047,
+    "reporte": {
+      "apagar_bombillo": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 30.0
+      },
+      "apagar_cautin": {
+        "precision": 0.9090909090909091,
+        "recall": 1.0,
+        "f1-score": 0.9523809523809523,
+        "support": 30.0
+      },
+      "apagar_plancha": {
+        "precision": 0.9655172413793104,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9491525423728814,
+        "support": 30.0
+      },
+      "apagar_ventilador": {
+        "precision": 0.9375,
+        "recall": 1.0,
+        "f1-score": 0.967741935483871,
+        "support": 30.0
+      },
+      "desconocido": {
+        "precision": 0.8214285714285714,
+        "recall": 0.7666666666666667,
+        "f1-score": 0.7931034482758621,
+        "support": 30.0
+      },
+      "prender_bombillo": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 30.0
+      },
+      "prender_cautin": {
+        "precision": 0.9666666666666667,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.9666666666666667,
+        "support": 30.0
+      },
+      "prender_plancha": {
+        "precision": 0.90625,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.9354838709677419,
+        "support": 30.0
+      },
+      "prender_ventilador": {
+        "precision": 1.0,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.9830508474576272,
+        "support": 30.0
+      },
+      "saludo": {
+        "precision": 0.9090909090909091,
+        "recall": 0.8,
+        "f1-score": 0.851063829787234,
+        "support": 25.0
+      },
+      "accuracy": 0.9423728813559322,
+      "macro avg": {
+        "precision": 0.9415544297656366,
+        "recall": 0.9400000000000001,
+        "f1-score": 0.9398644093392837,
+        "support": 295.0
+      },
+      "weighted avg": {
+        "precision": 0.9421046589296151,
+        "recall": 0.9423728813559322,
+        "f1-score": 0.9413695039079625,
+        "support": 295.0
+      }
+    },
+    "etiquetas": [
+      "apagar_bombillo",
+      "apagar_cautin",
+      "apagar_plancha",
+      "apagar_ventilador",
+      "desconocido",
+      "prender_bombillo",
+      "prender_cautin",
+      "prender_plancha",
+      "prender_ventilador",
+      "saludo"
+    ],
+    "matriz_confusion": [
+      [
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        28,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        23,
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        29,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        29,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        29,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        20
+      ]
+    ]
+  },
+  "transcripciones_reales": {
+    "nota": "Comandos de clips.csv transcritos por Whisper. Algunos errores de Whisper de estos mismos audios se usaron como vocabulario del dataset, así que es una prueba optimista.",
+    "comandos": 75,
+    "exactitud": 0.92,
+    "umbral_confianza": 0.5,
+    "correcta_y_aceptada": 0.92,
+    "exactitud_por_hablante": {
+      "cristian": 0.821,
+      "johan": 1.0,
+      "rocko": 0.947
+    },
+    "errores": [
+      {
+        "clip": "cristian_a3_06.wav",
+        "transcripcion": "Enciende el ventilador. Apaga el ventilador.",
+        "esperada": "prender_ventilador",
+        "predicha": "apagar_ventilador",
+        "confianza": 0.775
+      },
+      {
+        "clip": "cristian_a3_11.wav",
+        "transcripcion": "apaga y...",
+        "esperada": "apagar_cautin",
+        "predicha": "apagar_bombillo",
+        "confianza": 0.322
+      },
+      {
+        "clip": "cristian_a5_06.wav",
+        "transcripcion": "Prende el bantillazo.",
+        "esperada": "prender_ventilador",
+        "predicha": "prender_cautin",
+        "confianza": 0.451
+      },
+      {
+        "clip": "cristian_a5_14.wav",
+        "transcripcion": "¡A la prancha!",
+        "esperada": "prender_plancha",
+        "predicha": "apagar_plancha",
+        "confianza": 0.573
+      },
+      {
+        "clip": "cristian_a5_16.wav",
+        "transcripcion": "Francia.",
+        "esperada": "apagar_plancha",
+        "predicha": "desconocido",
+        "confianza": 0.599
+      },
+      {
+        "clip": "rocko_a3_02.wav",
+        "transcripcion": "de la luz",
+        "esperada": "prender_bombillo",
+        "predicha": "apagar_bombillo",
+        "confianza": 0.487
+      }
+    ]
+  }
+}

@@ -1,0 +1,296 @@
+texto,intencion
+pon la luz por favor,prender_bombillo
+hola thonny enciende la luz del cuarto,prender_bombillo
+prenda el bombillo del cuarto por favor,prender_bombillo
+enciende la luz por favor,prender_bombillo
+hola activa el foco,prender_bombillo
+quiero poner el foco,prender_bombillo
+hola pon el bombillo,prender_bombillo
+por favor prende el foco,prender_bombillo
+tommy prende el foco,prender_bombillo
+enciendo el bombillo ya,prender_bombillo
+puedes encender la luz,prender_bombillo
+me ayudas a poner la luz,prender_bombillo
+enciende el bombillo del cuarto por favor,prender_bombillo
+hola enciende la luz del cuarto,prender_bombillo
+prended el foco,prender_bombillo
+prende el foco ya,prender_bombillo
+enciendo la lámpara ya,prender_bombillo
+necesito prender el bombillo,prender_bombillo
+hola enciendo el foco,prender_bombillo
+tommy encienda el bombillo,prender_bombillo
+prende la luz ya,prender_bombillo
+enciendo el foco,prender_bombillo
+tommy enciendo la luz,prender_bombillo
+hola prendé el bombillo,prender_bombillo
+necesito activar el bombillo,prender_bombillo
+enciendo la luz,prender_bombillo
+tommy prenda el foco,prender_bombillo
+tommy prende la lámpara,prender_bombillo
+prenda el bombillo por favor,prender_bombillo
+enciende la luz ya,prender_bombillo
+ya apaga la luz por favor,apagar_bombillo
+desconecte el bombillo ya,apagar_bombillo
+apaga el bombillo ya,apagar_bombillo
+oye apagar la luz,apagar_bombillo
+tommy apaga el bombillo del cuarto,apagar_bombillo
+apague la luz ya,apagar_bombillo
+hola apague la luz del cuarto,apagar_bombillo
+hola thonny desconecte la luz del cuarto,apagar_bombillo
+apágame el bombillo del cuarto,apagar_bombillo
+oye apaga el bombillo,apagar_bombillo
+apague el foco,apagar_bombillo
+oye apague la luz del cuarto,apagar_bombillo
+hola desconecta el bombillo del cuarto,apagar_bombillo
+oye apagar la luz del cuarto,apagar_bombillo
+quita el bombillo del cuarto ya,apagar_bombillo
+por favor apágame el bombillo del cuarto,apagar_bombillo
+desconecta el bombillo del cuarto por favor,apagar_bombillo
+apagar la lámpara por favor,apagar_bombillo
+oye apágame la luz,apagar_bombillo
+por favor a parar la luz,apagar_bombillo
+desconecta el foco,apagar_bombillo
+hola thonny apagar la luz del cuarto,apagar_bombillo
+apagar la luz por favor,apagar_bombillo
+oye apaga la luz del cuarto,apagar_bombillo
+por favor desconecte la luz del cuarto,apagar_bombillo
+apaga la luz ya,apagar_bombillo
+oye apague el bombillo,apagar_bombillo
+apaga la luz del cuarto ya,apagar_bombillo
+oye quita la luz del cuarto,apagar_bombillo
+desconecta la lámpara,apagar_bombillo
+por favor prended el ventilador,prender_ventilador
+puedes poner el abanico,prender_ventilador
+prenda el bentilador por favor,prender_ventilador
+pon el ventilador,prender_ventilador
+tommy prende el bentilador,prender_ventilador
+necesito poner el abanico,prender_ventilador
+por favor enciendo el ventilador,prender_ventilador
+prended el ventilador del cuarto,prender_ventilador
+por favor enciende el abanico,prender_ventilador
+oye pon el bentilador,prender_ventilador
+necesito activar el bentilador,prender_ventilador
+hola thonny prender el ventilador del cuarto,prender_ventilador
+tommy prender el ventilador,prender_ventilador
+hola thonny activa el abanico,prender_ventilador
+quiero activar el bentilador,prender_ventilador
+tommy prende el ventilador del cuarto,prender_ventilador
+hola thonny prender el abanico,prender_ventilador
+enciendo el bentilador ya,prender_ventilador
+prended el abanico ya,prender_ventilador
+prenda el abanico,prender_ventilador
+por favor prended el bentilador,prender_ventilador
+oye encienda el ventilador del cuarto,prender_ventilador
+tommy activa el bentilador,prender_ventilador
+por favor encienda el bentilador,prender_ventilador
+me ayudas a poner el ventilador del cuarto,prender_ventilador
+prender el ventilador del cuarto,prender_ventilador
+enciendo el abanico por favor,prender_ventilador
+hola enciendo el abanico,prender_ventilador
+por favor prendé el ventilador,prender_ventilador
+pon el abanico ya,prender_ventilador
+hola a parar el abanico,apagar_ventilador
+necesito desconectar el ventilador del cuarto,apagar_ventilador
+desconecte el bentilador ya,apagar_ventilador
+por favor ya apaga el ventilador,apagar_ventilador
+oye ya apaga el ventilador del cuarto,apagar_ventilador
+apaga el ventilador del cuarto por favor,apagar_ventilador
+apague el bentilador,apagar_ventilador
+quita el ventilador del cuarto ya,apagar_ventilador
+tommy apaga el bentilador,apagar_ventilador
+me ayudas a desconectar el abanico,apagar_ventilador
+necesito desconectar el ventilador,apagar_ventilador
+necesito quitar el ventilador del cuarto,apagar_ventilador
+tommy apágame el abanico,apagar_ventilador
+puedes apagar el ventilador,apagar_ventilador
+tommy apagar el abanico,apagar_ventilador
+por favor apágame el bentilador,apagar_ventilador
+apagar el ventilador ya,apagar_ventilador
+apague el ventilador ya,apagar_ventilador
+hola thonny desconecta el ventilador,apagar_ventilador
+por favor desconecte el ventilador,apagar_ventilador
+apagar el ventilador del cuarto ya,apagar_ventilador
+apagar el ventilador del cuarto,apagar_ventilador
+me ayudas a apagar el ventilador,apagar_ventilador
+ya apaga el ventilador del cuarto,apagar_ventilador
+tommy apaga el ventilador del cuarto,apagar_ventilador
+por favor apague el abanico,apagar_ventilador
+hola thonny quita el bentilador,apagar_ventilador
+oye apágame el bentilador,apagar_ventilador
+necesito quitar el bentilador,apagar_ventilador
+a parar el ventilador ya,apagar_ventilador
+oye préndeme el cortín,prender_cautin
+necesito poner el cautín,prender_cautin
+hola prended el caudín,prender_cautin
+prenda el cut-in por favor,prender_cautin
+hola encienda el cautin,prender_cautin
+por favor activa el caudín,prender_cautin
+enciende el cautin,prender_cautin
+hola thonny encienda el cut-in,prender_cautin
+puedes poner el cautín,prender_cautin
+hola thonny prendé el cotín,prender_cautin
+hola enciende el cotín,prender_cautin
+préndeme el cotín,prender_cautin
+hola thonny prenda el caudín,prender_cautin
+oye enciendo el cautin,prender_cautin
+oye enciende el cortín,prender_cautin
+tommy prende el caudín,prender_cautin
+por favor activa el cortín,prender_cautin
+enciendo el caoutín por favor,prender_cautin
+hola prende el soldador,prender_cautin
+oye prendé el caoutín,prender_cautin
+oye enciendo el cotín,prender_cautin
+por favor prende el cortín,prender_cautin
+hola thonny prender el cotino,prender_cautin
+tommy prended el cortín,prender_cautin
+hola enciendo el cotino,prender_cautin
+tommy activa el caudín,prender_cautin
+oye prende el soldador,prender_cautin
+tommy prenda el cautin,prender_cautin
+por favor prende el cotino,prender_cautin
+hola thonny prender el cotín,prender_cautin
+tommy ya apaga el cautín,apagar_cautin
+oye apagar el cautin,apagar_cautin
+me ayudas a desconectar el cut-in,apagar_cautin
+tommy desconecta el cotín,apagar_cautin
+necesito desconectar el cautin,apagar_cautin
+hola desconecta el cautin,apagar_cautin
+desconecta el cotín por favor,apagar_cautin
+apague el caudín,apagar_cautin
+desconecte el cotín,apagar_cautin
+hola desconecta el cautín,apagar_cautin
+tommy apagar el soldador,apagar_cautin
+hola desconecta el cortín,apagar_cautin
+a parar el cortín,apagar_cautin
+por favor apaga el caudín,apagar_cautin
+quiero desconectar el caoutín,apagar_cautin
+desconecte el soldador,apagar_cautin
+hola thonny a parar el soldador,apagar_cautin
+hola thonny apague el caoutín,apagar_cautin
+a parar el caudín por favor,apagar_cautin
+desconecta el cortín ya,apagar_cautin
+oye apagar el cotín,apagar_cautin
+por favor desconecte el cut-in,apagar_cautin
+necesito apagar el caoutín,apagar_cautin
+quita el caudín,apagar_cautin
+puedes desconectar el cautín,apagar_cautin
+hola thonny quita el cautin,apagar_cautin
+apágame el cotín ya,apagar_cautin
+tommy desconecte el cotino,apagar_cautin
+por favor apágame el cotino,apagar_cautin
+quita el cautín ya,apagar_cautin
+enciendo la plancha de cabello,prender_plancha
+prender la plancha ya,prender_plancha
+tommy enciende la plancha de cabeza,prender_plancha
+por favor préndeme la prancha,prender_plancha
+prenda la plancha de cabeza por favor,prender_plancha
+prenda la plancha de cabeza ya,prender_plancha
+prenda la plancha de cabello,prender_plancha
+hola prenda la planchita,prender_plancha
+préndeme la plancha de cabello,prender_plancha
+prenda la plancha del pelo por favor,prender_plancha
+enciendo la plancha del pelo ya,prender_plancha
+hola thonny prendé la plancha del pelo,prender_plancha
+enciendo la planchita ya,prender_plancha
+me ayudas a encender la plancha del pelo,prender_plancha
+prended la planchita por favor,prender_plancha
+hola thonny pon la planchita,prender_plancha
+hola prende la planchita,prender_plancha
+por favor enciende la plancha,prender_plancha
+tommy prendé la plancha del pelo,prender_plancha
+enciende la prancha ya,prender_plancha
+hola prenda la plancha de cabeza,prender_plancha
+activa la plancha,prender_plancha
+tommy enciendo la planchita,prender_plancha
+hola thonny enciende la planchita,prender_plancha
+quiero poner la plancha del pelo,prender_plancha
+hola prenda la plancha de cabello,prender_plancha
+por favor prende la plancha,prender_plancha
+encienda la plancha del pelo por favor,prender_plancha
+hola activa la plancha,prender_plancha
+me ayudas a encender la plancha de cabeza,prender_plancha
+oye quita la plancha de cabeza,apagar_plancha
+hola thonny apague la plancha,apagar_plancha
+apágame la plancha de cabeza,apagar_plancha
+por favor a parar la plancha,apagar_plancha
+hola a parar la plancha del pelo,apagar_plancha
+ya apaga la plancha de cabello ya,apagar_plancha
+hola thonny a parar la plancha del pelo,apagar_plancha
+oye desconecte la plancha de cabeza,apagar_plancha
+hola thonny apagar la plancha,apagar_plancha
+me ayudas a desconectar la plancha de cabeza,apagar_plancha
+apague la plancha del pelo por favor,apagar_plancha
+apague la plancha de cabeza por favor,apagar_plancha
+tommy a parar la plancha de cabeza,apagar_plancha
+me ayudas a quitar la plancha del pelo,apagar_plancha
+ya apaga la planchita ya,apagar_plancha
+me ayudas a apagar la planchita,apagar_plancha
+me ayudas a desconectar la prancha,apagar_plancha
+me ayudas a quitar la plancha de cabello,apagar_plancha
+hola desconecta la plancha del pelo,apagar_plancha
+apagar la plancha del pelo,apagar_plancha
+apágame la plancha de cabello,apagar_plancha
+apagar la prancha por favor,apagar_plancha
+puedes apagar la prancha,apagar_plancha
+hola thonny a parar la plancha de cabello,apagar_plancha
+puedes apagar la plancha de cabello,apagar_plancha
+hola apaga la plancha del pelo,apagar_plancha
+quita la plancha por favor,apagar_plancha
+por favor desconecta la plancha,apagar_plancha
+apágame la plancha por favor,apagar_plancha
+necesito quitar la plancha,apagar_plancha
+hola,saludo
+hola thonny,saludo
+buenos días,saludo
+buenas tardes,saludo
+buenas noches,saludo
+cómo estás,saludo
+hola cómo estás,saludo
+qué más,saludo
+quiubo,saludo
+hola qué tal,saludo
+qué tal,saludo
+saludos,saludo
+hola buenas,saludo
+buenas,saludo
+hola cómo vas,saludo
+cómo vas,saludo
+qué hubo,saludo
+hola hola,saludo
+buen día,saludo
+hola amigo,saludo
+cómo amaneciste,saludo
+hola tommy,saludo
+qué más pues,saludo
+cómo te va,saludo
+hola de nuevo,saludo
+qué hora es,desconocido
+cuánto es dos más dos,desconocido
+cuéntame un chiste,desconocido
+pon música,desconocido
+sube el volumen,desconocido
+abre la puerta,desconocido
+cierra la ventana,desconocido
+llama a mi mamá,desconocido
+qué día es hoy,desconocido
+va a llover mañana,desconocido
+el ventilador es nuevo,desconocido
+dónde está la plancha,desconocido
+la luz está muy bonita,desconocido
+compré un cautín,desconocido
+apaga eso,desconocido
+prende eso,desconocido
+no sé,desconocido
+gracias,desconocido
+nada,desconocido
+olvídalo,desconocido
+mañana tengo clase temprano,desconocido
+el perro del vecino ladró toda la noche,desconocido
+me gusta el café con pan,desconocido
+necesito comprar arroz,desconocido
+ese partido estuvo muy bueno,desconocido
+gracias por ver el video,desconocido
+suscríbete al canal,desconocido
+cuál es tu nombre,desconocido
+cuántos años tienes,desconocido
+qué puedes hacer,desconocido

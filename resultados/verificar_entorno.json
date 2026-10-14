@@ -1,0 +1,40 @@
+{
+  "fecha": "2026-10-10T21:53:22",
+  "versiones": {
+    "python": "3.11.9",
+    "torch": "2.8.0+cu126",
+    "torchaudio": "2.8.0+cu126",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.2",
+    "silero-vad": "6.2.3",
+    "speechbrain": "1.1.1",
+    "scikit-learn": "1.9.1",
+    "rapidfuzz": "3.14.6",
+    "pydub": "0.25.1",
+    "sounddevice": "0.5.6",
+    "soundfile": "0.14.0",
+    "pyyaml": "6.0.3",
+    "gTTS": "2.5.4",
+    "ffmpeg": "ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "gpu": {
+    "nombre": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+    "vram_total_mb": 6144,
+    "vram_libre_inicio_mb": 5161,
+    "cuda_torch": "12.6",
+    "cudnn_torch": 91002
+  },
+  "whisper": {
+    "modelo": "medium",
+    "compute_type": "int8_float16",
+    "wav": "C:\\Users\\duvan\\OneDrive\\Desktop\\proyectos\\tonny\\thonny\\datos\\prueba_entorno.wav",
+    "duracion_audio_s": 6.05,
+    "tiempo_carga_s": 43.06,
+    "tiempo_transcripcion_s": 1.39,
+    "factor_tiempo_real": 0.23,
+    "vram_modelo_mb": 960,
+    "vram_pico_mb": 1170,
+    "idioma_detectado": "es",
+    "texto": "Hola Thonny, prende la luz del cuarto y apaga el ventilador, por favor."
+  }
+}

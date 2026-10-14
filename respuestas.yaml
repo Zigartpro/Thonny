@@ -1,0 +1,22 @@
+# Respuestas pregeneradas de Thonny. Las genera pc/generar_voces.py.
+# El nombre se escribe "Toni" para que la síntesis lo pronuncie bien.
+
+# Con la voz clonada de cada persona (voces/<hablante>/<clave>.wav)
+clonadas:
+  que_necesitas: "Dime, ¿qué necesitas?"   # solo "¿Qué necesitas?" es tan corto que F5-TTS lo dice mal
+  no_entendi: "No te entendí, ¿me repites?"
+  prender_bombillo: "Listo, prendí la luz."
+  apagar_bombillo: "Listo, apagué la luz."
+  prender_ventilador: "Listo, prendí el ventilador."
+  apagar_ventilador: "Listo, apagué el ventilador."
+  prender_cautin: "Listo, prendí el cautín."
+  apagar_cautin: "Listo, apagué el cautín."
+  prender_plancha: "Listo, prendí la plancha."
+  apagar_plancha: "Listo, apagué la plancha."
+
+# Con la voz por defecto (voces/sistema/<clave>.wav)
+sistema:
+  listo: "Toni listo."
+
+# Frase para escuchar cómo queda cada voz antes de generar todo (--muestra)
+muestra: "Hola, soy Toni. Listo, prendí la luz. ¿Qué más necesitas?"

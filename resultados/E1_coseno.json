@@ -1,0 +1,92 @@
+{
+  "fecha": "2026-10-13T00:54:10",
+  "experimento": "E1",
+  "descripcion": "Línea base: un clip de 'Hola Thonny' por persona (celular)",
+  "clasificador": "coseno",
+  "train": {
+    "miembros": 3,
+    "ajenos": 798
+  },
+  "criterio_umbral": "eer",
+  "umbral": 0.2228,
+  "val": {
+    "clips": 257
+  },
+  "test": {
+    "por_persona": {
+      "cristian": {
+        "clips": 16,
+        "aceptacion_correcta": 1.0,
+        "aceptacion_correcta_activaciones": 1.0,
+        "identificacion": 1.0
+      },
+      "johan": {
+        "clips": 16,
+        "aceptacion_correcta": 1.0,
+        "aceptacion_correcta_activaciones": 1.0,
+        "identificacion": 1.0
+      },
+      "rocko": {
+        "clips": 13,
+        "aceptacion_correcta": 0.923,
+        "aceptacion_correcta_activaciones": 0.889,
+        "identificacion": 1.0
+      }
+    },
+    "far": {
+      "ajeno_publico": {
+        "clips": 180,
+        "falsa_aceptacion": 0.0
+      },
+      "ajeno_sintetico": {
+        "clips": 48,
+        "falsa_aceptacion": 0.042
+      }
+    },
+    "aceptacion_correcta_media": 0.978,
+    "identificacion_media": 1.0,
+    "matriz_confusion": {
+      "filas": [
+        "cristian",
+        "johan",
+        "rocko",
+        "ajeno"
+      ],
+      "columnas": [
+        "cristian",
+        "johan",
+        "rocko",
+        "rechazado"
+      ],
+      "valores": [
+        [
+          16,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          226
+        ]
+      ]
+    },
+    "eer_test": 0.022,
+    "umbral_eer_test": 0.199
+  },
+  "nota": "Solo versión celular: aún no hay clips grabados por el INMP441 (versión microfono)."
+}

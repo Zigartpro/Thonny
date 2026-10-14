@@ -1,0 +1,26 @@
+# Entorno virtual (vive fuera de OneDrive, pero por si acaso)
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Credenciales de WiFi
+firmware/**/secrets.h
+firmware/**/secrets.py
+
+# Los audios de voz, modelos entrenados y caché SÍ van al repo (es privado).
+# Lo que se puede volver a descargar queda fuera: venvs, modelos de HuggingFace
+# y el dataset público SLR72 (salvo los impostores sintéticos, en datos/slr72_sinteticos/).
+pretrained_models/
+
+# Compilación del firmware
+firmware/**/build/
+
+# Sistema / editor
+.vscode/
+Thumbs.db
+desktop.ini

@@ -1,0 +1,1 @@
+Hola, soy Tony, el asistente de voz de este proyecto, puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.

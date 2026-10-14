@@ -1,0 +1,419 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thonny por dentro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: una columna de lectura (~68ch) con figuras que se abren a 2 columnas en escritorio; cada sección = una pieza del pipeline */
+:root {
+  --bg: #f3f5f8;
+  --panel: #ffffff;
+  --ink: #18202e;
+  --muted: #5a6577;
+  --line: #d9dee7;
+  --accent: #1f5fd6;
+  --accent-soft: #e3ecfc;
+  --c-cristian: #d9622b;
+  --c-johan: #1f5fd6;
+  --c-rocko: #148a6c;
+  --c-ajeno: #8a93a3;
+  --ok: #148a6c;
+  --bad: #c43d3d;
+  --f-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11151d; --panel: #19202b; --ink: #e6eaf1; --muted: #9aa5b8; --line: #2b3442;
+    --accent: #6f9cf5; --accent-soft: #1c2a45;
+    --c-cristian: #f08a55; --c-johan: #6f9cf5; --c-rocko: #3cc29d; --c-ajeno: #7c8698;
+    --ok: #3cc29d; --bad: #f07272; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11151d; --panel: #19202b; --ink: #e6eaf1; --muted: #9aa5b8; --line: #2b3442;
+  --accent: #6f9cf5; --accent-soft: #1c2a45;
+  --c-cristian: #f08a55; --c-johan: #6f9cf5; --c-rocko: #3cc29d; --c-ajeno: #7c8698;
+  --ok: #3cc29d; --bad: #f07272; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.6; }
+.wrap { max-width: 1060px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 72px; display: grid; gap: 56px; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; line-height: 1.15; margin: 0; }
+h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; letter-spacing: -0.02em; }
+h2 { font-size: clamp(1.45rem, 3vw, 1.9rem); font-weight: 800; }
+h3 { font-size: 1.08rem; font-weight: 600; }
+p { margin: 0; max-width: 68ch; }
+.eyebrow { font-family: var(--f-mono); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.lead { font-size: 1.12rem; color: var(--muted); }
+header { display: grid; gap: 14px; }
+section { display: grid; gap: 20px; }
+.sec-head { display: grid; gap: 8px; }
+.muted { color: var(--muted); }
+.mono, .num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+code { font-family: var(--f-mono); font-size: .9em; background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; }
+
+/* cifras clave */
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; }
+.kpi { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: grid; gap: 4px; align-content: start; }
+.kpi .v { font-family: var(--f-display); font-weight: 800; font-size: 2rem; line-height: 1; font-variant-numeric: tabular-nums; }
+.kpi .k { font-size: .9rem; color: var(--muted); }
+
+/* pipeline */
+.pipe { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; counter-reset: paso; }
+.pipe li { counter-increment: paso; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: grid; gap: 6px; align-content: start; min-width: 0; }
+.pipe li::before { content: counter(paso); font-family: var(--f-mono); font-size: .8rem; color: var(--accent); }
+.pipe b { font-family: var(--f-display); font-size: 1.02rem; }
+.pipe span { font-size: .88rem; color: var(--muted); }
+.pipe .where { font-family: var(--f-mono); font-size: .72rem; letter-spacing: .05em; text-transform: uppercase; color: var(--ink); opacity: .7; }
+
+/* figuras */
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 16px; }
+figure { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 10px; min-width: 0; }
+figcaption { font-size: .88rem; color: var(--muted); }
+.chart { position: relative; height: 290px; }
+.chart.tall { height: 340px; }
+.png { background: #ffffff; border-radius: 6px; padding: 6px; }
+.png img { display: block; width: 100%; height: auto; }
+
+/* tablas */
+.tscroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+th, td { padding: 7px 9px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { font-weight: 600; color: var(--muted); font-size: .8rem; letter-spacing: .03em; }
+td.num, th.num { text-align: right; }
+tr.pick td { background: var(--accent-soft); font-weight: 600; }
+.cm td, .cm th { text-align: center; padding: 6px 7px; font-family: var(--f-mono); font-size: .8rem; }
+.cm th.row { text-align: right; font-family: var(--f-body); }
+.pill { display: inline-block; font-family: var(--f-mono); font-size: .75rem; padding: 1px 8px; border-radius: 99px; border: 1px solid currentColor; }
+.pill.ok { color: var(--ok); } .pill.bad { color: var(--bad); }
+
+.note { border-left: 3px solid var(--accent); padding: 4px 0 4px 14px; display: grid; gap: 6px; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: baseline; margin-right: 4px; }
+ul.plain { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; max-width: 68ch; }
+footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+@media (max-width: 520px) { .wrap { padding-inline: 16px; gap: 44px; } .chart { height: 250px; } }
+</style>
+
+<div class="wrap">
+<header>
+  <span class="eyebrow">Asistente de voz · ESP32-S3 · octubre 2026</span>
+  <h1>Thonny por dentro</h1>
+  <p class="lead">Qué se entrenó, con qué datos, qué tan bien funciona y cómo viaja una frase desde "Hola Thonny" hasta el clic del relé. Todas las cifras salen de los scripts del proyecto (carpeta <code>resultados/</code>) y del registro de las pruebas en vivo (<code>logs/thonny.log</code>).</p>
+</header>
+
+<div class="kpis">
+  <div class="kpi"><span class="v">189</span><span class="k">clips de voz recortados de los audios de cristian, johan y rocko (6,6 min)</span></div>
+  <div class="kpi"><span class="v">95,6 %</span><span class="k">de frases de los 3 miembros aceptadas en la prueba final, con 0 % de voces ajenas aceptadas</span></div>
+  <div class="kpi"><span class="v">94,2 %</span><span class="k">de órdenes bien entendidas (validación cruzada); 92 % sobre transcripciones reales</span></div>
+  <div class="kpi"><span class="v">30</span><span class="k">respuestas con voz clonada, 99,8 % inteligibles para Whisper</span></div>
+</div>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">Cómo funciona</span>
+    <h2>El viaje de una frase</h2>
+    <p class="muted">Cada frase pasa por estos pasos en orden. Los modelos corren en el portátil (GPU RTX 3050); la ESP32 pone el parlante y los relés.</p>
+  </div>
+  <ol class="pipe">
+    <li><span class="where">PC</span><b>Escuchar</b><span>El micrófono entrega audio a 16 kHz. Silero VAD corta donde empieza y termina la voz.</span></li>
+    <li><span class="where">PC · GPU</span><b>Transcribir</b><span>Whisper medium convierte la voz en texto, en español, en ~0,3 s.</span></li>
+    <li><span class="where">PC</span><b>¿Dijo "Thonny"?</b><span>Busca "thonny" y sus variantes (tony, toni, tommy…). Sin eso, la frase se ignora.</span></li>
+    <li><span class="where">PC · CPU</span><b>¿Quién habla?</b><span>ECAPA saca la huella de la voz (192 números) y una regresión logística decide: cristian, johan, rocko o ajeno.</span></li>
+    <li><span class="where">PC</span><b>¿Qué pidió?</b><span>TF-IDF + regresión logística clasifica el texto en 10 intenciones (prender/apagar × 4 aparatos, saludo, desconocido).</span></li>
+    <li><span class="where">ESP32</span><b>Responder</b><span>La placa reproduce la respuesta en la voz de quien habló, guardada en su memoria flash.</span></li>
+    <li><span class="where">ESP32</span><b>Actuar</b><span>Activa el relé: 1 bombillo, 2 ventilador, 3 cautín, 4 plancha.</span></li>
+  </ol>
+  <div class="note">
+    <p><b>En dos pasos:</b> "Hola Thonny" → Thonny contesta "Dime, ¿qué necesitas?" → en los 6 s siguientes la misma persona dice "prende la luz". También funciona todo en una frase: "Hola Thonny, apaga el ventilador".</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">Datos</span>
+    <h2>Con qué se entrenó</h2>
+    <p class="muted">Los audios de WhatsApp se cortaron en frases con Whisper y cortes por energía. Cada clip quedó en una sola partición: <b>train</b> (entrenar), <b>val</b> (escoger el umbral) o <b>test</b> (medir al final). El Audio 5 nunca se usó para entrenar; un chequeo en el código detiene todo si un clip de test se cuela.</p>
+  </div>
+  <div class="grid2">
+    <figure>
+      <div class="chart"><canvas id="chParticion" aria-label="Clips por persona y partición"></canvas></div>
+      <figcaption>Clips por persona y partición. rocko no tiene Audio 5, así que su test sale de las últimas frases de sus Audios 2 y 3.</figcaption>
+    </figure>
+    <figure>
+      <div class="chart"><canvas id="chTipo" aria-label="Clips por tipo de frase"></canvas></div>
+      <figcaption>Tipo de frase: activación ("Hola Thonny"), comando ("prende la luz") y habla libre.</figcaption>
+    </figure>
+  </div>
+  <div class="note">
+    <p><b>Voces ajenas:</b> para que Thonny aprenda a decir "no te conozco" se usaron 33 hablantes colombianos del corpus público OpenSLR SLR72, pasados por un códec tipo WhatsApp para que sonaran como los audios de los miembros, más 264 impostores sintéticos (voz clonada diciendo "Hola Thonny" y comandos). 6 hablantes públicos se apartaron solo para test.</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">Modelo 1 · reconocimiento de hablante</span>
+    <h2>¿Quién habla?</h2>
+    <p class="muted">Se compararon 3 experimentos y 2 clasificadores sobre la huella ECAPA. <b>E1</b>: 1 clip por persona. <b>E2</b>: todos los clips de train. <b>E4</b>: E2 + 3 copias alteradas de cada clip (ruido, volumen, filtro de parlante y eco). E3 (entrenar con el micrófono INMP441) no se hizo porque no hubo grabaciones con ese micrófono. El umbral se escoge en val, donde falsos rechazos = falsas aceptaciones.</p>
+  </div>
+  <div class="grid2">
+    <figure>
+      <div class="chart tall"><canvas id="chExp" aria-label="Comparación de experimentos"></canvas></div>
+      <figcaption>Medido en test. Barras: % de frases de miembros aceptadas (más es mejor). Línea: % de impostores sintéticos aceptados (menos es mejor). Los hablantes públicos de test fueron rechazados al 100 % en todos los casos.</figcaption>
+    </figure>
+    <figure>
+      <div class="tscroll">
+        <table>
+          <thead><tr><th>Exp.</th><th>Clasificador</th><th class="num">Clips miembros</th><th class="num">Umbral</th><th class="num">Aceptados</th><th class="num">Impostores</th><th class="num">EER</th></tr></thead>
+          <tbody>
+            <tr><td>E1</td><td>coseno</td><td class="num">3</td><td class="num">0,223</td><td class="num">97,8 %</td><td class="num">4,2 %</td><td class="num">2,2 %</td></tr>
+            <tr><td>E1</td><td>reglog</td><td class="num">3</td><td class="num">0,083</td><td class="num">100 %</td><td class="num">2,1 %</td><td class="num">0,2 %</td></tr>
+            <tr><td>E2</td><td>coseno</td><td class="num">115</td><td class="num">0,393</td><td class="num">93,3 %</td><td class="num">0 %</td><td class="num">0 %</td></tr>
+            <tr><td>E2</td><td>reglog</td><td class="num">115</td><td class="num">0,521</td><td class="num">97,8 %</td><td class="num">0 %</td><td class="num">0 %</td></tr>
+            <tr><td>E4</td><td>coseno</td><td class="num">460</td><td class="num">0,365</td><td class="num">93,3 %</td><td class="num">0 %</td><td class="num">0,2 %</td></tr>
+            <tr class="pick"><td>E4</td><td>reglog</td><td class="num">460</td><td class="num">0,641</td><td class="num">95,6 %</td><td class="num">0 %</td><td class="num">0 %</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <figcaption>La fila resaltada es el modelo que usa Thonny (<code>modelos/hablante.joblib</code>): E4 con regresión logística. Se eligió E4 porque los aumentos lo preparan para el ruido y el parlante del montaje real.</figcaption>
+      <h3>Matriz de confusión del modelo elegido (test)</h3>
+      <div class="tscroll">
+        <table class="cm" id="cmHablante"></table>
+      </div>
+      <figcaption>Nunca confundió a un miembro con otro y rechazó las 228 frases ajenas. Los 2 errores son frases de cristian rechazadas.</figcaption>
+    </figure>
+  </div>
+  <figure>
+    <div class="png"><img src="img/E4_reglog.png" alt="Barrido de umbral y distribución de puntajes del modelo E4 reglog en test"></div>
+    <figcaption>Gráfica generada por <code>pc/evaluar.py</code>. Izquierda: al subir el umbral bajan las falsas aceptaciones (azul) y suben los falsos rechazos (naranja). Derecha: puntajes en test; los ajenos (naranja) quedan cerca de 0 y los miembros (azul) cerca de 1, con un hueco grande en medio.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">Prueba en vivo</span>
+    <h2>Por qué se bajó el umbral</h2>
+    <p class="muted">El modelo se entrenó con audios de celular. Con clips de celular y con el micrófono INMP441 de la ESP32 los miembros sacan más de 0,8. Con el micrófono del portátil el sonido cambia y los puntajes caen a 0,03–0,6, así que con el umbral original (0,641) Thonny ignoraba a todos.</p>
+  </div>
+  <figure>
+    <div class="chart tall"><canvas id="chVivo" aria-label="Puntajes en vivo por micrófono"></canvas></div>
+    <figcaption>Cada punto es una frase registrada en <code>logs/thonny.log</code> el 13 de octubre. Líneas: umbral original 0,641 y umbral actual 0,03. "Voz no miembro" son frases dichas por alguien que no es de los 3 (incluye un impostor sintético).</figcaption>
+  </figure>
+  <div class="note">
+    <p><b>Ajustes actuales en <code>config.yaml</code>:</b> <code>umbral_thonny: 0.03</code> y <code>verificar_comando: false</code>. El "Hola Thonny" se verifica; el comando de los 6 s siguientes ya no, porque las frases cortas por el micrófono del portátil confundían a rocko con johan.</p>
+    <p><b>Costo:</b> las voces no miembro sacaron 0,005–0,032, muy cerca del umbral. Para volver a un umbral alto hace falta que cada miembro grabe unas 5 frases con el micrófono que se use en la demo y reentrenar.</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">Modelo 2 · intención</span>
+    <h2>¿Qué pidió?</h2>
+    <p class="muted">295 frases de ejemplo (30 por intención; 25 de saludo), escritas a mano y con errores típicos de Whisper ("prancha", "bantilador"). El texto se convierte en rasgos de palabras (1–2) y de letras (2–5), y una regresión logística escoge la intención. Si la confianza es menor a 0,5 Thonny responde "No te entendí".</p>
+  </div>
+  <div class="grid2">
+    <figure>
+      <div class="chart"><canvas id="chF1" aria-label="F1 por intención"></canvas></div>
+      <figcaption>F1 por intención en validación cruzada de 5 particiones (exactitud media 94,2 % ± 4,7). "desconocido" y "saludo" son las más difíciles porque se parecen entre sí.</figcaption>
+    </figure>
+    <figure>
+      <div class="chart"><canvas id="chReal" aria-label="Exactitud sobre transcripciones reales"></canvas></div>
+      <figcaption>Prueba con 75 comandos reales transcritos por Whisper desde los audios de los miembros: 92 % bien. Los errores vienen de Whisper ("Francia" por "plancha", "apaga y…").</figcaption>
+    </figure>
+  </div>
+  <figure>
+    <h3>Matriz de confusión (validación cruzada)</h3>
+    <div class="tscroll"><table class="cm" id="cmIntencion"></table></div>
+    <figcaption>Filas: intención real. Columnas: lo que predijo el modelo.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">Modelo 3 · voz clonada</span>
+    <h2>Las respuestas</h2>
+    <p class="muted">F5-TTS (checkpoint en español jpgallegoar/F5-Spanish) clona cada voz a partir de un clip de referencia: cristian toma 1, johan toma 2, rocko toma 1. Cada respuesta se generó hasta con 5 semillas y se guardó la primera que Whisper entendiera al 95 % o más. "Thonny" se escribe "Toni" para que se pronuncie bien.</p>
+  </div>
+  <div class="grid2">
+    <figure>
+      <div class="chart"><canvas id="chVoz" aria-label="Parecido de la voz clonada"></canvas></div>
+      <figcaption>Parecido (ECAPA, coseno) entre cada respuesta clonada y los clips reales: de la misma persona frente al promedio de las otras dos. Media de las 10 respuestas de cada uno.</figcaption>
+    </figure>
+    <figure>
+      <div class="tscroll">
+        <table>
+          <thead><tr><th>Persona</th><th class="num">Respuestas</th><th class="num">Inteligibilidad</th><th class="num">Parecido propio</th><th class="num">Parecido a otros</th></tr></thead>
+          <tbody>
+            <tr><td><span class="dot" style="background:var(--c-cristian)"></span>cristian</td><td class="num">10</td><td class="num">99,5 %</td><td class="num">0,616</td><td class="num">0,186</td></tr>
+            <tr><td><span class="dot" style="background:var(--c-johan)"></span>johan</td><td class="num">10</td><td class="num">100 %</td><td class="num">0,586</td><td class="num">0,118</td></tr>
+            <tr><td><span class="dot" style="background:var(--c-rocko)"></span>rocko</td><td class="num">10</td><td class="num">99,8 %</td><td class="num">0,554</td><td class="num">0,163</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <figcaption>Respuestas: "Dime, ¿qué necesitas?", "No te entendí, ¿me repites?" y "Listo, prendí/apagué …" para los 4 aparatos. Más "Toni listo." al arrancar.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">Hardware</span>
+    <h2>La ESP32-S3</h2>
+    <p class="muted">MicroPython en una ESP32-S3-N16R8 conectada por USB (COM12). Las 31 respuestas (1,3–2,1 s cada una) están guardadas en su flash; el PC solo le dice cuál reproducir.</p>
+  </div>
+  <div class="grid2">
+    <figure>
+      <div class="chart"><canvas id="chLatencia" aria-label="Tiempo hasta que suena la respuesta"></canvas></div>
+      <figcaption>Segundos desde que el PC decide la respuesta hasta que termina de sonar una frase de ~1,5 s. Guardarlas en la flash quitó la espera de la transferencia.</figcaption>
+    </figure>
+    <figure>
+      <div class="tscroll">
+        <table>
+          <thead><tr><th>Pieza</th><th>Pines</th><th>Alimentación</th></tr></thead>
+          <tbody>
+            <tr><td>Micrófono INMP441</td><td class="mono">SCK 15 · WS 16 · SD 17</td><td>3V3, L/R a GND</td></tr>
+            <tr><td>Amplificador MAX98357</td><td class="mono">BCLK 5 · LRC 6 · DIN 7</td><td>5V de la placa (USB)</td></tr>
+            <tr><td>Relés (activos en bajo)</td><td class="mono">IN1 10 · IN2 11 · IN3 12 · IN4 13</td><td>VCC 3V3, JD-VCC 5 V del regulador</td></tr>
+            <tr><td>Tierra</td><td colspan="2">Todas las GND unidas a la de la ESP32</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <figcaption>Probado: los 4 relés hacen clic sin carga y el parlante reproduce las voces. Los aparatos de 110 V aún no se han conectado.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">Para correrlo</span>
+    <h2>Comando</h2>
+  </div>
+  <div class="tscroll"><pre class="mono" style="margin:0;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;font-size:.85rem">C:\Users\duvan\venvs\thonny\Scripts\python.exe pc\thonny.py --entrada pc --salida cable --reles cable</pre></div>
+  <ul class="plain">
+    <li><code>--entrada pc</code>: escucha por el micrófono del portátil, en tiempo real.</li>
+    <li><code>--salida cable</code>: responde por el parlante de la ESP32.</li>
+    <li><code>--reles cable</code>: la ESP32 mueve los relés.</li>
+    <li>Si cambian las voces: <code>python pc\subir_voces.py</code> las vuelve a guardar en la placa (unos 3 minutos).</li>
+  </ul>
+</section>
+
+<footer>Fuentes: <code>resultados/comparacion.md</code>, <code>E*_*.json</code>, <code>intenciones.json</code>, <code>evaluar_respuestas_voz.json</code>, <code>datos/clips.csv</code> y <code>logs/thonny.log</code> del proyecto Thonny.</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+(function () {
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const P = ["cristian", "johan", "rocko"];
+  let charts = [];
+
+  // matriz de confusión como tabla con intensidad por valor
+  function matriz(id, filas, cols, vals) {
+    const t = document.getElementById(id);
+    const max = Math.max(...vals.flat());
+    let h = "<thead><tr><th></th>" + cols.map(c => `<th>${c}</th>`).join("") + "</tr></thead><tbody>";
+    vals.forEach((fila, i) => {
+      h += `<tr><th class="row">${filas[i]}</th>` + fila.map((v, j) => {
+        const a = v ? 0.12 + 0.6 * v / max : 0;
+        const diag = (filas[i] === cols[j]) || (filas[i] === "ajeno" && cols[j] === "rechazado");
+        const col = diag ? "var(--ok)" : "var(--bad)";
+        return `<td style="background:color-mix(in srgb, ${col} ${Math.round(a * 100)}%, transparent)">${v}</td>`;
+      }).join("") + "</tr>";
+    });
+    t.innerHTML = h + "</tbody>";
+  }
+  matriz("cmHablante", ["cristian", "johan", "rocko", "ajeno"], ["cristian", "johan", "rocko", "rechazado"],
+    [[14, 0, 0, 2], [0, 16, 0, 0], [0, 0, 13, 0], [0, 0, 0, 228]]);
+  const INT = ["apagar luz", "apagar cautín", "apagar plancha", "apagar ventil.", "desconocido",
+               "prender luz", "prender cautín", "prender plancha", "prender ventil.", "saludo"];
+  matriz("cmIntencion", INT, INT.map((x, i) => String(i + 1)).map((n, i) => INT[i]),
+    [[30,0,0,0,0,0,0,0,0,0],[0,30,0,0,0,0,0,0,0,0],[0,0,28,0,0,0,0,2,0,0],[0,0,0,30,0,0,0,0,0,0],
+     [0,2,0,1,23,0,1,1,0,2],[0,0,0,0,0,30,0,0,0,0],[0,1,0,0,0,0,29,0,0,0],[0,0,1,0,0,0,0,29,0,0],
+     [0,0,0,1,0,0,0,0,29,0],[0,0,0,0,5,0,0,0,0,20]]);
+
+  function dibujar() {
+    if (!window.Chart) return;
+    charts.forEach(c => c.destroy()); charts = [];
+    const ink = css("--ink"), muted = css("--muted"), line = css("--line");
+    const C = { cristian: css("--c-cristian"), johan: css("--c-johan"), rocko: css("--c-rocko"), ajeno: css("--c-ajeno") };
+    Chart.defaults.color = muted;
+    Chart.defaults.borderColor = line;
+    Chart.defaults.font.family = css("--f-body");
+    const base = (extra = {}) => Object.assign({ responsive: true, maintainAspectRatio: false, animation: false,
+      plugins: { legend: { labels: { color: ink, boxWidth: 12 } } } }, extra);
+    const mk = (id, cfg) => charts.push(new Chart(document.getElementById(id), cfg));
+
+    mk("chParticion", { type: "bar", data: { labels: P, datasets: [
+        { label: "train", data: [41, 44, 30], backgroundColor: css("--accent") },
+        { label: "val", data: [10, 11, 8], backgroundColor: C.ajeno },
+        { label: "test", data: [16, 16, 13], backgroundColor: css("--c-cristian") }] },
+      options: base({ scales: { x: { stacked: true, ticks: { color: ink } }, y: { stacked: true, title: { display: true, text: "clips" } } } }) });
+
+    mk("chTipo", { type: "bar", data: { labels: P, datasets: [
+        { label: "activación", data: [30, 27, 20], backgroundColor: css("--accent") },
+        { label: "comando", data: [28, 28, 20], backgroundColor: C.rocko },
+        { label: "habla libre", data: [9, 16, 11], backgroundColor: C.ajeno }] },
+      options: base({ scales: { x: { ticks: { color: ink } }, y: { title: { display: true, text: "clips" } } } }) });
+
+    mk("chExp", { data: { labels: ["E1 coseno", "E1 reglog", "E2 coseno", "E2 reglog", "E4 coseno", "E4 reglog"], datasets: [
+        { type: "bar", label: "miembros aceptados (%)", data: [97.8, 100, 93.3, 97.8, 93.3, 95.6],
+          backgroundColor: [0,1,2,3,4,5].map(i => i === 5 ? css("--accent") : C.ajeno), yAxisID: "y" },
+        { type: "line", label: "impostores aceptados (%)", data: [4.2, 2.1, 0, 0, 0, 0], borderColor: css("--bad"),
+          backgroundColor: css("--bad"), pointRadius: 4, yAxisID: "y2" }] },
+      options: base({ scales: {
+        x: { ticks: { color: ink } },
+        y: { min: 80, max: 100, title: { display: true, text: "aceptados (%)" } },
+        y2: { position: "right", min: 0, max: 5, grid: { drawOnChartArea: false }, title: { display: true, text: "impostores (%)" } } } }) });
+
+    // puntajes en vivo (logs/thonny.log, 13-oct)
+    const jit = (arr, x) => arr.map((v, i) => ({ x: x + ((i * 37) % 11 - 5) * 0.045, y: v }));
+    const esp = [0.934, 0.975, 0.974, 0.976, 0.821, 0.988, 0.975];
+    const pcHola = [0.293, 0.193, 0.064, 0.509, 0.233, 0.416, 0.248, 0.142, 0.035, 0.197, 0.219, 0.128, 0.279,
+                    0.059, 0.081, 0.182, 0.252, 0.129, 0.026, 0.247, 0.601, 0.036, 0.464, 0.188];
+    const pcCmd = [0.302, 0.278, 0.331, 0.128, 0.192, 0.346, 0.063];
+    const ajenos = [0.005, 0.032, 0.008];
+    const umbral = (y, color, label) => ({ type: "line", label, data: [{ x: -0.5, y }, { x: 3.5, y }],
+      borderColor: color, borderDash: [6, 4], borderWidth: 1.5, pointRadius: 0 });
+    mk("chVivo", { type: "scatter", data: { datasets: [
+        { label: "miembros · INMP441 / clips", data: jit(esp, 0), backgroundColor: C.rocko, pointRadius: 5 },
+        { label: "miembros · \u00abHola Thonny\u00bb mic. portátil", data: jit(pcHola, 1), backgroundColor: css("--accent"), pointRadius: 5 },
+        { label: "miembros · comandos mic. portátil", data: jit(pcCmd, 2), backgroundColor: C.cristian, pointRadius: 5 },
+        { label: "voz no miembro", data: jit(ajenos, 3), backgroundColor: C.ajeno, pointRadius: 6, pointStyle: "crossRot", borderColor: C.ajeno, borderWidth: 2 },
+        umbral(0.641, muted, "umbral original 0,641"),
+        umbral(0.03, css("--bad"), "umbral actual 0,03")] },
+      options: base({ scales: {
+        x: { min: -0.5, max: 3.5, ticks: { stepSize: 1, color: ink,
+             callback: v => ["INMP441 / clips", "Hola Thonny (PC)", "comandos (PC)", "no miembro"][v] ?? "" }, grid: { display: false } },
+        y: { min: 0, max: 1, title: { display: true, text: "puntaje de hablante" } } },
+        plugins: { legend: { labels: { color: ink, boxWidth: 10, filter: i => i.datasetIndex >= 4 } } } }) });
+
+    mk("chF1", { type: "bar", data: { labels: INT, datasets: [{ label: "F1", data: [1, 0.952, 0.949, 0.968, 0.793, 1, 0.967, 0.935, 0.983, 0.851],
+        backgroundColor: [1, 0.952, 0.949, 0.968, 0.793, 1, 0.967, 0.935, 0.983, 0.851].map(v => v < 0.9 ? css("--c-cristian") : css("--accent")) }] },
+      options: base({ indexAxis: "y", plugins: { legend: { display: false } },
+        scales: { x: { min: 0.7, max: 1 }, y: { ticks: { color: ink } } } }) });
+
+    mk("chReal", { type: "bar", data: { labels: ["5 particiones\n(CV)", "cristian", "johan", "rocko", "real (todos)"],
+        datasets: [{ label: "exactitud (%)", data: [94.2, 82.1, 100, 94.7, 92],
+          backgroundColor: [C.ajeno, C.cristian, C.johan, C.rocko, css("--accent")] }] },
+      options: base({ plugins: { legend: { display: false } }, scales: { x: { ticks: { color: ink } }, y: { min: 60, max: 100, title: { display: true, text: "%" } } } }) });
+
+    mk("chVoz", { type: "bar", data: { labels: P, datasets: [
+        { label: "parecido a su propia voz", data: [0.616, 0.586, 0.554], backgroundColor: P.map(p => C[p]) },
+        { label: "parecido a las otras dos", data: [0.186, 0.118, 0.163], backgroundColor: C.ajeno }] },
+      options: base({ scales: { x: { ticks: { color: ink } }, y: { min: 0, max: 1, title: { display: true, text: "coseno ECAPA" } } } }) });
+
+    mk("chLatencia", { type: "bar", data: { labels: ["base64 por cable", "bytes directos", "desde la flash"],
+        datasets: [{ label: "segundos", data: [12.5, 7.8, 1.85], backgroundColor: [C.ajeno, C.ajeno, css("--accent")] }] },
+      options: base({ indexAxis: "y", plugins: { legend: { display: false } },
+        scales: { x: { min: 0, title: { display: true, text: "segundos hasta terminar de sonar" } }, y: { ticks: { color: ink } } } }) });
+  }
+
+  dibujar();
+  try {
+    matchMedia("(prefers-color-scheme: dark)").addEventListener("change", dibujar);
+    new MutationObserver(dibujar).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  } catch (e) {}
+})();
+</script>

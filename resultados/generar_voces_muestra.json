@@ -1,0 +1,90 @@
+{
+  "fecha": "2026-10-11T21:27:39",
+  "modo": "muestra",
+  "tts": {
+    "arquitectura": "F5TTS_Base",
+    "repo": "jpgallegoar/F5-Spanish",
+    "checkpoint": "model_1250000.safetensors",
+    "vocab": "vocab.txt",
+    "nfe_step": 32,
+    "velocidad": 1.0,
+    "semilla": 42,
+    "sample_rate_salida": 16000,
+    "nombre_pronunciable": "Toni"
+  },
+  "tiempo_carga_s": 18.3,
+  "vram_libre_inicio_mb": 5161,
+  "vram_pico_torch_mb": 781,
+  "generados": [
+    {
+      "hablante": "cristian",
+      "toma": 1,
+      "referencia": "datos/clips/celular/cristian/cristian_a1_01.wav",
+      "texto_referencia": "Hola, soy Toni el asistente de voz de este proyecto, puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",
+      "texto": "Hola, soy Toni. Listo, prendí la luz. ¿Qué más necesitas?",
+      "salida": "voces\\muestras\\cristian_toma1.wav",
+      "duracion_s": 4.18,
+      "tiempo_s": 6.71
+    },
+    {
+      "hablante": "johan",
+      "toma": 1,
+      "referencia": "datos/clips/celular/johan/johan_a1_01.wav",
+      "texto_referencia": "Hola soy Toni, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",
+      "texto": "Hola, soy Toni. Listo, prendí la luz. ¿Qué más necesitas?",
+      "salida": "voces\\muestras\\johan_toma1.wav",
+      "duracion_s": 4.21,
+      "tiempo_s": 4.56
+    },
+    {
+      "hablante": "johan",
+      "toma": 2,
+      "referencia": "datos/clips/celular/johan/johan_a1_02.wav",
+      "texto_referencia": "Hola, soy Toni, el asistente de voz de este proyecto, puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",
+      "texto": "Hola, soy Toni. Listo, prendí la luz. ¿Qué más necesitas?",
+      "salida": "voces\\muestras\\johan_toma2.wav",
+      "duracion_s": 3.91,
+      "tiempo_s": 4.08
+    },
+    {
+      "hablante": "johan",
+      "toma": 3,
+      "referencia": "datos/clips/celular/johan/johan_a1_03.wav",
+      "texto_referencia": "Hola, soy Toni, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",
+      "texto": "Hola, soy Toni. Listo, prendí la luz. ¿Qué más necesitas?",
+      "salida": "voces\\muestras\\johan_toma3.wav",
+      "duracion_s": 4.57,
+      "tiempo_s": 5.01
+    },
+    {
+      "hablante": "rocko",
+      "toma": 1,
+      "referencia": "datos/clips/celular/rocko/rocko_a1_01.wav",
+      "texto_referencia": "Hola, soy Toni el asistente de voz de este proyecto, puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",
+      "texto": "Hola, soy Toni. Listo, prendí la luz. ¿Qué más necesitas?",
+      "salida": "voces\\muestras\\rocko_toma1.wav",
+      "duracion_s": 4.35,
+      "tiempo_s": 4.8
+    },
+    {
+      "hablante": "rocko",
+      "toma": 2,
+      "referencia": "datos/clips/celular/rocko/rocko_a1_02.wav",
+      "texto_referencia": "Hola, soy Toni, el asistente de voz de este proyecto, puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",
+      "texto": "Hola, soy Toni. Listo, prendí la luz. ¿Qué más necesitas?",
+      "salida": "voces\\muestras\\rocko_toma2.wav",
+      "duracion_s": 4.47,
+      "tiempo_s": 4.74
+    },
+    {
+      "hablante": "rocko",
+      "toma": 3,
+      "referencia": "datos/clips/celular/rocko/rocko_a1_03.wav",
+      "texto_referencia": "Hola, soy Toni, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pides.",
+      "texto": "Hola, soy Toni. Listo, prendí la luz. ¿Qué más necesitas?",
+      "salida": "voces\\muestras\\rocko_toma3.wav",
+      "duracion_s": 4.02,
+      "tiempo_s": 4.38
+    }
+  ]
+}

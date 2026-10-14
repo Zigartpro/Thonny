@@ -1,0 +1,1004 @@
+2026-10-13 09:53:24,258 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-10-13 09:53:30,447 Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2026-10-13 09:53:30,447 Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-10-13 09:53:30,560 Fetch hyperparams.yaml: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\hyperparams.yaml'
+2026-10-13 09:53:30,760 Fetch embedding_model.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\embedding_model.ckpt'
+2026-10-13 09:53:30,761 Fetch mean_var_norm_emb.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\mean_var_norm_emb.ckpt'
+2026-10-13 09:53:30,761 Fetch classifier.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\classifier.ckpt'
+2026-10-13 09:53:30,762 Fetch label_encoder.txt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\label_encoder.ckpt'
+2026-10-13 09:53:30,762 Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-10-13 09:53:31,901 Processing audio with duration 00:01.827
+2026-10-13 09:53:37,495 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-10-13 09:53:43,318 Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2026-10-13 09:53:43,318 Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-10-13 09:53:43,426 Fetch hyperparams.yaml: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\hyperparams.yaml'
+2026-10-13 09:53:43,628 Fetch embedding_model.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\embedding_model.ckpt'
+2026-10-13 09:53:43,628 Fetch mean_var_norm_emb.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\mean_var_norm_emb.ckpt'
+2026-10-13 09:53:43,630 Fetch classifier.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\classifier.ckpt'
+2026-10-13 09:53:43,631 Fetch label_encoder.txt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\label_encoder.ckpt'
+2026-10-13 09:53:43,631 Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-10-13 09:53:44,717 Processing audio with duration 00:04.000
+2026-10-13 09:53:46,049 texto='Hola Thonny Hola Thonny Hola Thonny' persona=rocko puntaje=0.934 aceptado=True
+2026-10-13 09:53:46,049 persona=rocko intencion=None confianza=0.00
+2026-10-13 09:53:52,777 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-10-13 09:53:58,404 Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2026-10-13 09:53:58,405 Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-10-13 09:53:58,547 Fetch hyperparams.yaml: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\hyperparams.yaml'
+2026-10-13 09:53:58,756 Fetch embedding_model.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\embedding_model.ckpt'
+2026-10-13 09:53:58,757 Fetch mean_var_norm_emb.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\mean_var_norm_emb.ckpt'
+2026-10-13 09:53:58,757 Fetch classifier.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\classifier.ckpt'
+2026-10-13 09:53:58,757 Fetch label_encoder.txt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\label_encoder.ckpt'
+2026-10-13 09:53:58,758 Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-10-13 09:53:59,828 Processing audio with duration 00:01.216
+2026-10-13 09:54:01,025 texto='Prola Thonny' persona=johan puntaje=0.005 aceptado=False
+2026-10-13 09:54:20,582 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-10-13 09:54:26,079 Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2026-10-13 09:54:26,079 Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-10-13 09:54:26,187 Fetch hyperparams.yaml: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\hyperparams.yaml'
+2026-10-13 09:54:26,390 Fetch embedding_model.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\embedding_model.ckpt'
+2026-10-13 09:54:26,391 Fetch mean_var_norm_emb.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\mean_var_norm_emb.ckpt'
+2026-10-13 09:54:26,391 Fetch classifier.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\classifier.ckpt'
+2026-10-13 09:54:26,391 Fetch label_encoder.txt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\label_encoder.ckpt'
+2026-10-13 09:54:26,391 Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-10-13 09:54:27,491 Processing audio with duration 00:00.786
+2026-10-13 09:54:28,643 texto='Hola Thonny' persona=johan puntaje=0.975 aceptado=True
+2026-10-13 09:54:28,643 persona=johan intencion=None confianza=0.00
+2026-10-13 09:54:28,651 Processing audio with duration 00:00.841
+2026-10-13 09:54:29,154 texto='Prende la luz' persona=johan puntaje=0.974 aceptado=True
+2026-10-13 09:54:29,161 persona=johan intencion=prender_bombillo confianza=0.96
+2026-10-13 09:54:29,170 Processing audio with duration 00:00.862
+2026-10-13 09:54:29,610 texto='Hola Thonny' persona=johan puntaje=0.976 aceptado=True
+2026-10-13 09:54:29,610 persona=johan intencion=None confianza=0.00
+2026-10-13 09:54:29,622 Processing audio with duration 00:00.991
+2026-10-13 09:54:30,042 texto='Apaga la luz' persona=johan puntaje=0.821 aceptado=True
+2026-10-13 09:54:30,045 persona=johan intencion=apagar_bombillo confianza=0.96
+2026-10-13 09:54:30,061 Processing audio with duration 00:00.916
+2026-10-13 09:54:30,494 texto='Hola Thonny' persona=johan puntaje=0.988 aceptado=True
+2026-10-13 09:54:30,494 persona=johan intencion=None confianza=0.00
+2026-10-13 09:54:30,507 Processing audio with duration 00:01.146
+2026-10-13 09:54:30,994 texto='Prende el ventilador' persona=johan puntaje=0.975 aceptado=True
+2026-10-13 09:54:30,997 persona=johan intencion=prender_ventilador confianza=0.91
+2026-10-13 10:05:47,132 Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2026-10-13 10:05:47,134 Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-10-13 10:05:47,239 Fetch hyperparams.yaml: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\hyperparams.yaml'
+2026-10-13 10:05:47,449 Fetch embedding_model.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\embedding_model.ckpt'
+2026-10-13 10:05:47,449 Fetch mean_var_norm_emb.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\mean_var_norm_emb.ckpt'
+2026-10-13 10:05:47,450 Fetch classifier.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\classifier.ckpt'
+2026-10-13 10:05:47,450 Fetch label_encoder.txt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\label_encoder.ckpt'
+2026-10-13 10:05:47,450 Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-10-13 10:06:24,525 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-10-13 10:06:30,211 Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2026-10-13 10:06:30,211 Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-10-13 10:06:30,325 Fetch hyperparams.yaml: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\hyperparams.yaml'
+2026-10-13 10:06:30,536 Fetch embedding_model.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\embedding_model.ckpt'
+2026-10-13 10:06:30,536 Fetch mean_var_norm_emb.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\mean_var_norm_emb.ckpt'
+2026-10-13 10:06:30,537 Fetch classifier.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\classifier.ckpt'
+2026-10-13 10:06:30,537 Fetch label_encoder.txt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\label_encoder.ckpt'
+2026-10-13 10:06:30,537 Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-10-13 10:28:33,717 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-10-13 10:28:40,202 Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2026-10-13 10:28:40,202 Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-10-13 10:28:40,311 Fetch hyperparams.yaml: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\hyperparams.yaml'
+2026-10-13 10:28:40,521 Fetch embedding_model.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\embedding_model.ckpt'
+2026-10-13 10:28:40,522 Fetch mean_var_norm_emb.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\mean_var_norm_emb.ckpt'
+2026-10-13 10:28:40,523 Fetch classifier.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\classifier.ckpt'
+2026-10-13 10:28:40,523 Fetch label_encoder.txt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\label_encoder.ckpt'
+2026-10-13 10:28:40,523 Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-10-13 10:28:45,085 Processing audio with duration 00:01.664
+2026-10-13 10:28:50,087 Processing audio with duration 00:04.064
+2026-10-13 10:29:04,545 Processing audio with duration 00:01.504
+2026-10-13 10:29:05,152 texto='Hola Thonny' persona=rocko puntaje=0.293 aceptado=False
+2026-10-13 10:29:09,025 Processing audio with duration 00:02.144
+2026-10-13 10:29:10,312 texto='Hola, me llamo Thonny' persona=cristian puntaje=0.032 aceptado=False
+2026-10-13 10:29:13,318 Processing audio with duration 00:01.408
+2026-10-13 10:29:15,208 Processing audio with duration 00:01.472
+2026-10-13 10:29:15,706 texto='Hola Thonny' persona=johan puntaje=0.193 aceptado=False
+2026-10-13 10:29:19,165 Processing audio with duration 00:01.632
+2026-10-13 10:29:21,216 Processing audio with duration 00:01.568
+2026-10-13 10:29:29,958 Processing audio with duration 00:06.688
+2026-10-13 10:29:31,107 texto='Hola Thonny Creo que si los está reconociendo, pero los está ignorando' persona=johan puntaje=0.008 aceptado=False
+2026-10-13 10:30:39,939 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-10-13 10:30:45,470 Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2026-10-13 10:30:45,470 Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-10-13 10:30:45,584 Fetch hyperparams.yaml: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\hyperparams.yaml'
+2026-10-13 10:30:45,783 Fetch embedding_model.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\embedding_model.ckpt'
+2026-10-13 10:30:45,783 Fetch mean_var_norm_emb.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\mean_var_norm_emb.ckpt'
+2026-10-13 10:30:45,784 Fetch classifier.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\classifier.ckpt'
+2026-10-13 10:30:45,785 Fetch label_encoder.txt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\label_encoder.ckpt'
+2026-10-13 10:30:45,785 Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-10-13 10:30:53,168 Processing audio with duration 00:04.512
+2026-10-13 10:30:54,456 texto='Hola Thonny' persona=rocko puntaje=0.064 aceptado=False
+2026-10-13 10:30:57,748 Processing audio with duration 00:01.536
+2026-10-13 10:30:58,267 texto='Hola Thonny' persona=rocko puntaje=0.509 aceptado=True
+2026-10-13 10:30:58,267 persona=rocko intencion=None confianza=0.00
+2026-10-13 10:31:02,480 Processing audio with duration 00:01.952
+2026-10-13 10:31:03,084 texto='Bienvenidos al canal de Thonny Channel' persona=rocko puntaje=0.217 aceptado=True
+2026-10-13 10:31:03,096 persona=rocko intencion=desconocido confianza=0.52
+2026-10-13 10:31:07,988 Processing audio with duration 00:01.856
+2026-10-13 10:31:12,149 Processing audio with duration 00:01.600
+2026-10-13 10:31:12,706 texto='Hola Thonny' persona=rocko puntaje=0.233 aceptado=True
+2026-10-13 10:31:12,707 persona=rocko intencion=None confianza=0.00
+2026-10-13 10:31:16,339 Processing audio with duration 00:01.728
+2026-10-13 10:31:16,890 texto='Enciende el bombillo' persona=rocko puntaje=0.302 aceptado=True
+2026-10-13 10:31:16,893 persona=rocko intencion=prender_bombillo confianza=0.97
+2026-10-13 10:31:21,009 Processing audio with duration 00:01.824
+2026-10-13 10:31:25,459 Processing audio with duration 00:01.472
+2026-10-13 10:31:25,997 texto='Hola Thonny' persona=rocko puntaje=0.416 aceptado=True
+2026-10-13 10:31:25,997 persona=rocko intencion=None confianza=0.00
+2026-10-13 10:31:29,809 Processing audio with duration 00:01.920
+2026-10-13 10:31:30,396 texto='Apaga el bombillo' persona=johan puntaje=0.278 aceptado=True
+2026-10-13 10:31:34,229 Processing audio with duration 00:01.472
+2026-10-13 10:31:34,752 texto='Hola Thonny' persona=rocko puntaje=0.248 aceptado=True
+2026-10-13 10:31:34,752 persona=rocko intencion=None confianza=0.00
+2026-10-13 10:31:38,549 Processing audio with duration 00:01.792
+2026-10-13 10:31:39,144 texto='¿Apaga a los?' persona=rocko puntaje=0.331 aceptado=True
+2026-10-13 10:31:39,149 persona=rocko intencion=apagar_bombillo confianza=0.31
+2026-10-13 10:31:44,019 Processing audio with duration 00:01.792
+2026-10-13 10:31:46,899 Processing audio with duration 00:01.472
+2026-10-13 10:31:47,434 texto='Hola Thonny' persona=cristian puntaje=0.142 aceptado=False
+2026-10-13 10:31:52,882 Processing audio with duration 00:04.352
+2026-10-13 10:31:53,557 texto='Hola Thonny' persona=johan puntaje=0.035 aceptado=False
+2026-10-13 10:31:56,499 Processing audio with duration 00:02.816
+2026-10-13 10:31:57,135 texto='Hola Thonny' persona=johan puntaje=0.197 aceptado=True
+2026-10-13 10:31:57,135 persona=johan intencion=None confianza=0.00
+2026-10-13 10:32:01,402 Processing audio with duration 00:01.792
+2026-10-13 10:32:01,940 texto='Apaga el bombillo' persona=johan puntaje=0.128 aceptado=False
+2026-10-13 10:32:04,723 Processing audio with duration 00:01.184
+2026-10-13 10:32:08,181 Processing audio with duration 00:01.440
+2026-10-13 10:32:08,725 texto='Hola Thonny' persona=rocko puntaje=0.219 aceptado=True
+2026-10-13 10:32:08,725 persona=rocko intencion=None confianza=0.00
+2026-10-13 10:32:12,629 Processing audio with duration 00:01.856
+2026-10-13 10:32:13,216 texto='Apagado un video' persona=rocko puntaje=0.192 aceptado=True
+2026-10-13 10:32:13,217 persona=rocko intencion=desconocido confianza=0.86
+2026-10-13 10:32:17,970 Processing audio with duration 00:02.144
+2026-10-13 10:32:22,900 Processing audio with duration 00:01.888
+2026-10-13 10:32:23,449 texto='Hola Thonny' persona=rocko puntaje=0.128 aceptado=False
+2026-10-13 10:32:28,500 Processing audio with duration 00:05.056
+2026-10-13 10:32:29,455 texto='Hola Thonny Hola Thonny Hola Thonny' persona=rocko puntaje=0.279 aceptado=True
+2026-10-13 10:32:29,455 persona=rocko intencion=None confianza=0.00
+2026-10-13 10:32:33,111 Processing audio with duration 00:01.760
+2026-10-13 10:32:33,686 texto='Prende ventilador' persona=rocko puntaje=0.346 aceptado=True
+2026-10-13 10:32:33,689 persona=rocko intencion=prender_ventilador confianza=0.85
+2026-10-13 10:32:38,843 Processing audio with duration 00:01.504
+2026-10-13 10:32:39,351 texto='Hola Thonny' persona=rocko puntaje=0.059 aceptado=False
+2026-10-13 10:32:41,491 Processing audio with duration 00:01.408
+2026-10-13 10:32:42,010 texto='Hola Thonny' persona=rocko puntaje=0.081 aceptado=False
+2026-10-13 10:32:44,181 Processing audio with duration 00:01.536
+2026-10-13 10:32:44,701 texto='Hola Thonny' persona=rocko puntaje=0.182 aceptado=True
+2026-10-13 10:32:44,702 persona=rocko intencion=None confianza=0.00
+2026-10-13 10:32:49,564 Processing audio with duration 00:02.944
+2026-10-13 10:32:50,186 texto='Apagar ventilador' persona=rocko puntaje=0.063 aceptado=False
+2026-10-13 10:32:51,763 Processing audio with duration 00:00.960
+2026-10-13 10:32:54,643 Processing audio with duration 00:01.792
+2026-10-13 10:32:55,131 texto='Hola Thonny' persona=cristian puntaje=0.252 aceptado=True
+2026-10-13 10:32:55,133 persona=cristian intencion=None confianza=0.00
+2026-10-13 10:33:00,951 Processing audio with duration 00:03.968
+2026-10-13 10:34:39,942 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-10-13 10:34:45,422 Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2026-10-13 10:34:45,422 Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-10-13 10:34:45,531 Fetch hyperparams.yaml: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\hyperparams.yaml'
+2026-10-13 10:34:45,701 Fetch embedding_model.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\embedding_model.ckpt'
+2026-10-13 10:34:45,701 Fetch mean_var_norm_emb.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\mean_var_norm_emb.ckpt'
+2026-10-13 10:34:45,702 Fetch classifier.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\classifier.ckpt'
+2026-10-13 10:34:45,702 Fetch label_encoder.txt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\label_encoder.ckpt'
+2026-10-13 10:34:45,703 Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-10-13 10:34:53,367 Processing audio with duration 00:04.736
+2026-10-13 10:34:54,654 texto='Hola Thonny' persona=rocko puntaje=0.129 aceptado=True
+2026-10-13 10:34:54,654 persona=rocko intencion=None confianza=0.00
+2026-10-13 10:34:59,094 Processing audio with duration 00:02.112
+2026-10-13 10:34:59,549 texto='Enciende el bombillo' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 10:34:59,556 persona=rocko intencion=prender_bombillo confianza=0.97
+2026-10-13 10:35:05,114 Processing audio with duration 00:03.712
+2026-10-13 10:35:08,214 Processing audio with duration 00:01.152
+2026-10-13 10:35:12,277 Processing audio with duration 00:03.712
+2026-10-13 10:35:13,109 texto='Hola Thonny Apaga el pendejo, ¿te entiendes?' persona=johan puntaje=0.033 aceptado=True
+2026-10-13 10:35:13,113 persona=johan intencion=apagar_ventilador confianza=0.25
+2026-10-13 10:35:15,927 Processing audio with duration 00:00.704
+2026-10-13 10:35:16,409 texto='Hola Thonny' persona=cristian puntaje=0.026 aceptado=False
+2026-10-13 10:35:18,425 Processing audio with duration 00:02.016
+2026-10-13 10:35:21,878 Processing audio with duration 00:02.240
+2026-10-13 10:35:25,915 Processing audio with duration 00:02.208
+2026-10-13 10:35:26,470 texto='Hola Thonny' persona=rocko puntaje=0.247 aceptado=True
+2026-10-13 10:35:26,470 persona=rocko intencion=None confianza=0.00
+2026-10-13 10:35:32,345 Processing audio with duration 00:02.336
+2026-10-13 10:35:32,776 texto='Enciende el bombillo' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 10:35:32,778 persona=rocko intencion=prender_bombillo confianza=0.97
+2026-10-13 10:35:37,465 Processing audio with duration 00:02.048
+2026-10-13 10:35:41,625 Processing audio with duration 00:01.472
+2026-10-13 10:35:42,968 Processing audio with duration 00:00.960
+2026-10-13 10:35:43,384 texto='Hola Thonny' persona=johan puntaje=0.601 aceptado=True
+2026-10-13 10:35:43,384 persona=johan intencion=None confianza=0.00
+2026-10-13 10:35:47,448 Processing audio with duration 00:01.824
+2026-10-13 10:35:47,879 texto='Apaga el bombillo' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 10:35:47,882 persona=johan intencion=apagar_bombillo confianza=0.86
+2026-10-13 10:35:57,558 Processing audio with duration 00:07.808
+2026-10-13 10:36:06,716 Processing audio with duration 00:08.000
+2026-10-13 10:36:12,026 Processing audio with duration 00:04.416
+2026-10-13 10:36:20,316 Processing audio with duration 00:04.000
+2026-10-13 10:36:31,930 Processing audio with duration 00:06.816
+2026-10-13 10:36:33,977 Processing audio with duration 00:01.120
+2026-10-13 10:36:38,397 Processing audio with duration 00:02.688
+2026-10-13 10:36:39,611 Processing audio with duration 00:00.736
+2026-10-13 10:36:40,143 texto='Bienvenidos al canal de Thonny' persona=johan puntaje=0.080 aceptado=True
+2026-10-13 10:36:40,144 persona=johan intencion=None confianza=0.00
+2026-10-13 10:36:49,849 Processing audio with duration 00:08.000
+2026-10-13 10:36:51,707 Processing audio with duration 00:01.312
+2026-10-13 10:37:09,658 Processing audio with duration 00:08.000
+2026-10-13 10:37:14,458 Processing audio with duration 00:03.808
+2026-10-13 10:38:30,144 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-10-13 10:38:35,610 Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2026-10-13 10:38:35,610 Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-10-13 10:38:35,717 Fetch hyperparams.yaml: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\hyperparams.yaml'
+2026-10-13 10:38:35,924 Fetch embedding_model.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\embedding_model.ckpt'
+2026-10-13 10:38:35,925 Fetch mean_var_norm_emb.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\mean_var_norm_emb.ckpt'
+2026-10-13 10:38:35,925 Fetch classifier.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\classifier.ckpt'
+2026-10-13 10:38:35,926 Fetch label_encoder.txt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\label_encoder.ckpt'
+2026-10-13 10:38:35,926 Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-10-13 10:38:41,420 Processing audio with duration 00:03.040
+2026-10-13 10:38:42,657 texto='Hola Thonny' persona=rocko puntaje=0.036 aceptado=True
+2026-10-13 10:38:42,657 persona=rocko intencion=None confianza=0.00
+2026-10-13 10:38:46,343 Processing audio with duration 00:01.792
+2026-10-13 10:38:46,815 texto='Prende el lumbillo' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 10:38:46,823 persona=rocko intencion=prender_bombillo confianza=0.68
+2026-10-13 10:38:52,973 Processing audio with duration 00:02.432
+2026-10-13 10:38:53,529 texto='Hola Thonny' persona=rocko puntaje=0.464 aceptado=True
+2026-10-13 10:38:53,530 persona=rocko intencion=None confianza=0.00
+2026-10-13 10:38:57,260 Processing audio with duration 00:01.824
+2026-10-13 10:38:57,711 texto='bienvenidos a un nuevo video' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 10:38:57,714 persona=rocko intencion=desconocido confianza=0.88
+2026-10-13 10:39:02,184 Processing audio with duration 00:02.016
+2026-10-13 10:39:05,901 Processing audio with duration 00:02.304
+2026-10-13 10:39:06,482 texto='Hola Thonny' persona=rocko puntaje=0.188 aceptado=True
+2026-10-13 10:39:06,483 persona=rocko intencion=None confianza=0.00
+2026-10-13 10:39:10,313 Processing audio with duration 00:01.952
+2026-10-13 10:39:10,717 texto='A pagar el bombillo' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 10:39:10,719 persona=rocko intencion=apagar_bombillo confianza=0.54
+2026-10-13 10:48:04,296 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-10-13 10:48:11,122 Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2026-10-13 10:48:11,122 Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-10-13 10:48:11,231 Fetch hyperparams.yaml: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\hyperparams.yaml'
+2026-10-13 10:48:11,443 Fetch embedding_model.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\embedding_model.ckpt'
+2026-10-13 10:48:11,444 Fetch mean_var_norm_emb.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\mean_var_norm_emb.ckpt'
+2026-10-13 10:48:11,444 Fetch classifier.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\classifier.ckpt'
+2026-10-13 10:48:11,445 Fetch label_encoder.txt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\label_encoder.ckpt'
+2026-10-13 10:48:11,445 Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-10-13 10:48:15,797 Processing audio with duration 00:01.728
+2026-10-13 10:48:17,083 texto='Bienvenido a Thonny Visto' persona=johan puntaje=0.017 aceptado=False
+2026-10-13 10:48:18,014 Processing audio with duration 00:00.960
+2026-10-13 10:48:18,445 texto='Hola Thonny' persona=johan puntaje=0.294 aceptado=True
+2026-10-13 10:48:18,445 persona=johan intencion=None confianza=0.00
+2026-10-13 10:48:22,758 Processing audio with duration 00:02.112
+2026-10-13 10:48:23,170 texto='Encender bombillo' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 10:48:23,185 persona=johan intencion=prender_bombillo confianza=0.86
+2026-10-13 10:48:28,678 Processing audio with duration 00:03.808
+2026-10-13 10:48:29,537 texto='Conecto al revés Marica Hola Thonny' persona=johan puntaje=0.192 aceptado=True
+2026-10-13 10:48:29,537 persona=johan intencion=None confianza=0.00
+2026-10-13 10:48:33,245 Processing audio with duration 00:01.984
+2026-10-13 10:48:33,678 texto='a pagar un video' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 10:48:33,681 persona=johan intencion=desconocido confianza=0.85
+2026-10-13 10:48:37,915 Processing audio with duration 00:01.504
+2026-10-13 10:48:38,425 texto='Hola Thonny' persona=johan puntaje=0.602 aceptado=True
+2026-10-13 10:48:38,425 persona=johan intencion=None confianza=0.00
+2026-10-13 10:48:41,638 Processing audio with duration 00:01.472
+2026-10-13 10:48:42,331 texto='Hola Thonny, bienvenido.' persona=johan puntaje=0.160 aceptado=True
+2026-10-13 10:48:42,334 persona=johan intencion=desconocido confianza=0.59
+2026-10-13 10:48:47,719 Processing audio with duration 00:01.856
+2026-10-13 10:48:48,251 texto='Hola Thonny' persona=johan puntaje=0.539 aceptado=True
+2026-10-13 10:48:48,251 persona=johan intencion=None confianza=0.00
+2026-10-13 10:48:52,709 Processing audio with duration 00:02.304
+2026-10-13 10:48:53,111 texto='Apagar bombillo' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 10:48:53,113 persona=johan intencion=apagar_bombillo confianza=0.82
+2026-10-13 10:48:57,086 Processing audio with duration 00:02.304
+2026-10-13 10:48:58,919 Processing audio with duration 00:01.120
+2026-10-13 10:48:59,363 texto='Hola Thonny' persona=johan puntaje=0.588 aceptado=True
+2026-10-13 10:48:59,363 persona=johan intencion=None confianza=0.00
+2026-10-13 10:49:03,399 Processing audio with duration 00:02.304
+2026-10-13 10:49:03,821 texto='Encender ventilador' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 10:49:03,823 persona=johan intencion=prender_ventilador confianza=0.54
+2026-10-13 10:49:07,196 Processing audio with duration 00:01.248
+2026-10-13 10:49:08,766 Processing audio with duration 00:01.216
+2026-10-13 10:49:09,273 texto='Hola Thonny' persona=johan puntaje=0.662 aceptado=True
+2026-10-13 10:49:09,273 persona=johan intencion=None confianza=0.00
+2026-10-13 10:49:12,316 Processing audio with duration 00:01.344
+2026-10-13 10:49:12,756 texto='Ventilador.' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 10:49:12,759 persona=johan intencion=apagar_ventilador confianza=0.60
+2026-10-13 10:49:17,406 Processing audio with duration 00:01.376
+2026-10-13 10:49:17,991 texto='Thonny' persona=johan puntaje=0.501 aceptado=True
+2026-10-13 10:49:17,991 persona=johan intencion=None confianza=0.00
+2026-10-13 10:49:22,309 Processing audio with duration 00:02.016
+2026-10-13 10:49:25,212 texto='Puedes irme a buscar conmigo' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 10:49:25,214 persona=johan intencion=desconocido confianza=0.47
+2026-10-13 10:49:31,327 Processing audio with duration 00:04.000
+2026-10-13 10:49:33,830 Processing audio with duration 00:01.920
+2026-10-13 10:49:39,007 Processing audio with duration 00:01.632
+2026-10-13 10:49:45,887 Processing audio with duration 00:03.616
+2026-10-13 10:49:54,177 Processing audio with duration 00:05.568
+2026-10-13 10:49:59,648 Processing audio with duration 00:01.504
+2026-10-13 10:50:01,005 texto='Hola Thonny' persona=cristian puntaje=0.023 aceptado=False
+2026-10-13 11:12:55,799 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-10-13 11:13:09,963 Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2026-10-13 11:13:09,963 Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-10-13 11:13:10,097 Fetch hyperparams.yaml: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\hyperparams.yaml'
+2026-10-13 11:13:10,315 Fetch embedding_model.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\embedding_model.ckpt'
+2026-10-13 11:13:10,315 Fetch mean_var_norm_emb.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\mean_var_norm_emb.ckpt'
+2026-10-13 11:13:10,317 Fetch classifier.ckpt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\classifier.ckpt'
+2026-10-13 11:13:10,318 Fetch label_encoder.txt: Using file found at 'C:\Users\duvan\OneDrive\Desktop\proyectos\tonny\thonny\modelos\ecapa\label_encoder.ckpt'
+2026-10-13 11:13:10,318 Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-10-13 11:13:17,635 Processing audio with duration 00:01.088
+2026-10-13 11:13:22,849 texto='Hola Thonny.' persona=rocko puntaje=0.060 aceptado=True
+2026-10-13 11:13:22,849 persona=rocko intencion=None confianza=0.00
+2026-10-13 11:13:28,005 Processing audio with duration 00:03.264
+2026-10-13 11:13:28,614 texto='Ah, no tiene que conectar esta mierda Ahora sí' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 11:13:28,618 persona=rocko intencion=desconocido confianza=0.85
+2026-10-13 11:13:33,956 Processing audio with duration 00:03.008
+2026-10-13 11:13:38,465 Processing audio with duration 00:02.624
+2026-10-13 11:13:43,819 Processing audio with duration 00:04.416
+2026-10-13 11:13:44,620 texto='Hola Thonny' persona=johan puntaje=0.163 aceptado=True
+2026-10-13 11:13:44,620 persona=johan intencion=None confianza=0.00
+2026-10-13 11:13:49,186 Processing audio with duration 00:02.848
+2026-10-13 11:13:49,639 texto='Enciende el bombillo' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:13:49,642 persona=johan intencion=prender_bombillo confianza=0.97
+2026-10-13 11:13:54,059 Processing audio with duration 00:01.856
+2026-10-13 11:13:56,067 Processing audio with duration 00:01.600
+2026-10-13 11:13:59,659 Processing audio with duration 00:02.176
+2026-10-13 11:14:01,260 Processing audio with duration 00:01.088
+2026-10-13 11:14:04,967 Processing audio with duration 00:01.024
+2026-10-13 11:14:05,635 texto='Hola Thonny' persona=johan puntaje=0.114 aceptado=True
+2026-10-13 11:14:05,635 persona=johan intencion=None confianza=0.00
+2026-10-13 11:14:11,876 Processing audio with duration 00:03.936
+2026-10-13 11:14:12,449 texto='Apaga el bombillo' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:14:12,452 persona=johan intencion=apagar_bombillo confianza=0.86
+2026-10-13 11:14:19,267 Processing audio with duration 00:04.576
+2026-10-13 11:14:33,392 Processing audio with duration 00:02.304
+2026-10-13 11:14:35,397 Processing audio with duration 00:01.376
+2026-10-13 11:14:41,101 Processing audio with duration 00:04.928
+2026-10-13 11:14:47,821 Processing audio with duration 00:01.024
+2026-10-13 11:14:55,151 Processing audio with duration 00:05.184
+2026-10-13 11:14:56,911 Processing audio with duration 00:00.992
+2026-10-13 11:14:57,427 texto='Hola Thonny' persona=johan puntaje=0.395 aceptado=True
+2026-10-13 11:14:57,427 persona=johan intencion=None confianza=0.00
+2026-10-13 11:15:03,398 Processing audio with duration 00:04.256
+2026-10-13 11:15:06,320 texto='¿Qué te parece? ¿Qué te parece?' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:15:06,322 persona=johan intencion=saludo confianza=0.66
+2026-10-13 11:15:10,729 Processing audio with duration 00:02.592
+2026-10-13 11:15:14,017 texto='Hola Thonny' persona=cristian puntaje=0.072 aceptado=True
+2026-10-13 11:15:14,017 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:15:18,919 Processing audio with duration 00:02.720
+2026-10-13 11:15:26,032 Processing audio with duration 00:03.200
+2026-10-13 11:15:29,160 Processing audio with duration 00:02.432
+2026-10-13 11:15:44,143 Processing audio with duration 00:06.144
+2026-10-13 11:15:50,382 Processing audio with duration 00:01.152
+2026-10-13 11:15:50,958 texto='Hola Thonny' persona=rocko puntaje=0.346 aceptado=True
+2026-10-13 11:15:50,959 persona=rocko intencion=None confianza=0.00
+2026-10-13 11:15:54,439 Processing audio with duration 00:01.568
+2026-10-13 11:15:54,842 texto='Un momento' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 11:15:54,845 persona=rocko intencion=desconocido confianza=0.88
+2026-10-13 11:16:01,770 Processing audio with duration 00:04.576
+2026-10-13 11:16:03,750 Processing audio with duration 00:01.280
+2026-10-13 11:16:04,305 texto='Hola Thonny' persona=johan puntaje=0.149 aceptado=True
+2026-10-13 11:16:04,306 persona=johan intencion=None confianza=0.00
+2026-10-13 11:16:11,023 Processing audio with duration 00:01.216
+2026-10-13 11:16:11,440 texto='Buenas noches' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:16:11,444 persona=johan intencion=saludo confianza=0.92
+2026-10-13 11:16:15,881 Processing audio with duration 00:02.720
+2026-10-13 11:16:16,418 texto='de la que me fui a ganar plata otra vez' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:16:16,422 persona=johan intencion=desconocido confianza=0.31
+2026-10-13 11:16:25,450 Processing audio with duration 00:06.912
+2026-10-13 11:16:37,424 Processing audio with duration 00:05.792
+2026-10-13 11:16:40,071 Processing audio with duration 00:01.856
+2026-10-13 11:16:42,601 Processing audio with duration 00:02.048
+2026-10-13 11:16:43,166 texto='Hola Thonny' persona=johan puntaje=0.168 aceptado=True
+2026-10-13 11:16:43,166 persona=johan intencion=None confianza=0.00
+2026-10-13 11:16:47,664 Processing audio with duration 00:02.752
+2026-10-13 11:16:48,145 texto='Enciende el bombillo' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:16:48,148 persona=johan intencion=prender_bombillo confianza=0.97
+2026-10-13 11:16:53,074 Processing audio with duration 00:01.856
+2026-10-13 11:16:57,075 Processing audio with duration 00:01.632
+2026-10-13 11:16:57,649 texto='Hola Thonny' persona=johan puntaje=0.433 aceptado=True
+2026-10-13 11:16:57,649 persona=johan intencion=None confianza=0.00
+2026-10-13 11:17:00,812 Processing audio with duration 00:01.440
+2026-10-13 11:17:01,748 texto='Hola a todos, bienvenidos al canal de Thonby Joke' persona=johan puntaje=0.473 aceptado=True
+2026-10-13 11:17:01,752 persona=johan intencion=desconocido confianza=0.63
+2026-10-13 11:17:12,652 Processing audio with duration 00:07.424
+2026-10-13 11:17:13,970 texto='Hola Thonny Hola Thonny Hola Thonny Thonny apaga el bombillo' persona=johan puntaje=0.366 aceptado=True
+2026-10-13 11:17:13,974 persona=johan intencion=apagar_bombillo confianza=0.86
+2026-10-13 11:17:20,042 Processing audio with duration 00:04.416
+2026-10-13 11:17:20,803 texto='Thonny enciende el bombillo' persona=johan puntaje=0.192 aceptado=True
+2026-10-13 11:17:20,806 persona=johan intencion=prender_bombillo confianza=0.97
+2026-10-13 11:17:25,425 Processing audio with duration 00:02.560
+2026-10-13 11:17:26,101 texto='Thonny enciende el ventilador' persona=johan puntaje=0.053 aceptado=True
+2026-10-13 11:17:26,104 persona=johan intencion=prender_ventilador confianza=0.82
+2026-10-13 11:17:31,985 Processing audio with duration 00:02.688
+2026-10-13 11:17:32,634 texto='Thonny apaga todo' persona=johan puntaje=0.226 aceptado=True
+2026-10-13 11:17:32,636 persona=johan intencion=desconocido confianza=0.33
+2026-10-13 11:17:38,093 Processing audio with duration 00:03.360
+2026-10-13 11:17:47,556 texto='Hola Thonny' persona=rocko puntaje=0.106 aceptado=True
+2026-10-13 11:17:47,556 persona=rocko intencion=None confianza=0.00
+2026-10-13 11:17:51,986 Processing audio with duration 00:01.536
+2026-10-13 11:17:52,505 texto='Hola Thonny' persona=johan puntaje=0.856 aceptado=True
+2026-10-13 11:17:52,505 persona=johan intencion=None confianza=0.00
+2026-10-13 11:17:56,756 Processing audio with duration 00:02.464
+2026-10-13 11:17:57,410 texto='Thonny apaga el ventilador' persona=johan puntaje=0.586 aceptado=True
+2026-10-13 11:17:57,412 persona=johan intencion=apagar_ventilador confianza=0.98
+2026-10-13 11:18:03,186 Processing audio with duration 00:03.200
+2026-10-13 11:18:03,908 texto='Thonny apaga el bombillo' persona=johan puntaje=0.904 aceptado=True
+2026-10-13 11:18:03,911 persona=johan intencion=apagar_bombillo confianza=0.86
+2026-10-13 11:18:15,084 Processing audio with duration 00:08.000
+2026-10-13 11:18:24,674 texto='se llamo Thonny' persona=johan puntaje=0.167 aceptado=True
+2026-10-13 11:18:24,674 persona=johan intencion=None confianza=0.00
+2026-10-13 11:18:27,564 Processing audio with duration 00:01.184
+2026-10-13 11:18:31,884 texto='¿Qué tal?' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:18:31,885 persona=johan intencion=saludo confianza=0.90
+2026-10-13 11:18:39,157 Processing audio with duration 00:05.536
+2026-10-13 11:18:40,201 texto='Bienvenidos al canal de Thonny Channel Bienvenidos al canal de Thonny Channel' persona=rocko puntaje=0.051 aceptado=True
+2026-10-13 11:18:40,203 persona=rocko intencion=desconocido confianza=0.52
+2026-10-13 11:18:43,694 Processing audio with duration 00:01.152
+2026-10-13 11:18:44,273 texto='Hola Thonny' persona=johan puntaje=0.137 aceptado=True
+2026-10-13 11:18:44,274 persona=johan intencion=None confianza=0.00
+2026-10-13 11:18:46,634 Processing audio with duration 00:00.640
+2026-10-13 11:18:56,846 texto='Hola Thonny.' persona=johan puntaje=0.193 aceptado=True
+2026-10-13 11:18:56,846 persona=johan intencion=None confianza=0.00
+2026-10-13 11:18:59,374 Processing audio with duration 00:00.800
+2026-10-13 11:18:59,861 texto='Hola Thonny' persona=rocko puntaje=0.019 aceptado=False
+2026-10-13 11:19:02,068 Processing audio with duration 00:01.472
+2026-10-13 11:19:02,567 texto='Hola Thonny' persona=johan puntaje=0.066 aceptado=True
+2026-10-13 11:19:02,567 persona=johan intencion=None confianza=0.00
+2026-10-13 11:19:11,725 Processing audio with duration 00:03.808
+2026-10-13 11:19:15,668 Processing audio with duration 00:01.088
+2026-10-13 11:19:20,044 Processing audio with duration 00:03.968
+2026-10-13 11:19:32,076 Processing audio with duration 00:08.000
+2026-10-13 11:19:33,579 texto='Hola, me llamo Thonny y yo soy Thonny, y yo soy Thonny, y yo soy Thonny, y yo soy Thonny' persona=johan puntaje=0.049 aceptado=True
+2026-10-13 11:19:33,579 persona=johan intencion=None confianza=0.00
+2026-10-13 11:19:37,006 Processing audio with duration 00:01.696
+2026-10-13 11:19:39,784 texto='Bienvenidos al canal de Thonny Channel' persona=johan puntaje=0.030 aceptado=True
+2026-10-13 11:19:39,786 persona=johan intencion=desconocido confianza=0.52
+2026-10-13 11:19:46,286 Processing audio with duration 00:02.944
+2026-10-13 11:19:49,966 Processing audio with duration 00:02.976
+2026-10-13 11:20:01,588 Processing audio with duration 00:02.560
+2026-10-13 11:20:12,279 Processing audio with duration 00:01.472
+2026-10-13 11:20:17,910 Processing audio with duration 00:05.120
+2026-10-13 11:20:22,550 Processing audio with duration 00:01.024
+2026-10-13 11:20:27,537 Processing audio with duration 00:04.608
+2026-10-13 11:20:40,498 Processing audio with duration 00:05.152
+2026-10-13 11:20:50,318 Processing audio with duration 00:08.000
+2026-10-13 11:20:51,775 texto='¿Y si probaron las otras? Eso voy a hacer Y... ¿Qué hiciste Thonny?' persona=johan puntaje=0.010 aceptado=False
+2026-10-13 11:20:53,488 Processing audio with duration 00:01.728
+2026-10-13 11:21:00,018 Processing audio with duration 00:01.472
+2026-10-13 11:21:00,566 texto='Hola Thonny' persona=rocko puntaje=0.134 aceptado=True
+2026-10-13 11:21:00,566 persona=rocko intencion=None confianza=0.00
+2026-10-13 11:21:03,758 Processing audio with duration 00:01.280
+2026-10-13 11:21:04,177 texto='Hola' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 11:21:04,181 persona=rocko intencion=saludo confianza=0.94
+2026-10-13 11:21:09,488 Processing audio with duration 00:03.424
+2026-10-13 11:21:10,124 texto='Ahorita le llevo su cargador, todo bien, donde está' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 11:21:10,127 persona=rocko intencion=desconocido confianza=0.94
+2026-10-13 11:21:18,900 Processing audio with duration 00:01.792
+2026-10-13 11:21:21,939 Processing audio with duration 00:01.440
+2026-10-13 11:21:22,455 texto='Thonny' persona=johan puntaje=0.335 aceptado=True
+2026-10-13 11:21:22,455 persona=johan intencion=None confianza=0.00
+2026-10-13 11:21:29,272 Processing audio with duration 00:02.144
+2026-10-13 11:21:29,992 texto='Thonny enciende el cautín' persona=johan puntaje=0.804 aceptado=True
+2026-10-13 11:21:29,995 persona=johan intencion=prender_cautin confianza=0.94
+2026-10-13 11:21:41,010 Processing audio with duration 00:08.000
+2026-10-13 11:21:42,959 Processing audio with duration 00:00.672
+2026-10-13 11:21:46,318 texto='Hola Thonny' persona=johan puntaje=0.018 aceptado=False
+2026-10-13 11:21:47,088 Processing audio with duration 00:00.768
+2026-10-13 11:21:59,380 Processing audio with duration 00:08.000
+2026-10-13 11:22:19,600 Processing audio with duration 00:08.000
+2026-10-13 11:22:21,780 Processing audio with duration 00:01.408
+2026-10-13 11:22:39,251 Processing audio with duration 00:02.272
+2026-10-13 11:22:40,581 texto='Hola Thonny' persona=johan puntaje=0.392 aceptado=True
+2026-10-13 11:22:40,581 persona=johan intencion=None confianza=0.00
+2026-10-13 11:22:44,924 Processing audio with duration 00:01.280
+2026-10-13 11:22:45,501 texto='Gracias' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:22:45,505 persona=johan intencion=desconocido confianza=0.93
+2026-10-13 11:22:49,040 Processing audio with duration 00:01.376
+2026-10-13 11:22:54,554 Processing audio with duration 00:04.128
+2026-10-13 11:23:04,052 Processing audio with duration 00:04.608
+2026-10-13 11:23:09,522 Processing audio with duration 00:01.344
+2026-10-13 11:23:10,132 texto='Hola Thonny' persona=cristian puntaje=0.347 aceptado=True
+2026-10-13 11:23:10,132 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:23:19,965 Processing audio with duration 00:08.000
+2026-10-13 11:23:23,515 Processing audio with duration 00:02.208
+2026-10-13 11:23:28,981 Processing audio with duration 00:04.960
+2026-10-13 11:23:30,178 texto='¿Veo para Thonny? Veo, pero yo es que me he desañado, ¿sabes?' persona=rocko puntaje=0.002 aceptado=False
+2026-10-13 11:23:34,554 Processing audio with duration 00:04.384
+2026-10-13 11:23:42,963 Processing audio with duration 00:08.000
+2026-10-13 11:23:45,595 Processing audio with duration 00:01.536
+2026-10-13 11:23:54,003 Processing audio with duration 00:08.000
+2026-10-13 11:24:06,103 Processing audio with duration 00:00.640
+2026-10-13 11:24:06,528 texto='Hola Thonny' persona=cristian puntaje=0.280 aceptado=True
+2026-10-13 11:24:06,528 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:24:09,523 Processing audio with duration 00:01.152
+2026-10-13 11:24:10,366 texto='Hola Thonny, bienvenidos al canal de Thonny. Bienvenidos al canal de Thonny.' persona=johan puntaje=0.625 aceptado=True
+2026-10-13 11:24:10,367 persona=johan intencion=None confianza=0.00
+2026-10-13 11:24:21,117 Processing audio with duration 00:08.000
+2026-10-13 11:24:24,286 Processing audio with duration 00:01.888
+2026-10-13 11:24:25,814 Processing audio with duration 00:01.184
+2026-10-13 11:24:31,224 Processing audio with duration 00:04.032
+2026-10-13 11:24:36,054 Processing audio with duration 00:04.000
+2026-10-13 11:24:42,047 Processing audio with duration 00:04.704
+2026-10-13 11:24:46,805 Processing audio with duration 00:04.064
+2026-10-13 11:24:48,723 Processing audio with duration 00:00.992
+2026-10-13 11:24:50,004 Processing audio with duration 00:00.928
+2026-10-13 11:24:50,504 texto='Hola Thonny.' persona=cristian puntaje=0.084 aceptado=True
+2026-10-13 11:24:50,504 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:24:53,464 Processing audio with duration 00:01.120
+2026-10-13 11:25:02,516 texto='bienvenidos a ti' persona=cristian puntaje=1.000 aceptado=True
+2026-10-13 11:25:02,520 persona=cristian intencion=desconocido confianza=0.61
+2026-10-13 11:25:09,465 Processing audio with duration 00:04.384
+2026-10-13 11:25:18,209 Processing audio with duration 00:08.000
+2026-10-13 11:25:29,946 Processing audio with duration 00:08.000
+2026-10-13 11:25:31,506 texto='Thonny se puso en la cabeza, no se puso en la cabeza, se puso en la mía y me apareció Tengo que dar 2.4' persona=johan puntaje=0.101 aceptado=True
+2026-10-13 11:25:31,510 persona=johan intencion=desconocido confianza=0.77
+2026-10-13 11:25:40,246 Processing audio with duration 00:06.144
+2026-10-13 11:25:41,205 texto='Hola Thonny Hola Thonny' persona=johan puntaje=0.115 aceptado=True
+2026-10-13 11:25:41,205 persona=johan intencion=None confianza=0.00
+2026-10-13 11:25:46,879 Processing audio with duration 00:03.328
+2026-10-13 11:25:47,391 texto='Igual usted diría que no tenía nada' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:25:47,395 persona=johan intencion=desconocido confianza=0.84
+2026-10-13 11:25:51,489 Processing audio with duration 00:01.984
+2026-10-13 11:26:10,456 Processing audio with duration 00:05.280
+2026-10-13 11:26:11,512 texto='¿A qué Thonny? El cautín ya. Falta la plancha.' persona=johan puntaje=0.640 aceptado=True
+2026-10-13 11:26:11,515 persona=johan intencion=apagar_plancha confianza=0.30
+2026-10-13 11:26:15,097 Processing audio with duration 00:01.472
+2026-10-13 11:26:20,408 Processing audio with duration 00:04.192
+2026-10-13 11:26:24,347 Processing audio with duration 00:01.920
+2026-10-13 11:26:32,407 Processing audio with duration 00:04.608
+2026-10-13 11:26:34,137 Processing audio with duration 00:01.312
+2026-10-13 11:26:34,693 texto='Hola Thonny' persona=johan puntaje=0.641 aceptado=True
+2026-10-13 11:26:34,693 persona=johan intencion=None confianza=0.00
+2026-10-13 11:26:44,407 Processing audio with duration 00:08.000
+2026-10-13 11:26:45,834 texto='Creo que es la plancha, como que nos mueven nosotros Thonny, encender plancha' persona=johan puntaje=0.069 aceptado=True
+2026-10-13 11:26:45,837 persona=johan intencion=prender_plancha confianza=0.90
+2026-10-13 11:26:49,441 Processing audio with duration 00:01.120
+2026-10-13 11:26:52,828 Processing audio with duration 00:02.016
+2026-10-13 11:27:03,011 Processing audio with duration 00:08.000
+2026-10-13 11:27:04,859 Processing audio with duration 00:00.896
+2026-10-13 11:27:24,668 Processing audio with duration 00:08.000
+2026-10-13 11:27:33,253 Processing audio with duration 00:07.616
+2026-10-13 11:27:36,539 Processing audio with duration 00:02.336
+2026-10-13 11:27:45,850 Processing audio with duration 00:05.856
+2026-10-13 11:27:47,068 texto='Hola Thonny, como estás? Bien, como estás? Bien, como estás?' persona=johan puntaje=0.070 aceptado=True
+2026-10-13 11:27:47,071 persona=johan intencion=saludo confianza=0.92
+2026-10-13 11:27:52,988 Processing audio with duration 00:03.680
+2026-10-13 11:27:53,686 texto='Quien le dijo al... Papi la carrera o el 8B' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:27:53,689 persona=johan intencion=desconocido confianza=0.43
+2026-10-13 11:27:58,531 Processing audio with duration 00:02.080
+2026-10-13 11:28:02,693 Processing audio with duration 00:02.720
+2026-10-13 11:28:05,498 Processing audio with duration 00:02.304
+2026-10-13 11:28:22,751 Processing audio with duration 00:08.000
+2026-10-13 11:28:32,571 Processing audio with duration 00:08.000
+2026-10-13 11:28:37,020 Processing audio with duration 00:02.848
+2026-10-13 11:28:45,691 Processing audio with duration 00:08.000
+2026-10-13 11:28:48,774 Processing audio with duration 00:01.376
+2026-10-13 11:28:53,733 Processing audio with duration 00:04.576
+2026-10-13 11:29:05,094 Processing audio with duration 00:08.000
+2026-10-13 11:29:08,485 Processing audio with duration 00:02.176
+2026-10-13 11:29:12,830 Processing audio with duration 00:03.936
+2026-10-13 11:29:26,462 Processing audio with duration 00:02.944
+2026-10-13 11:29:33,151 Processing audio with duration 00:02.656
+2026-10-13 11:29:34,303 Processing audio with duration 00:00.704
+2026-10-13 11:29:45,925 Processing audio with duration 00:01.248
+2026-10-13 11:29:53,125 Processing audio with duration 00:02.144
+2026-10-13 11:30:01,793 Processing audio with duration 00:08.000
+2026-10-13 11:30:12,806 Processing audio with duration 00:08.000
+2026-10-13 11:30:25,097 Processing audio with duration 00:03.680
+2026-10-13 11:30:26,257 texto='Pirolico noni totalco de 9 de diciembre Noni lo siento, no lo siento ni a Thonny' persona=johan puntaje=0.085 aceptado=True
+2026-10-13 11:30:26,257 persona=johan intencion=None confianza=0.00
+2026-10-13 11:30:30,056 Processing audio with duration 00:02.080
+2026-10-13 11:30:30,524 texto='Enciende el ventilador' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:30:30,528 persona=johan intencion=prender_ventilador confianza=0.82
+2026-10-13 11:30:34,274 Processing audio with duration 00:01.280
+2026-10-13 11:30:36,574 Processing audio with duration 00:00.992
+2026-10-13 11:30:39,874 Processing audio with duration 00:01.408
+2026-10-13 11:30:40,376 texto='Hola Thonny' persona=johan puntaje=0.162 aceptado=True
+2026-10-13 11:30:40,376 persona=johan intencion=None confianza=0.00
+2026-10-13 11:30:44,327 Processing audio with duration 00:02.144
+2026-10-13 11:30:44,757 texto='Apaga el ventilador' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:30:44,760 persona=johan intencion=apagar_ventilador confianza=0.98
+2026-10-13 11:30:56,617 Processing audio with duration 00:08.000
+2026-10-13 11:31:06,087 Processing audio with duration 00:08.000
+2026-10-13 11:31:11,555 Processing audio with duration 00:04.448
+2026-10-13 11:31:12,451 texto='Hola Thonny, soy yo, que bueno' persona=johan puntaje=0.072 aceptado=True
+2026-10-13 11:31:12,454 persona=johan intencion=saludo confianza=0.65
+2026-10-13 11:31:17,955 Processing audio with duration 00:03.776
+2026-10-13 11:31:20,213 texto='¿Qué haces?' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:31:20,215 persona=johan intencion=desconocido confianza=0.46
+2026-10-13 11:31:27,426 Processing audio with duration 00:05.120
+2026-10-13 11:31:29,535 Processing audio with duration 00:01.472
+2026-10-13 11:31:30,005 texto='Hola Thonny' persona=johan puntaje=0.130 aceptado=True
+2026-10-13 11:31:30,005 persona=johan intencion=None confianza=0.00
+2026-10-13 11:31:33,767 Processing audio with duration 00:02.048
+2026-10-13 11:31:34,213 texto='Enciende todo.' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:31:34,215 persona=johan intencion=prender_bombillo confianza=0.42
+2026-10-13 11:31:40,995 Processing audio with duration 00:04.096
+2026-10-13 11:31:44,168 Processing audio with duration 00:01.920
+2026-10-13 11:31:50,538 Processing audio with duration 00:05.408
+2026-10-13 11:31:54,496 Processing audio with duration 00:01.216
+2026-10-13 11:31:55,006 texto='Hola Thonny' persona=johan puntaje=0.182 aceptado=True
+2026-10-13 11:31:55,006 persona=johan intencion=None confianza=0.00
+2026-10-13 11:31:59,849 Processing audio with duration 00:02.528
+2026-10-13 11:32:02,012 texto='Tengo un gran desvanecimiento de ir' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:32:02,016 persona=johan intencion=desconocido confianza=0.80
+2026-10-13 11:32:04,968 Processing audio with duration 00:00.864
+2026-10-13 11:32:06,626 Processing audio with duration 00:01.024
+2026-10-13 11:32:08,515 Processing audio with duration 00:01.536
+2026-10-13 11:32:12,415 Processing audio with duration 00:03.520
+2026-10-13 11:32:14,977 Processing audio with duration 00:02.080
+2026-10-13 11:32:23,530 Processing audio with duration 00:08.000
+2026-10-13 11:32:29,956 Processing audio with duration 00:05.472
+2026-10-13 11:32:37,537 Processing audio with duration 00:07.072
+2026-10-13 11:32:46,438 Processing audio with duration 00:07.168
+2026-10-13 11:32:47,637 texto='Hola Thonny Hola Thonny Hola Thonny' persona=johan puntaje=0.098 aceptado=True
+2026-10-13 11:32:47,637 persona=johan intencion=None confianza=0.00
+2026-10-13 11:32:51,530 Processing audio with duration 00:02.144
+2026-10-13 11:32:52,092 texto='Ya sacaron el semestre y...' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:32:52,094 persona=johan intencion=desconocido confianza=0.32
+2026-10-13 11:32:55,107 Processing audio with duration 00:00.928
+2026-10-13 11:32:55,605 texto='Hola Thonny' persona=johan puntaje=0.241 aceptado=True
+2026-10-13 11:32:55,605 persona=johan intencion=None confianza=0.00
+2026-10-13 11:33:00,066 Processing audio with duration 00:02.752
+2026-10-13 11:33:00,570 texto='bienvenido a la poesía' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:33:00,573 persona=johan intencion=desconocido confianza=0.33
+2026-10-13 11:33:06,948 Processing audio with duration 00:04.064
+2026-10-13 11:33:20,839 Processing audio with duration 00:08.000
+2026-10-13 11:33:28,899 Processing audio with duration 00:02.080
+2026-10-13 11:33:41,422 Processing audio with duration 00:03.136
+2026-10-13 11:33:46,018 Processing audio with duration 00:02.336
+2026-10-13 11:33:51,399 Processing audio with duration 00:03.232
+2026-10-13 11:33:54,862 Processing audio with duration 00:02.496
+2026-10-13 11:33:57,132 Processing audio with duration 00:01.792
+2026-10-13 11:33:57,709 texto='Hola Thonny' persona=cristian puntaje=0.435 aceptado=True
+2026-10-13 11:33:57,709 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:34:01,030 Processing audio with duration 00:01.472
+2026-10-13 11:34:05,268 texto='¿Qué vas dando, su hijo?' persona=cristian puntaje=1.000 aceptado=True
+2026-10-13 11:34:05,271 persona=cristian intencion=saludo confianza=0.71
+2026-10-13 11:34:10,438 Processing audio with duration 00:03.328
+2026-10-13 11:34:11,339 texto='De mas no me imagino que lo va a currir Hola Thonny' persona=rocko puntaje=0.060 aceptado=True
+2026-10-13 11:34:11,339 persona=rocko intencion=None confianza=0.00
+2026-10-13 11:34:15,373 Processing audio with duration 00:02.144
+2026-10-13 11:34:16,286 texto='Oh, no, no, no, no, no, no, no, no' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 11:34:16,288 persona=rocko intencion=desconocido confianza=0.85
+2026-10-13 11:34:21,510 Processing audio with duration 00:01.792
+2026-10-13 11:34:26,412 Processing audio with duration 00:02.240
+2026-10-13 11:34:27,095 texto='Thonny chúpame las bolas' persona=rocko puntaje=0.089 aceptado=True
+2026-10-13 11:34:27,098 persona=rocko intencion=desconocido confianza=0.39
+2026-10-13 11:34:30,980 Processing audio with duration 00:01.504
+2026-10-13 11:34:35,300 Processing audio with duration 00:02.848
+2026-10-13 11:34:36,020 texto='Thonny, chupame las bolas' persona=cristian puntaje=0.225 aceptado=True
+2026-10-13 11:34:36,022 persona=cristian intencion=desconocido confianza=0.39
+2026-10-13 11:34:43,022 Processing audio with duration 00:02.848
+2026-10-13 11:34:43,692 texto='Thonny enciende todo' persona=rocko puntaje=0.014 aceptado=False
+2026-10-13 11:34:45,904 Processing audio with duration 00:02.240
+2026-10-13 11:34:50,280 Processing audio with duration 00:03.200
+2026-10-13 11:34:51,002 texto='Thonny enciende todo' persona=johan puntaje=0.029 aceptado=False
+2026-10-13 11:35:04,041 Processing audio with duration 00:08.000
+2026-10-13 11:35:05,478 texto='¿Thonny? No lo sé, mío ¿Qué hiciste? ¿Qué hiciste?' persona=rocko puntaje=0.025 aceptado=False
+2026-10-13 11:35:10,022 Processing audio with duration 00:04.576
+2026-10-13 11:35:13,613 Processing audio with duration 00:02.336
+2026-10-13 11:35:17,104 Processing audio with duration 00:03.040
+2026-10-13 11:35:18,821 Processing audio with duration 00:01.024
+2026-10-13 11:35:19,434 texto='Hola Thonny' persona=johan puntaje=0.149 aceptado=True
+2026-10-13 11:35:19,434 persona=johan intencion=None confianza=0.00
+2026-10-13 11:35:25,905 Processing audio with duration 00:04.608
+2026-10-13 11:35:26,925 texto='Nosotros estamos aquí solos de salud Thonny, prende todo' persona=johan puntaje=0.056 aceptado=True
+2026-10-13 11:35:26,928 persona=johan intencion=prender_cautin confianza=0.30
+2026-10-13 11:35:30,895 Processing audio with duration 00:01.856
+2026-10-13 11:35:31,501 texto='Thonny prende todo' persona=johan puntaje=0.120 aceptado=True
+2026-10-13 11:35:31,504 persona=johan intencion=prender_cautin confianza=0.30
+2026-10-13 11:35:39,505 Processing audio with duration 00:05.888
+2026-10-13 11:35:43,622 Processing audio with duration 00:03.328
+2026-10-13 11:35:47,024 Processing audio with duration 00:01.984
+2026-10-13 11:35:47,696 texto='Thonny prende el bombillo' persona=cristian puntaje=0.089 aceptado=True
+2026-10-13 11:35:47,699 persona=cristian intencion=prender_bombillo confianza=0.96
+2026-10-13 11:35:52,816 Processing audio with duration 00:02.528
+2026-10-13 11:35:53,539 texto='Thonny, apaga el bombillo' persona=rocko puntaje=0.143 aceptado=True
+2026-10-13 11:35:53,541 persona=rocko intencion=apagar_bombillo confianza=0.86
+2026-10-13 11:35:58,792 Processing audio with duration 00:03.008
+2026-10-13 11:35:59,511 texto='Thonny enciende la plancha' persona=cristian puntaje=0.152 aceptado=True
+2026-10-13 11:35:59,513 persona=cristian intencion=prender_plancha confianza=0.97
+2026-10-13 11:36:05,105 Processing audio with duration 00:03.104
+2026-10-13 11:36:05,853 texto='Thonny, apaga la plancha' persona=cristian puntaje=0.083 aceptado=True
+2026-10-13 11:36:05,856 persona=cristian intencion=apagar_plancha confianza=0.97
+2026-10-13 11:36:10,734 Processing audio with duration 00:02.560
+2026-10-13 11:36:11,466 texto='Thonny, chúpame las bolas' persona=cristian puntaje=0.473 aceptado=True
+2026-10-13 11:36:11,470 persona=cristian intencion=desconocido confianza=0.39
+2026-10-13 11:36:15,753 Processing audio with duration 00:01.664
+2026-10-13 11:36:18,503 Processing audio with duration 00:01.760
+2026-10-13 11:36:19,042 texto='Hola Thonny' persona=johan puntaje=0.122 aceptado=True
+2026-10-13 11:36:19,042 persona=johan intencion=None confianza=0.00
+2026-10-13 11:36:26,154 Processing audio with duration 00:04.800
+2026-10-13 11:36:27,502 texto='Te lo valveras el coerre inserto mónica, me vas a decir cual pica la clara' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:36:27,505 persona=johan intencion=desconocido confianza=0.49
+2026-10-13 11:36:31,144 Processing audio with duration 00:01.536
+2026-10-13 11:36:31,689 texto='Hola Thonny' persona=cristian puntaje=0.124 aceptado=True
+2026-10-13 11:36:31,689 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:36:37,993 Processing audio with duration 00:04.480
+2026-10-13 11:36:39,896 texto='Me gustan los videos, me gustan los videos Me gustan los videos' persona=cristian puntaje=1.000 aceptado=True
+2026-10-13 11:36:39,899 persona=cristian intencion=desconocido confianza=0.79
+2026-10-13 11:36:43,724 Processing audio with duration 00:01.600
+2026-10-13 11:36:54,097 Processing audio with duration 00:05.792
+2026-10-13 11:36:55,697 Processing audio with duration 00:01.024
+2026-10-13 11:36:58,504 Processing audio with duration 00:00.992
+2026-10-13 11:37:12,044 Processing audio with duration 00:03.136
+2026-10-13 11:37:25,515 Processing audio with duration 00:03.488
+2026-10-13 11:37:27,668 Processing audio with duration 00:01.568
+2026-10-13 11:37:31,378 Processing audio with duration 00:01.376
+2026-10-13 11:37:31,901 texto='Hola Thonny' persona=cristian puntaje=0.145 aceptado=True
+2026-10-13 11:37:31,901 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:37:35,538 Processing audio with duration 00:01.440
+2026-10-13 11:37:36,068 texto='Hola Thonny' persona=johan puntaje=0.023 aceptado=False
+2026-10-13 11:37:42,445 Processing audio with duration 00:06.336
+2026-10-13 11:37:51,383 texto='Hola, me llamo Thonny, ¿Qué te va a decir? Me llamo Thonny, me llamo Thonny Me llamo Thonny, me llamo Thonny' persona=cristian puntaje=0.136 aceptado=True
+2026-10-13 11:37:51,383 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:37:58,766 Processing audio with duration 00:05.536
+2026-10-13 11:37:59,558 texto='El Marica está llevando los ceros pagando El Marica está pagando Obvio' persona=cristian puntaje=1.000 aceptado=True
+2026-10-13 11:37:59,560 persona=cristian intencion=desconocido confianza=0.87
+2026-10-13 11:38:03,246 Processing audio with duration 00:01.472
+2026-10-13 11:38:06,126 Processing audio with duration 00:02.432
+2026-10-13 11:38:11,087 Processing audio with duration 00:04.384
+2026-10-13 11:38:14,229 Processing audio with duration 00:02.464
+2026-10-13 11:38:14,934 texto='Thonny prende el bombillo ventilador' persona=rocko puntaje=0.162 aceptado=True
+2026-10-13 11:38:14,937 persona=rocko intencion=prender_bombillo confianza=0.71
+2026-10-13 11:38:20,149 Processing audio with duration 00:02.176
+2026-10-13 11:38:23,567 Processing audio with duration 00:02.944
+2026-10-13 11:38:29,967 Processing audio with duration 00:02.688
+2026-10-13 11:38:32,288 texto='¿Puedo hacer un video con Thonny?' persona=johan puntaje=0.053 aceptado=True
+2026-10-13 11:38:32,288 persona=johan intencion=None confianza=0.00
+2026-10-13 11:38:36,427 Processing audio with duration 00:02.368
+2026-10-13 11:38:36,989 texto='¿Puedes prender bombillo y betilado?' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:38:36,991 persona=johan intencion=prender_bombillo confianza=0.74
+2026-10-13 11:38:44,847 Processing audio with duration 00:02.944
+2026-10-13 11:38:45,544 texto='Thonny, ha pasado un video' persona=johan puntaje=0.034 aceptado=True
+2026-10-13 11:38:45,546 persona=johan intencion=desconocido confianza=0.89
+2026-10-13 11:38:50,550 Processing audio with duration 00:02.624
+2026-10-13 11:38:51,256 texto='Thonny, apaga el ventilador' persona=johan puntaje=0.322 aceptado=True
+2026-10-13 11:38:51,259 persona=johan intencion=apagar_ventilador confianza=0.98
+2026-10-13 11:38:55,862 Processing audio with duration 00:02.304
+2026-10-13 11:38:56,589 texto='Thonny, ¿apaga bombillo?' persona=johan puntaje=0.178 aceptado=True
+2026-10-13 11:38:56,591 persona=johan intencion=apagar_bombillo confianza=0.84
+2026-10-13 11:39:01,940 Processing audio with duration 00:02.400
+2026-10-13 11:39:02,524 texto='Thonny prende todo' persona=johan puntaje=0.224 aceptado=True
+2026-10-13 11:39:02,527 persona=johan intencion=prender_cautin confianza=0.30
+2026-10-13 11:39:11,861 Processing audio with duration 00:07.232
+2026-10-13 11:39:13,194 texto='Hola Thonny, bienvenidos al canal de Youtube. Bienvenidos al canal de Youtube. Bienvenidos al canal de Youtube.' persona=johan puntaje=0.245 aceptado=True
+2026-10-13 11:39:13,196 persona=johan intencion=desconocido confianza=0.79
+2026-10-13 11:39:20,631 Processing audio with duration 00:03.136
+2026-10-13 11:40:11,470 Processing audio with duration 00:00.928
+2026-10-13 11:40:18,073 Processing audio with duration 00:01.088
+2026-10-13 11:40:18,653 texto='Hola Thonny' persona=johan puntaje=0.057 aceptado=True
+2026-10-13 11:40:18,654 persona=johan intencion=None confianza=0.00
+2026-10-13 11:40:25,870 Processing audio with duration 00:00.960
+2026-10-13 11:40:26,296 texto='Hola' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:40:26,300 persona=johan intencion=saludo confianza=0.94
+2026-10-13 11:40:31,703 Processing audio with duration 00:02.240
+2026-10-13 11:40:32,329 texto='Yo y Thonny presento un video' persona=johan puntaje=0.860 aceptado=True
+2026-10-13 11:40:32,333 persona=johan intencion=desconocido confianza=0.91
+2026-10-13 11:40:36,050 Processing audio with duration 00:01.472
+2026-10-13 11:40:41,331 Processing audio with duration 00:01.088
+2026-10-13 11:40:41,866 texto='Hola Thonny' persona=cristian puntaje=0.022 aceptado=False
+2026-10-13 11:40:49,171 Processing audio with duration 00:01.088
+2026-10-13 11:40:50,753 texto='Hola Thonny' persona=johan puntaje=0.122 aceptado=True
+2026-10-13 11:40:50,753 persona=johan intencion=None confianza=0.00
+2026-10-13 11:40:55,761 Processing audio with duration 00:01.088
+2026-10-13 11:40:56,345 texto='Hola Thonny' persona=johan puntaje=0.034 aceptado=True
+2026-10-13 11:40:56,346 persona=johan intencion=None confianza=0.00
+2026-10-13 11:41:05,274 Processing audio with duration 00:02.144
+2026-10-13 11:41:08,344 Processing audio with duration 00:01.248
+2026-10-13 11:41:20,240 Processing audio with duration 00:01.760
+2026-10-13 11:41:28,371 Processing audio with duration 00:00.992
+2026-10-13 11:41:44,635 Processing audio with duration 00:01.056
+2026-10-13 11:41:45,181 texto='Hola Thonny' persona=johan puntaje=0.238 aceptado=True
+2026-10-13 11:41:45,181 persona=johan intencion=None confianza=0.00
+2026-10-13 11:41:52,722 Processing audio with duration 00:00.928
+2026-10-13 11:41:53,351 texto='Hola Thonny' persona=johan puntaje=0.192 aceptado=True
+2026-10-13 11:41:53,351 persona=johan intencion=None confianza=0.00
+2026-10-13 11:41:58,451 Processing audio with duration 00:01.504
+2026-10-13 11:42:00,913 Processing audio with duration 00:01.024
+2026-10-13 11:42:01,526 texto='Hola Thonny' persona=johan puntaje=0.205 aceptado=True
+2026-10-13 11:42:01,527 persona=johan intencion=None confianza=0.00
+2026-10-13 11:42:24,913 Processing audio with duration 00:01.088
+2026-10-13 11:42:25,482 texto='Hola Thonny' persona=cristian puntaje=0.321 aceptado=True
+2026-10-13 11:42:25,482 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:42:49,234 Processing audio with duration 00:01.312
+2026-10-13 11:42:49,810 texto='Bienvenidos al canal de Thonny Channel' persona=johan puntaje=0.193 aceptado=True
+2026-10-13 11:42:49,812 persona=johan intencion=desconocido confianza=0.52
+2026-10-13 11:42:59,763 Processing audio with duration 00:01.024
+2026-10-13 11:43:05,526 texto='Hola Thonny' persona=cristian puntaje=0.445 aceptado=True
+2026-10-13 11:43:05,526 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:43:25,335 Processing audio with duration 00:00.992
+2026-10-13 11:43:25,950 texto='Hola Thonny' persona=johan puntaje=0.129 aceptado=True
+2026-10-13 11:43:25,950 persona=johan intencion=None confianza=0.00
+2026-10-13 11:43:49,015 Processing audio with duration 00:01.056
+2026-10-13 11:43:50,580 texto='Hola Thonny' persona=cristian puntaje=0.192 aceptado=True
+2026-10-13 11:43:50,580 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:44:22,719 Processing audio with duration 00:02.272
+2026-10-13 11:44:25,470 Processing audio with duration 00:01.088
+2026-10-13 11:44:26,043 texto='Hola Thonny' persona=johan puntaje=0.285 aceptado=True
+2026-10-13 11:44:26,043 persona=johan intencion=None confianza=0.00
+2026-10-13 11:44:57,017 Processing audio with duration 00:01.984
+2026-10-13 11:45:02,297 Processing audio with duration 00:00.928
+2026-10-13 11:45:02,900 texto='Hola Thonny' persona=johan puntaje=0.081 aceptado=True
+2026-10-13 11:45:02,900 persona=johan intencion=None confianza=0.00
+2026-10-13 11:45:11,477 Processing audio with duration 00:00.960
+2026-10-13 11:45:22,751 Processing audio with duration 00:00.864
+2026-10-13 11:45:23,315 texto='Hola Thonny' persona=johan puntaje=0.082 aceptado=True
+2026-10-13 11:45:23,315 persona=johan intencion=None confianza=0.00
+2026-10-13 11:46:02,969 Processing audio with duration 00:00.960
+2026-10-13 11:46:03,534 texto='Hola Thonny' persona=cristian puntaje=0.168 aceptado=True
+2026-10-13 11:46:03,534 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:47:09,981 Processing audio with duration 00:00.896
+2026-10-13 11:47:29,284 Processing audio with duration 00:00.992
+2026-10-13 11:47:29,795 texto='Hola Thonny' persona=cristian puntaje=0.028 aceptado=False
+2026-10-13 11:47:36,602 Processing audio with duration 00:01.120
+2026-10-13 11:47:42,595 Processing audio with duration 00:04.832
+2026-10-13 11:47:55,555 Processing audio with duration 00:08.000
+2026-10-13 11:48:04,412 Processing audio with duration 00:08.000
+2026-10-13 11:48:05,905 texto='o si quiere probar los dos ahí con el mismo cargado. Thonny responde. ¿Cómo lo llamaron? Thonny' persona=johan puntaje=0.563 aceptado=True
+2026-10-13 11:48:05,905 persona=johan intencion=None confianza=0.00
+2026-10-13 11:48:15,643 Processing audio with duration 00:08.000
+2026-10-13 11:48:17,373 Processing audio with duration 00:01.120
+2026-10-13 11:48:20,892 Processing audio with duration 00:02.560
+2026-10-13 11:48:21,548 texto='Hola Thonny' persona=johan puntaje=0.670 aceptado=True
+2026-10-13 11:48:21,548 persona=johan intencion=None confianza=0.00
+2026-10-13 11:48:26,173 Processing audio with duration 00:02.400
+2026-10-13 11:48:26,841 texto='Thonny enciende el bombillo' persona=johan puntaje=0.629 aceptado=True
+2026-10-13 11:48:26,842 persona=johan intencion=prender_bombillo confianza=0.97
+2026-10-13 11:48:31,846 Processing audio with duration 00:02.528
+2026-10-13 11:48:32,533 texto='Thonny apaga el bombillo' persona=johan puntaje=0.898 aceptado=True
+2026-10-13 11:48:32,536 persona=johan intencion=apagar_bombillo confianza=0.86
+2026-10-13 11:48:37,533 Processing audio with duration 00:02.624
+2026-10-13 11:48:38,275 texto='Thonny enciende el ventilador' persona=johan puntaje=0.770 aceptado=True
+2026-10-13 11:48:38,279 persona=johan intencion=prender_ventilador confianza=0.82
+2026-10-13 11:48:43,454 Processing audio with duration 00:02.432
+2026-10-13 11:48:44,084 texto='Thonny apaga el ventilador' persona=johan puntaje=0.755 aceptado=True
+2026-10-13 11:48:44,087 persona=johan intencion=apagar_ventilador confianza=0.98
+2026-10-13 11:48:50,204 Processing audio with duration 00:04.000
+2026-10-13 11:48:50,962 texto='Thonny enciende la plancha' persona=johan puntaje=0.470 aceptado=True
+2026-10-13 11:48:50,966 persona=johan intencion=prender_plancha confianza=0.97
+2026-10-13 11:48:57,957 Processing audio with duration 00:02.464
+2026-10-13 11:48:58,658 texto='Thonny, apaga la plancha' persona=johan puntaje=0.747 aceptado=True
+2026-10-13 11:48:58,660 persona=johan intencion=apagar_plancha confianza=0.97
+2026-10-13 11:49:13,184 Processing audio with duration 00:02.880
+2026-10-13 11:49:13,824 texto='Thonny' persona=johan puntaje=0.403 aceptado=True
+2026-10-13 11:49:13,824 persona=johan intencion=None confianza=0.00
+2026-10-13 11:49:16,968 Processing audio with duration 00:01.408
+2026-10-13 11:49:17,536 texto='bienvenidos al canal de Juega el Cautín' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:49:17,538 persona=johan intencion=desconocido confianza=0.43
+2026-10-13 11:49:22,335 Processing audio with duration 00:02.336
+2026-10-13 11:49:23,020 texto='Thonny apaga el caudín' persona=johan puntaje=0.880 aceptado=True
+2026-10-13 11:49:23,022 persona=johan intencion=apagar_cautin confianza=0.89
+2026-10-13 11:49:26,494 Processing audio with duration 00:01.536
+2026-10-13 11:49:28,998 Processing audio with duration 00:02.016
+2026-10-13 11:49:29,693 texto='Thonny enciende el cautín' persona=johan puntaje=0.916 aceptado=True
+2026-10-13 11:49:29,695 persona=johan intencion=prender_cautin confianza=0.94
+2026-10-13 11:49:35,485 Processing audio with duration 00:02.144
+2026-10-13 11:49:38,685 Processing audio with duration 00:02.720
+2026-10-13 11:49:43,047 Processing audio with duration 00:01.760
+2026-10-13 11:49:45,288 Processing audio with duration 00:01.792
+2026-10-13 11:49:51,486 Processing audio with duration 00:02.016
+2026-10-13 11:50:03,049 Processing audio with duration 00:05.280
+2026-10-13 11:50:04,162 texto='Yo sabía que no iba a prender todo, pero Thonny, ¿qué fecha soy?' persona=johan puntaje=0.436 aceptado=True
+2026-10-13 11:50:04,164 persona=johan intencion=saludo confianza=0.52
+2026-10-13 11:50:08,895 Processing audio with duration 00:02.464
+2026-10-13 11:50:09,579 texto='Thonny, que fecha es hoy?' persona=johan puntaje=0.735 aceptado=True
+2026-10-13 11:50:09,581 persona=johan intencion=desconocido confianza=0.91
+2026-10-13 11:50:14,249 Processing audio with duration 00:02.560
+2026-10-13 11:50:29,479 Processing audio with duration 00:04.256
+2026-10-13 11:50:30,384 texto='El Haikun Ok Thonny apaga el caudín' persona=johan puntaje=0.921 aceptado=True
+2026-10-13 11:50:30,386 persona=johan intencion=apagar_cautin confianza=0.89
+2026-10-13 11:50:37,856 Processing audio with duration 00:04.992
+2026-10-13 11:50:40,360 Processing audio with duration 00:01.760
+2026-10-13 11:50:43,747 Processing audio with duration 00:01.952
+2026-10-13 11:50:44,307 texto='Hola Thonny' persona=rocko puntaje=0.212 aceptado=True
+2026-10-13 11:50:44,307 persona=rocko intencion=None confianza=0.00
+2026-10-13 11:50:48,128 Processing audio with duration 00:01.920
+2026-10-13 11:50:48,598 texto='Enciende un video' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 11:50:48,601 persona=rocko intencion=desconocido confianza=0.71
+2026-10-13 11:50:53,347 Processing audio with duration 00:02.272
+2026-10-13 11:50:56,680 Processing audio with duration 00:02.720
+2026-10-13 11:50:57,269 texto='Thonny' persona=johan puntaje=0.332 aceptado=True
+2026-10-13 11:50:57,269 persona=johan intencion=None confianza=0.00
+2026-10-13 11:51:00,866 Processing audio with duration 00:01.888
+2026-10-13 11:51:01,279 texto='Enciende bombilla' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:51:01,281 persona=johan intencion=prender_bombillo confianza=0.86
+2026-10-13 11:51:06,410 Processing audio with duration 00:02.144
+2026-10-13 11:51:07,069 texto='Thonny apaga un video' persona=rocko puntaje=0.545 aceptado=True
+2026-10-13 11:51:07,072 persona=rocko intencion=desconocido confianza=0.83
+2026-10-13 11:51:12,040 Processing audio with duration 00:02.592
+2026-10-13 11:51:12,773 texto='Thonny, apaga un billón' persona=rocko puntaje=0.560 aceptado=True
+2026-10-13 11:51:12,777 persona=rocko intencion=desconocido confianza=0.60
+2026-10-13 11:51:17,163 Processing audio with duration 00:02.016
+2026-10-13 11:51:21,568 Processing audio with duration 00:01.632
+2026-10-13 11:51:22,066 texto='Hola Thonny' persona=rocko puntaje=0.725 aceptado=True
+2026-10-13 11:51:22,066 persona=rocko intencion=None confianza=0.00
+2026-10-13 11:51:25,931 Processing audio with duration 00:01.952
+2026-10-13 11:51:26,363 texto='Apaga bombilla' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 11:51:26,366 persona=rocko intencion=apagar_bombillo confianza=0.70
+2026-10-13 11:51:31,211 Processing audio with duration 00:02.560
+2026-10-13 11:51:31,885 texto='Thonny enciende ventilador' persona=rocko puntaje=0.521 aceptado=True
+2026-10-13 11:51:31,888 persona=rocko intencion=prender_ventilador confianza=0.75
+2026-10-13 11:51:37,320 Processing audio with duration 00:02.400
+2026-10-13 11:51:37,986 texto='Thonny, apaga ventilador' persona=rocko puntaje=0.880 aceptado=True
+2026-10-13 11:51:37,989 persona=rocko intencion=apagar_ventilador confianza=0.95
+2026-10-13 11:51:42,849 Processing audio with duration 00:02.016
+2026-10-13 11:51:43,448 texto='Thonny, dame la obra' persona=rocko puntaje=0.876 aceptado=True
+2026-10-13 11:51:43,451 persona=rocko intencion=desconocido confianza=0.33
+2026-10-13 11:51:48,739 Processing audio with duration 00:02.240
+2026-10-13 11:51:49,435 texto='Thonny, dame la ovecha' persona=rocko puntaje=0.939 aceptado=True
+2026-10-13 11:51:49,438 persona=rocko intencion=apagar_plancha confianza=0.28
+2026-10-13 11:51:55,109 Processing audio with duration 00:02.784
+2026-10-13 11:52:00,660 texto='Tengo un utilicero, ¿no Thonny?' persona=rocko puntaje=0.562 aceptado=True
+2026-10-13 11:52:00,660 persona=rocko intencion=None confianza=0.00
+2026-10-13 11:52:05,349 Processing audio with duration 00:02.272
+2026-10-13 11:52:05,837 texto='Si ya le digo...' persona=rocko puntaje=1.000 aceptado=True
+2026-10-13 11:52:05,839 persona=rocko intencion=desconocido confianza=0.31
+2026-10-13 11:52:10,282 Processing audio with duration 00:01.760
+2026-10-13 11:52:10,847 texto='Hola Thonny' persona=cristian puntaje=0.203 aceptado=True
+2026-10-13 11:52:10,847 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:52:14,922 Processing audio with duration 00:02.048
+2026-10-13 11:52:15,375 texto='Encender Ventilador' persona=cristian puntaje=1.000 aceptado=True
+2026-10-13 11:52:15,379 persona=cristian intencion=prender_ventilador confianza=0.54
+2026-10-13 11:52:19,649 Processing audio with duration 00:01.600
+2026-10-13 11:52:23,329 Processing audio with duration 00:02.816
+2026-10-13 11:52:24,046 texto='Hola Thonny, apagar ventilador' persona=johan puntaje=0.092 aceptado=True
+2026-10-13 11:52:24,048 persona=johan intencion=apagar_ventilador confianza=0.95
+2026-10-13 11:52:27,011 Processing audio with duration 00:00.832
+2026-10-13 11:52:27,475 texto='Hola Thonny' persona=johan puntaje=0.039 aceptado=True
+2026-10-13 11:52:27,475 persona=johan intencion=None confianza=0.00
+2026-10-13 11:52:33,830 Processing audio with duration 00:01.984
+2026-10-13 11:52:34,258 texto='Encendé el bombillo' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:52:34,261 persona=johan intencion=prender_bombillo confianza=0.93
+2026-10-13 11:52:40,740 Processing audio with duration 00:02.624
+2026-10-13 11:52:41,463 texto='Hola Thonny, apagar bombillo' persona=johan puntaje=0.192 aceptado=True
+2026-10-13 11:52:41,467 persona=johan intencion=apagar_bombillo confianza=0.82
+2026-10-13 11:52:44,930 Processing audio with duration 00:01.792
+2026-10-13 11:52:48,203 Processing audio with duration 00:02.720
+2026-10-13 11:52:48,939 texto='Hola Thonny, encender plancha' persona=johan puntaje=0.077 aceptado=True
+2026-10-13 11:52:48,941 persona=johan intencion=prender_plancha confianza=0.90
+2026-10-13 11:52:53,031 Processing audio with duration 00:01.088
+2026-10-13 11:52:58,949 Processing audio with duration 00:02.592
+2026-10-13 11:52:59,619 texto='Hola Thonny a pagar plancha' persona=johan puntaje=0.112 aceptado=True
+2026-10-13 11:52:59,623 persona=johan intencion=apagar_plancha confianza=0.90
+2026-10-13 11:53:05,381 Processing audio with duration 00:02.816
+2026-10-13 11:53:06,086 texto='Hola Thonny en Sendercautini' persona=johan puntaje=0.048 aceptado=True
+2026-10-13 11:53:06,088 persona=johan intencion=desconocido confianza=0.40
+2026-10-13 11:53:10,370 Processing audio with duration 00:01.536
+2026-10-13 11:53:10,891 texto='Hola Thonny' persona=johan puntaje=0.126 aceptado=True
+2026-10-13 11:53:10,891 persona=johan intencion=None confianza=0.00
+2026-10-13 11:53:14,924 Processing audio with duration 00:02.240
+2026-10-13 11:53:15,356 texto='Encender cautín' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:53:15,359 persona=johan intencion=prender_cautin confianza=0.50
+2026-10-13 11:53:20,771 Processing audio with duration 00:02.272
+2026-10-13 11:53:24,364 Processing audio with duration 00:00.896
+2026-10-13 11:53:30,151 Processing audio with duration 00:01.440
+2026-10-13 11:53:30,679 texto='Hola Thonny' persona=johan puntaje=0.453 aceptado=True
+2026-10-13 11:53:30,679 persona=johan intencion=None confianza=0.00
+2026-10-13 11:53:34,414 Processing audio with duration 00:01.952
+2026-10-13 11:53:34,899 texto='Enciende el cautín' persona=johan puntaje=1.000 aceptado=True
+2026-10-13 11:53:34,902 persona=johan intencion=prender_cautin confianza=0.94
+2026-10-13 11:53:43,272 Processing audio with duration 00:04.832
+2026-10-13 11:53:47,171 Processing audio with duration 00:03.296
+2026-10-13 11:53:47,838 texto='Hola Thonny' persona=johan puntaje=0.085 aceptado=True
+2026-10-13 11:53:47,838 persona=johan intencion=None confianza=0.00
+2026-10-13 11:53:51,405 Processing audio with duration 00:01.856
+2026-10-13 11:53:52,637 texto='Hola Thonny, bienvenidos al canal de Thonny Channel' persona=cristian puntaje=0.421 aceptado=True
+2026-10-13 11:53:52,640 persona=cristian intencion=desconocido confianza=0.52
+2026-10-13 11:53:57,062 Processing audio with duration 00:02.208
+2026-10-13 11:54:05,512 Processing audio with duration 00:08.000
+2026-10-13 11:54:08,102 Processing audio with duration 00:01.632
+2026-10-13 11:54:16,496 Processing audio with duration 00:08.000
+2026-10-13 11:54:19,143 Processing audio with duration 00:01.696
+2026-10-13 11:54:23,536 Processing audio with duration 00:03.936
+2026-10-13 11:54:27,856 Processing audio with duration 00:03.648
+2026-10-13 11:54:36,263 Processing audio with duration 00:08.000
+2026-10-13 11:54:39,855 Processing audio with duration 00:02.656
+2026-10-13 11:54:44,016 Processing audio with duration 00:01.728
+2026-10-13 11:54:47,623 Processing audio with duration 00:01.856
+2026-10-13 11:54:48,225 texto='Bienvenidos al canal de Thonny' persona=cristian puntaje=0.031 aceptado=True
+2026-10-13 11:54:48,225 persona=cristian intencion=None confianza=0.00
+2026-10-13 11:54:51,914 Processing audio with duration 00:01.856
+2026-10-13 11:54:52,528 texto='Buenas noches, amiguitos míos.' persona=cristian puntaje=1.000 aceptado=True
+2026-10-13 11:54:52,531 persona=cristian intencion=saludo confianza=0.90
+2026-10-13 11:54:55,697 Processing audio with duration 00:00.928

@@ -1,0 +1,15 @@
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.8.0
+torchaudio==2.8.0
+faster-whisper
+silero-vad
+speechbrain
+scikit-learn
+rapidfuzz
+pydub
+sounddevice
+soundfile
+pyyaml
+gTTS
+matplotlib
+pyserial

@@ -1,0 +1,75 @@
+{
+  "fecha": "2026-10-11T21:43:32",
+  "modo": "completo",
+  "tts": {
+    "arquitectura": "F5TTS_Base",
+    "repo": "jpgallegoar/F5-Spanish",
+    "checkpoint": "model_1250000.safetensors",
+    "vocab": "vocab.txt",
+    "nfe_step": 32,
+    "velocidad": 1.0,
+    "semilla": 42,
+    "sample_rate_salida": 16000,
+    "intentos": 5,
+    "inteligibilidad_min": 95,
+    "nombre_pronunciable": "Toni"
+  },
+  "tiempo_carga_s": 19.6,
+  "vram_libre_inicio_mb": 5161,
+  "vram_pico_torch_mb": 766,
+  "generados": [
+    {
+      "hablante": "cristian",
+      "clave": "que_necesitas",
+      "texto": "Dime, ¿qué necesitas?",
+      "semilla": 43,
+      "inteligibilidad": 100,
+      "transcripcion": "Dime qué necesitas.",
+      "intentos": [
+        {
+          "semilla": 42,
+          "inteligibilidad": 94,
+          "transcripcion": "¿De qué necesitas?"
+        },
+        {
+          "semilla": 43,
+          "inteligibilidad": 100,
+          "transcripcion": "Dime qué necesitas."
+        }
+      ],
+      "salida": "voces\\cristian\\que_necesitas.wav"
+    },
+    {
+      "hablante": "johan",
+      "clave": "que_necesitas",
+      "texto": "Dime, ¿qué necesitas?",
+      "semilla": 42,
+      "inteligibilidad": 100,
+      "transcripcion": "Dime, ¿qué necesitas?",
+      "intentos": [
+        {
+          "semilla": 42,
+          "inteligibilidad": 100,
+          "transcripcion": "Dime, ¿qué necesitas?"
+        }
+      ],
+      "salida": "voces\\johan\\que_necesitas.wav"
+    },
+    {
+      "hablante": "rocko",
+      "clave": "que_necesitas",
+      "texto": "Dime, ¿qué necesitas?",
+      "semilla": 42,
+      "inteligibilidad": 100,
+      "transcripcion": "Dime, ¿Qué necesitas?",
+      "intentos": [
+        {
+          "semilla": 42,
+          "inteligibilidad": 100,
+          "transcripcion": "Dime, ¿Qué necesitas?"
+        }
+      ],
+      "salida": "voces\\rocko\\que_necesitas.wav"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "fecha": "2026-10-13T09:49:34",
+  "experimento": "E4",
+  "clasificador": "reglog",
+  "umbral_val": 0.6415,
+  "clips_train": {
+    "miembros": 460,
+    "ajenos": 3192
+  }
+}

@@ -1,0 +1,150 @@
+# Configuración de Thonny. Nada de esto va quemado en el código.
+
+# Las 3 personas autorizadas (nombre = carpeta en datos/crudos/)
+hablantes: [cristian, johan, rocko]
+
+esp32:
+  host: 10.40.23.131        # IP en U-SIGLOXXI (también puede ser thonny.local)
+  puerto_audio: 5000
+  puerto_control: 5001
+  sample_rate: 16000
+  # Por cable USB (puerto "UART" de la placa, chip CH343)
+  puerto_serie: COM12
+  baudios: 921600
+  firmware: micropython     # micropython (firmware/micropython) o arduino (firmware/thonny_esp32)
+
+whisper:
+  modelo: medium            # bajar a "small" si va lento o no cabe en VRAM
+  compute_type: int8_float16
+  idioma: es
+  dispositivo: cuda
+  initial_prompt: "Hola Thonny"
+  beam_size: 5
+
+activacion:
+  frase: "Hola Thonny"
+  # Cómo puede transcribir Whisper la palabra "Thonny" (texto ya normalizado)
+  variantes: [thonny, thony, tonny, tony, toni, tonni, tommy, tomy, tome, tom]
+  similitud_variante: 80    # rapidfuzz ratio mínimo para contar una palabra como "thonny"
+
+intenciones:
+  modelo: modelos/intenciones.joblib
+  umbral_confianza: 0.5      # por debajo => "No te entendí"
+  folds: 5
+  C: 10                      # regularización de la regresión logística
+
+particion:
+  semilla: 0
+  val_fraccion: 0.2
+  # Quien no tiene Audio 5 (rocko) aporta a test estas partes, que nunca entran a train:
+  sin_audio5:
+    audio2_ultimas: 5        # últimas activaciones del Audio 2
+    audio3_desde: 17         # clips del Audio 3 desde este n ("Hola Thonny, <comando>")
+  ajenos_test_por_sexo: 3    # hablantes públicos completos que el modelo nunca oye
+  ajenos_val_por_sexo: 3
+  ajenos_max_clips: 30       # frases por hablante público
+
+ajenos:
+  # Canal tipo WhatsApp para las voces públicas (cada hablante usa uno, alternando)
+  canales:
+    - {nombre: opus_whatsapp, codec: libopus, bitrate: 24k, sr: 48000, ext: ogg}
+    - {nombre: aac_celular, codec: aac, bitrate: 48k, sr: 48000, ext: m4a}
+  # Lo que dicen los impostores sintéticos (pc/generar_impostores.py)
+  frases_impostor:
+    - Hola Thonny
+    - Hola Thonny, prende la luz
+    - Hola Thonny, apaga el ventilador
+    - Hola Thonny, prende el cautín
+    - Hola Thonny, apaga la plancha
+    - Hola Thonny
+    - Hola Thonny, prende la plancha
+    - Hola Thonny, apaga la luz
+
+verificacion:
+  # Modelo que usa Thonny (pc/entrenar_hablante.py)
+  modelo_final:
+    experimento: E4
+    clasificador: reglog
+    archivo: modelos/hablante.joblib
+  # Umbral en vivo: null = el escogido con val. Si en la demo rechaza a uno de los 3, bájalo
+  # (p. ej. 0.4); si acepta a un extraño, súbelo. Thonny imprime el puntaje de cada frase.
+  # Micrófono del portátil: los miembros sacaron 0.035-0.42 y voces ajenas 0.008-0.03
+  # (otro canal que el del entrenamiento)
+  umbral_thonny: 0.03
+  # false: tras "Hola Thonny" (verificado), el comando de los 6 s siguientes no se vuelve a
+  # verificar. Con el micrófono del portátil los comandos cortos daban puntajes muy bajos.
+  verificar_comando: false
+  clasificadores: [coseno, reglog]
+  C_reglog: 1.0
+  criterio_umbral: eer       # eer: FAR = FRR en val | far: el menor umbral con FAR <= far_objetivo en val
+  far_objetivo: 0.01
+  # E4: aumentos (a miembros y ajenos por igual)
+  n_aumentos: 3
+  snr_db: [10, 25]
+  ganancia_db: [-12, 6]
+  canal_hz: [200, 5000]      # pasa-banda que simula parlante -> micrófono
+  reverb_s: [0.1, 0.4]
+
+hablante:
+  modelo: speechbrain/spkrec-ecapa-voxceleb
+  carpeta: modelos/ecapa    # copia local del modelo (fuera de git)
+  dispositivo: cpu
+
+tts:
+  # F5-TTS (venv aparte: C:\Users\duvan\venvs\thonny-tts). Nunca al mismo tiempo que Thonny.
+  arquitectura: F5TTS_Base          # el checkpoint en español usa la arquitectura original
+  repo: jpgallegoar/F5-Spanish
+  checkpoint: model_1250000.safetensors
+  vocab: vocab.txt
+  nfe_step: 32                      # bajar (p. ej. 16) si va lento o no cabe en VRAM
+  velocidad: 1.0
+  semilla: 42
+  sample_rate_salida: 16000         # lo que reproduce la ESP32
+  intentos: 5                       # semillas a probar por frase si Whisper no la entiende
+  inteligibilidad_min: 95           # 0-100, Whisper vs texto pedido
+  nombre_pronunciable: Toni         # cómo se escribe "Thonny" en los textos para la síntesis
+
+preparacion:
+  sample_rate: 16000
+  # Corte por silencios (pydub)
+  silencio_min_ms: 600        # pausa mínima que separa dos tramos
+  umbral_silencio_db: -16     # relativo al volumen medio del archivo
+  margen_tramo_s: 0.3         # se agrega a cada tramo antes de transcribirlo
+  # En audios de "Hola Thonny" repetido, los tramos largos se parten por micro-pausas
+  subdividir_s: 2.5
+  sub_silencio_ms: 120
+  sub_umbral_db: -8           # relativo al volumen del tramo
+  # Cortes finales de cada clip
+  margen_inicio_s: 0.15
+  margen_fin_s: 0.2
+  busqueda_valle_s: 0.25      # entre frases pegadas se corta en el valle de energía, +-esto
+  duracion_min_s: 0.4         # clips más cortos se descartan
+  # Normalización de volumen de cada clip
+  volumen_objetivo_dbfs: -20
+  pico_max_dbfs: -1
+  # Control de calidad
+  similitud_min: 60           # texto esperado vs transcrito (0-100); menos => revisar
+  similitud_clip_min: 70      # el clip ya cortado, transcrito solo; menos => revisar
+  cobertura_min: 0.5          # fracción de palabras esperadas encontradas; menos => revisar
+  similitud_palabra: 70       # para emparejar palabra esperada con palabra reconocida
+  separacion_grupo_s: 1.5     # palabras de una misma frase no se separan más que esto
+  habla_libre_max_s: 8        # el habla libre se corta en trozos de hasta esto
+  # Alucinaciones típicas de Whisper en ruido o silencio (texto normalizado)
+  alucinaciones: ["gracias por ver", "suscribete", "nos vemos en el proximo", "subtitulos"]
+  no_speech_max: 0.6
+  compresion_max: 2.4
+
+rutas:
+  datos: datos
+  crudos: datos/crudos
+  clips_celular: datos/clips/celular
+  clips_microfono: datos/clips/microfono
+  clips_csv: datos/clips.csv
+  guion: guion_audios.yaml
+  respuestas: respuestas.yaml
+  referencia_tts: datos/referencia_tts
+  # Voces ajenas públicas: OpenSLR SLR72, español colombiano (CC BY-SA 4.0). Fuera de OneDrive.
+  dataset_ajenos: C:/Users/duvan/datasets/slr72
+  resultados: resultados
+  voces: voces
+  wav_prueba: datos/prueba_entorno.wav   # lo genera verificar_entorno.py si no existe

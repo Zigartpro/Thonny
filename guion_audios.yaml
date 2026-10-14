@@ -1,0 +1,107 @@
+# Qué dice cada audio crudo, en orden. Lo usa pc/preparar_audios.py para nombrar los clips.
+#
+# modos:
+#   frases      lista de frases en orden. Una frase que empieza con "Hola Thonny," se separa
+#               en dos clips: activacion + comando.
+#   repetir     el mismo texto `veces` veces (cantidad fija).
+#   ocurrencias el mismo texto repetido; se extraen todas las que aparezcan (`esperadas` es
+#               solo para el reporte).
+#   pares       "Hola Thonny" + pausa + comando, para cada comando de la lista.
+# habla_libre: true  => lo que venga después de la última frase se corta en trozos tipo libre.
+
+miembro:
+  audio1:
+    modo: repetir
+    tipo_frase: libre
+    veces: 3
+    texto: >-
+      Hola, soy Thonny, el asistente de voz de este proyecto. Puedo prender y apagar el
+      bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.
+  audio2:
+    modo: ocurrencias
+    tipo_frase: activacion
+    texto: Hola Thonny
+    esperadas: 15
+  audio3:
+    modo: frases
+    tipo_frase: comando
+    frases:
+      - Prende el bombillo
+      - Enciende la luz
+      - Apaga el bombillo
+      - Apaga la luz
+      - Prende el ventilador
+      - Enciende el ventilador
+      - Apaga el ventilador
+      - Ya apaga el ventilador
+      - Prende el cautín
+      - Enciende el cautín
+      - Apaga el cautín
+      - Desconecta el cautín
+      - Prende la plancha
+      - Enciende la plancha de cabello
+      - Apaga la plancha
+      - Desconecta la plancha de cabello
+      - Hola Thonny, prende la luz
+      - Hola Thonny, apaga el ventilador
+      - Hola Thonny, prende el cautín
+      - Hola Thonny, apaga la plancha
+  audio4:
+    modo: frases
+    tipo_frase: libre
+    habla_libre: true
+    frases:
+      - Buenos días, ¿cómo amaneciste hoy?
+      - Mañana tengo clase temprano y todavía no he terminado el trabajo
+      - El perro del vecino ladró toda la noche
+      - Me gusta el café con pan pero sin azúcar
+      - ¿Qué hora es? Creo que ya vamos tarde
+      - Ayer llovió tanto que la calle quedó inundada
+      - Necesito comprar arroz, huevos, leche y plátanos
+      - Ese partido estuvo muy bueno, ganamos 3 a 1
+  audio5:
+    modo: pares
+    comandos:
+      - prende la luz
+      - apaga la luz
+      - prende el ventilador
+      - apaga el ventilador
+      - prende el cautín
+      - apaga el cautín
+      - prende la plancha
+      - apaga la plancha
+
+# Grabación en vivo directo al INMP441 (pc/grabar_en_vivo.py). Cada frase es una grabación
+# de 3 s; `indicacion` es cómo decirla.
+vivo:
+  miembro:
+    - {texto: Hola Thonny, indicacion: normal}
+    - {texto: Hola Thonny, indicacion: más duro}
+    - {texto: Hola Thonny, indicacion: más bajito}
+    - {texto: Hola Thonny, indicacion: lejos del micrófono (a un brazo)}
+    - {texto: "Hola Thonny, prende la luz", indicacion: de corrido}
+    - {texto: "Hola Thonny, apaga el ventilador", indicacion: de corrido}
+  ajeno:
+    - {texto: Hola Thonny, indicacion: normal}
+    - {texto: Hola Thonny, indicacion: normal}
+    - {texto: Hola Thonny, indicacion: más duro}
+    - {texto: Hola Thonny, indicacion: más bajito}
+    - {texto: Hola Thonny, indicacion: lejos del micrófono (a un brazo)}
+    - {texto: "Hola Thonny, prende la luz", indicacion: de corrido}
+    - {texto: "Hola Thonny, apaga el ventilador", indicacion: de corrido}
+    - {texto: "Hola Thonny, prende el cautín", indicacion: de corrido}
+    - {texto: "Hola Thonny, apaga la plancha", indicacion: de corrido}
+
+ajeno:
+  audio1:
+    modo: ocurrencias
+    tipo_frase: activacion
+    texto: Hola Thonny
+    esperadas: 15
+  audio2:
+    modo: pares
+    comandos:
+      - prende la luz
+      - apaga el ventilador
+      - prende el cautín
+      - apaga la plancha

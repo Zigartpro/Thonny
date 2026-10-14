@@ -1,0 +1,232 @@
+Archivos ignorados (el nombre no es audio<N>.<ext>):
+  datos\crudos\cristian\audio2_viejo.ogg
+  datos\crudos\johan\audio2_viejo.mp4
+
+audio                        método       esperadas  clips  revisar  faltan
+cristian/audio1.ogg          alineacion           3      1        0       2
+    no encontrada -> 1: Hola, soy Thonny, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.
+    no encontrada -> 2: Hola, soy Thonny, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.
+    01   0.00- 10.47s libre      sim  99  Hola, soy Thonny, el asistente de voz de | Hola soy Tommy el asistente voz de este proyecto p 
+cristian/audio2.ogg          ocurrencias         15     18        3       0
+    01   0.00-  1.81s activacion sim 100  Hola Thonny                              | Hola Tommy 
+    02   2.24-  3.80s activacion sim 100  Hola Thonny                              | Hola Tommy. 
+    03   5.01-  6.50s activacion sim 100  Hola Thonny                              | Hola Tommy 
+    04   7.69-  9.15s activacion sim 100  Hola Thonny                              | Hola Tommy 
+    05   9.18- 11.50s activacion sim 100  Hola Thonny                              | Hola, Tommy, 
+    06  11.57- 12.18s activacion sim  53  Hola Thonny                              | hola REVISAR
+    07  13.26- 14.80s activacion sim  92  Hola Thonny                              | hola a tome 
+    08  15.18- 17.08s activacion sim 100  Hola Thonny                              | hola Tomé. 
+    09  17.88- 20.12s activacion sim  53  Hola Thonny                              | hola REVISAR
+    10  20.34- 21.50s activacion sim 100  Hola Thonny                              | hola Tommy, 
+    11  21.50- 22.20s activacion sim 100  Hola Thonny                              | hola Tommy, 
+    12  22.26- 23.39s activacion sim 100  Hola Thonny                              | hola Tommy 
+    13  23.42- 24.54s activacion sim 100  Hola Thonny                              | Hola Tommy 
+    14  25.31- 27.37s activacion sim  62  Hola Thonny                              | ¡Hola! ¡También no! REVISAR
+    15  27.55- 29.51s activacion sim 100  Hola Thonny                              | Hola Tommy 
+    16  29.73- 31.81s activacion sim 100  Hola Thonny                              | Hola Tommy 
+    17  31.93- 33.32s activacion sim 100  Hola Thonny                              | Hola Tommy 
+    18  33.63- 35.15s activacion sim 100  Hola Thonny                              | ¡Hola Tommy! 
+    revisar cristian_a2_06.wav: esperado 'Hola Thonny' | clip solo: 'Hola' (53)
+    revisar cristian_a2_09.wav: esperado 'Hola Thonny' | clip solo: 'hola' (53)
+    revisar cristian_a2_14.wav: esperado 'Hola Thonny' | clip solo: '¡Hola, Tommy!' (100)
+cristian/audio3.ogg          alineacion          24     24        0       0
+    01   0.00-  1.56s comando    sim 100  Prende el bombillo                       | Prende el bombillo. 
+    02   2.04-  3.37s comando    sim  93  Enciende la luz                          | Encienda la luz. 
+    03   3.69-  5.67s comando    sim 100  Apaga el bombillo                        | apaga el bombillo 
+    04   5.95-  7.46s comando    sim 100  Apaga la luz                             | Apaga la luz. 
+    05   8.06-  9.69s comando    sim 100  Prende el ventilador                     | Prende el ventilador. 
+    06   9.77- 13.14s comando    sim  88  Enciende el ventilador                   | Enciende el ventilador, apaga 
+    07  13.14- 15.13s comando    sim  81  Apaga el ventilador                      | el ventilador, 
+    08  15.13- 16.68s comando    sim 100  Ya apaga el ventilador                   | ya apaga el ventilador 
+    09  16.99- 18.82s comando    sim  94  Prende el cautín                         | prende el caudín. 
+    10  19.13- 21.10s comando    sim  97  Enciende el cautín                       | Enciende el caoutín 
+    11  21.43- 22.83s comando    sim  70  Apaga el cautín                          | Apaga el 
+    12  23.91- 25.78s comando    sim  90  Desconecta el cautín                     | desconecte el caudín. 
+    13  26.09- 27.81s comando    sim  97  Prende la plancha                        | Prended la plancha. 
+    14  27.81- 30.49s comando    sim 100  Enciende la plancha de cabello           | Enciende la plancha de cabello. 
+    15  30.91- 32.73s comando    sim  97  Apaga la plancha                         | apagar la plancha 
+    16  32.77- 34.94s comando    sim  97  Desconecta la plancha de cabello         | desconecte la plancha de cabello 
+    17  35.12- 36.34s activacion sim 100  Hola Thonny                              | Hola Tommy, 
+    18  36.43- 37.56s comando    sim 100  prende la luz                            | prende la luz. 
+    19  37.63- 38.51s activacion sim 100  Hola Thonny                              | Hola Tommy, 
+    20  38.59- 40.02s comando    sim 100  apaga el ventilador                      | apaga el ventilador. 
+    21  40.09- 40.96s activacion sim 100  Hola Thonny                              | Hola Tommy. 
+    22  41.23- 42.94s comando    sim  70  prende el cautín                         | Prenda el cotino. Hola 
+    23  42.94- 43.79s activacion sim  71  Hola Thonny                              | Tommy, 
+    24  43.83- 44.93s comando    sim 100  apaga la plancha                         | apaga la plancha. 
+    revisar cristian_a3_06.wav: esperado 'Enciende el ventilador' | clip solo: 'Enciende el ventilador. Apaga el ventilador.' (69)
+    revisar cristian_a3_11.wav: esperado 'Apaga el cautín' | clip solo: 'apaga y...' (55)
+    revisar cristian_a3_22.wav: esperado 'prende el cautín' | clip solo: 'presenta El Cotin, hola' (63)
+    revisar cristian_a3_23.wav: esperado 'Hola Thonny' | clip solo: '' (0)
+    -> tras el control final quedan 4 clips para revisar
+cristian/audio4.ogg          alineacion           8      8        0       0
+    01   0.00-  2.52s libre      sim 100  Buenos días, ¿cómo amaneciste hoy?       | Buenos días, ¿Cómo amaneciste hoy? 
+    02   3.01-  7.34s libre      sim  98  Mañana tengo clase temprano y todavía no | mañana tengo clase temprano y todavía no ha termin 
+    03   7.94- 11.09s libre      sim 100  El perro del vecino ladró toda la noche  | El perro del vecino ladró toda la noche. 
+    04  11.51- 14.90s libre      sim 100  Me gusta el café con pan pero sin azúcar | Me gusta el café con pan, pero sin azúcar. 
+    05  15.14- 18.69s libre      sim 100  ¿Qué hora es? Creo que ya vamos tarde    | ¿Qué hora es? Creo que ya vamos tarde. 
+    06  19.03- 25.25s libre      sim  95  Ayer llovió tanto que la calle quedó inu | Ayer llovió tanto que la calle se quedó Inundara. 
+    07  25.71- 30.64s libre      sim 100  Necesito comprar arroz, huevos, leche y  | necesito comprar arroz, huevos, leche y plátanos 
+    08  31.23- 35.59s libre      sim 100  Ese partido estuvo muy bueno, ganamos 3  | Ese partido estuvo muy bueno, ganamos 3 a 1. 
+cristian/audio5.ogg          alineacion          16     16        0       0
+    01   0.00-  1.02s activacion sim 100  Hola Thonny                              | Hola Tom, 
+    02   1.11-  1.98s comando    sim 100  prende la luz                            | prende la luz. 
+    03   3.18-  4.68s activacion sim 100  Hola Thonny                              | Hola Tommy, 
+    04   4.68-  5.61s comando    sim 100  apaga la luz                             | apaga la luz. 
+    05   6.84-  8.03s activacion sim 100  Hola Thonny                              | ¡Hola Tommy! 
+    06   8.25-  9.47s comando    sim  75  prende el ventilador                     | Prende el bantillaje. 
+    07  10.99- 12.30s activacion sim 100  Hola Thonny                              | Hola Tommy, 
+    08  12.37- 13.60s comando    sim 100  apaga el ventilador                      | apaga el ventilador 
+    09  14.99- 16.36s activacion sim 100  Hola Thonny                              | Hola Tommy, 
+    10  16.45- 17.51s comando    sim  81  prende el cautín                         | prenda el cotino 
+    11  19.09- 20.48s activacion sim 100  Hola Thonny                              | Hola Tommy, 
+    12  20.48- 21.59s comando    sim  97  apaga el cautín                          | apaga el caoutín 
+    13  23.08- 25.09s activacion sim 100  Hola Thonny                              | Hola Tommy, 
+    14  25.13- 26.23s comando    sim 100  prende la plancha                        | prende la plancha 
+    15  27.55- 29.52s activacion sim  67  Hola Thonny                              | Hola Tommy, a parar la 
+    16  29.56- 30.19s comando    sim  61  apaga la plancha                         | plancha 
+    revisar cristian_a5_01.wav: esperado 'Hola Thonny' | clip solo: 'Hola a todos.' (61)
+    revisar cristian_a5_11.wav: esperado 'Hola Thonny' | clip solo: 'Hola a todos.' (61)
+    revisar cristian_a5_14.wav: esperado 'prende la plancha' | clip solo: '¡A la prancha!' (69)
+    revisar cristian_a5_16.wav: esperado 'apaga la plancha' | clip solo: 'Francia.' (35)
+    -> tras el control final quedan 4 clips para revisar
+johan/audio1.mp4             alineacion           3      3        0       0
+    01   0.66- 10.99s libre      sim 100  Hola, soy Thonny, el asistente de voz de | Hola, soy Tony el asistente de voz de este proyect 
+    02  12.15- 21.77s libre      sim 100  Hola, soy Thonny, el asistente de voz de | Hola, soy Tony, el asistente de voz de este proyec 
+    03  22.54- 33.78s libre      sim 100  Hola, soy Thonny, el asistente de voz de | Hola soy Tony el asistente de voz de este proyecto 
+johan/audio2.mp4             ocurrencias         15     15        1       0
+    01   3.29-  4.62s activacion sim 100  Hola Thonny                              | Hola Tony, 
+    02   4.69-  5.48s activacion sim 100  Hola Thonny                              | Hola Tony 
+    03   5.66-  6.75s activacion sim 100  Hola Thonny                              | Hola Tony. 
+    04   8.39-  9.79s activacion sim 100  Hola Thonny                              | Hola Tony, 
+    05   9.85- 10.72s activacion sim 100  Hola Thonny                              | Hola Tony 
+    06  10.79- 11.83s activacion sim 100  Hola Thonny                              | Hola Tony 
+    07  13.35- 14.80s activacion sim 100  Hola Thonny                              | hola Tony, 
+    08  14.89- 15.72s activacion sim 100  Hola Thonny                              | hola Tony 
+    09  15.93- 16.86s activacion sim 100  Hola Thonny                              | ¿Hola, Tony? 
+    10  18.18- 19.32s activacion sim  81  Hola Thonny                              | Hola Toni, hola 
+    11  19.32- 19.82s activacion sim  55  Hola Thonny                              | Toni, hola REVISAR
+    12  19.82- 20.33s activacion sim  71  Hola Thonny                              | Toni 
+    13  22.33- 23.52s activacion sim 100  Hola Thonny                              | ¡Hola Tony! 
+    14  23.80- 24.73s activacion sim 100  Hola Thonny                              | Hola, Tony. 
+    15  25.47- 26.18s activacion sim 100  Hola Thonny                              | ¡Hola Tony! 
+    revisar johan_a2_10.wav: esperado 'Hola Thonny' | clip solo: '¡Hola, Tony! ¡Hola, Tony!' (65)
+    revisar johan_a2_11.wav: esperado 'Hola Thonny' | clip solo: '' (0)
+    revisar johan_a2_12.wav: esperado 'Hola Thonny' | clip solo: '' (0)
+    -> tras el control final quedan 3 clips para revisar
+johan/audio3.mp4             alineacion          24     24        0       0
+    01   1.18-  2.63s comando    sim 100  Prende el bombillo                       | ¡Prende el bombillo! 
+    02   3.82-  5.19s comando    sim 100  Enciende la luz                          | Enciende la luz. 
+    03   6.25-  7.71s comando    sim 100  Apaga el bombillo                        | APAGA EL BOMBILLO 
+    04   8.30-  9.77s comando    sim 100  Apaga la luz                             | Apaga la luz. 
+    05  10.88- 12.16s comando    sim 100  Prende el ventilador                     | Prende el ventilador. 
+    06  12.54- 14.43s comando    sim 100  Enciende el ventilador                   | enciende el ventilador. 
+    07  15.07- 16.50s comando    sim 100  Apaga el ventilador                      | Apaga el ventilador. 
+    08  17.35- 19.18s comando    sim 100  Ya apaga el ventilador                   | ya apaga el ventilador 
+    09  21.32- 22.89s comando    sim 100  Prende el cautín                         | Prende el cautín. 
+    10  23.35- 24.80s comando    sim 100  Enciende el cautín                       | enciende el cautín. 
+    11  25.38- 26.77s comando    sim  93  Apaga el cautín                          | Apaga el caudín. 
+    12  26.90- 28.97s comando    sim 100  Desconecta el cautín                     | Desconecta el cautín 
+    13  29.58- 30.81s comando    sim 100  Prende la plancha                        | ¡Prende la plancha! 
+    14  31.36- 33.52s comando    sim 100  Enciende la plancha de cabello           | enciende la plancha de cabello. 
+    15  34.02- 35.65s comando    sim 100  Apaga la plancha                         | Apaga la plancha. 
+    16  36.63- 38.54s comando    sim 100  Desconecta la plancha de cabello         | desconecta la plancha de cabello. 
+    17  39.38- 41.01s activacion sim  85  Hola Thonny                              | Hola, soy Tony. 
+    18  41.32- 42.31s comando    sim 100  prende la luz                            | ¡Prende la luz! 
+    19  42.94- 44.40s activacion sim  85  Hola Thonny                              | Hola, soy Tony. 
+    20  44.45- 45.68s comando    sim 100  apaga el ventilador                      | Apaga el ventilador. 
+    21  46.08- 47.28s activacion sim  85  Hola Thonny                              | Hola, soy Tony. 
+    22  47.56- 48.74s comando    sim 100  prende el cautín                         | Prende el cautín. 
+    23  49.28- 50.55s activacion sim  85  Hola Thonny                              | Hola, soy Tony. 
+    24  50.64- 51.63s comando    sim 100  apaga la plancha                         | Apaga la plancha. 
+johan/audio4.mp4             alineacion           8     13        0       0
+    01   0.51-  2.76s libre      sim 100  Buenos días, ¿cómo amaneciste hoy?       | Buenos días, ¿cómo amaneciste hoy? 
+    02   4.39-  8.14s libre      sim  99  Mañana tengo clase temprano y todavía no | Mañana tengo clases temprano y todavía no he termi 
+    03   9.11- 11.88s libre      sim 100  El perro del vecino ladró toda la noche  | El perro del vecino ladro toda la noche. 
+    04  12.89- 15.40s libre      sim 100  Me gusta el café con pan pero sin azúcar | Me gusta el café con pan pero sin azúcar. 
+    05  16.26- 20.03s libre      sim 100  ¿Qué hora es? Creo que ya vamos tarde    | ¿Qué hora es? Creo que ya vamos tarde. 
+    06  20.75- 23.50s libre      sim 100  Ayer llovió tanto que la calle quedó inu | Ayer llovió tanto que la calle quedó inundada. 
+    07  23.98- 27.93s libre      sim 100  Necesito comprar arroz, huevos, leche y  | necesito comprar arroz, huevos, leche y plátanos. 
+    08  28.72- 32.21s libre      sim 100  Ese partido estuvo muy bueno, ganamos 3  | Ese partido estuvo muy bueno, ganamos 3 a 1. 
+    09  33.53- 40.32s libre      sim 100  (habla libre)                            | el día de hoy me levanté hice mi desayuno, organiz 
+    10  41.26- 43.76s libre      sim 100  (habla libre)                            | saludé a mis familiares. 
+    11  44.24- 52.26s libre      sim 100  (habla libre)                            | enseguida me alisté. ¿Me oyes? y para ese día... a 
+    12  52.31- 56.18s libre      sim 100  (habla libre)                            | fui a trabajar y llevo trabajando todo el día. 
+    13  56.85- 58.47s libre      sim 100  (habla libre)                            | hasta el momento. 
+johan/audio5.mp4             silencio            16     16        0       0
+    01   2.23-  3.02s activacion sim  61  Hola Thonny                              | hola a todos 
+    02   4.52-  5.36s comando    sim 100  prende la luz                            | ¡Prende la luz! 
+    03   7.26-  8.13s activacion sim 100  Hola Thonny                              | ¡Hola Tony! 
+    04   9.40- 10.39s comando    sim 100  apaga la luz                             | Apaga la luz. 
+    05  12.04- 12.96s activacion sim 100  Hola Thonny                              | ¿Hola Tony? 
+    06  14.82- 15.97s comando    sim 100  prende el ventilador                     | Prende el ventilador. 
+    07  17.58- 18.46s activacion sim 100  Hola Thonny                              | Hola Tony. 
+    08  19.94- 21.17s comando    sim 100  apaga el ventilador                      | Apaga el ventilador. 
+    09  22.85- 23.70s activacion sim 100  Hola Thonny                              | Hola Tony 
+    10  25.73- 26.76s comando    sim 100  prende el cautín                         | Prende el cautín. 
+    11  28.16- 29.01s activacion sim 100  Hola Thonny                              | Hola Tony 
+    12  30.46- 31.61s comando    sim 100  apaga el cautín                          | Apaga el Cautin. 
+    13  33.04- 33.89s activacion sim 100  Hola Thonny                              | ¿Hola Tony? 
+    14  35.49- 36.47s comando    sim 100  prende la plancha                        | Prende la plancha 
+    15  38.27- 39.13s activacion sim 100  Hola Thonny                              | Hola Tony 
+    16  40.78- 41.83s comando    sim 100  apaga la plancha                         | apaga la plancha 
+rocko/audio1.qta             alineacion           3      3        0       0
+    01   0.00- 10.62s libre      sim  99  Hola, soy Thonny, el asistente de voz de | Hola, soy Tony, el asistente de voz de este proyec 
+    02  11.45- 22.43s libre      sim 100  Hola, soy Thonny, el asistente de voz de | Hola, soy Tony, el asistente de voz de este proyec 
+    03  23.82- 33.71s libre      sim  99  Hola, soy Thonny, el asistente de voz de | Hola, soy Tony, el asistente de voz de este proyec 
+rocko/audio2.qta             ocurrencias         15     16        0       0
+    01   0.00-  1.70s activacion sim 100  Hola Thonny                              | Hola Tony, 
+    02   1.73-  2.56s activacion sim 100  Hola Thonny                              | Hola Tony 
+    03   2.75-  3.87s activacion sim 100  Hola Thonny                              | ¡Hola Tony! 
+    04   4.64-  5.61s activacion sim 100  Hola Thonny                              | ¡Hola Tony! 
+    05   7.55-  8.68s activacion sim 100  Hola Thonny                              | Hola Tony 
+    06   9.21- 10.05s activacion sim 100  Hola Thonny                              | Hola Tony. 
+    07  10.42- 11.38s activacion sim 100  Hola Thonny                              | hola Tony 
+    08  11.72- 13.39s activacion sim 100  Hola Thonny                              | hola Tony 
+    09  14.17- 15.34s activacion sim 100  Hola Thonny                              | ¡Hola Tony! 
+    10  16.74- 18.34s activacion sim 100  Hola Thonny                              | hola Tony, 
+    11  18.34- 19.09s activacion sim 100  Hola Thonny                              | hola Tony 
+    12  19.37- 20.98s activacion sim 100  Hola Thonny                              | hola Tony 
+    13  21.02- 21.79s activacion sim 100  Hola Thonny                              | hola Tony 
+    14  21.79- 22.41s activacion sim 100  Hola Thonny                              | hola Tony 
+    15  22.41- 23.40s activacion sim 100  Hola Thonny                              | Hola Tony, 
+    16  23.40- 24.08s activacion sim 100  Hola Thonny                              | hola Tony. 
+rocko/audio3.qta             alineacion          24     24        0       0
+    01   0.00-  3.01s comando    sim  97  Prende el bombillo                       | prender el bombillo, 
+    02   3.01-  4.07s comando    sim 100  Enciende la luz                          | enciende la luz 
+    03   4.43-  7.16s comando    sim 100  Apaga el bombillo                        | apaga el bombillo, 
+    04   7.23-  8.95s comando    sim 100  Apaga la luz                             | apaga la luz, 
+    05   8.95- 10.17s comando    sim 100  Prende el ventilador                     | prende el ventilador 
+    06  10.32- 12.69s comando    sim  95  Enciende el ventilador                   | Enciendo el ventilador 
+    07  13.13- 14.69s comando    sim 100  Apaga el ventilador                      | Apaga el ventilador 
+    08  14.69- 17.05s comando    sim 100  Ya apaga el ventilador                   | Ya apaga el ventilador 
+    09  17.74- 19.27s comando    sim 100  Prende el cautín                         | Prende el cautín 
+    10  19.71- 21.26s comando    sim 100  Enciende el cautín                       | enciende el cautín 
+    11  21.56- 23.78s comando    sim  88  Apaga el cautín                          | apague el caoutín, 
+    12  23.78- 24.77s comando    sim  93  Desconecta el cautín                     | desconecte el caoutín 
+    13  24.88- 27.27s comando    sim 100  Prende la plancha                        | prende la plancha, 
+    14  27.27- 28.73s comando    sim 100  Enciende la plancha de cabello           | enciende la plancha de cabello 
+    15  28.89- 31.34s comando    sim  94  Apaga la plancha                         | apaga la plancha y 
+    16  31.34- 32.91s comando    sim 100  Desconecta la plancha de cabello         | desconecta la plancha de cabello 
+    17  33.73- 34.70s activacion sim 100  Hola Thonny                              | Hola Tony, 
+    18  34.70- 36.40s comando    sim 100  prende la luz                            | prende la luz 
+    19  36.40- 37.41s activacion sim 100  Hola Thonny                              | Hola Tony, 
+    20  37.47- 38.94s comando    sim 100  apaga el ventilador                      | apaga el ventilador 
+    21  38.94- 40.00s activacion sim 100  Hola Thonny                              | Hola Tony, 
+    22  40.09- 41.73s comando    sim 100  prende el cautín                         | prende el cautín 
+    23  41.73- 42.56s activacion sim 100  Hola Thonny                              | Hola Tony, 
+    24  42.65- 44.39s comando    sim 100  apaga la plancha                         | apaga la plancha 
+    revisar rocko_a3_04.wav: esperado 'Apaga la luz' | clip solo: '' (0)
+    revisar rocko_a3_12.wav: esperado 'Desconecta el cautín' | clip solo: 'conector caudín' (69)
+    -> tras el control final quedan 2 clips para revisar
+rocko/audio4.qta             alineacion           8      8        0       0
+    01   0.00-  3.50s libre      sim 100  Buenos días, ¿cómo amaneciste hoy?       | buenos días como amaneciste hoy 
+    02   3.50-  7.78s libre      sim 100  Mañana tengo clase temprano y todavía no | mañana tengo clase temprano y todavía no he termin 
+    03   8.55- 12.06s libre      sim 100  El perro del vecino ladró toda la noche  | el perro del vecino ladro toda la noche 
+    04  12.06- 15.23s libre      sim 100  Me gusta el café con pan pero sin azúcar | me gusta el café con pan pero sin azúcar 
+    05  15.79- 19.26s libre      sim 100  ¿Qué hora es? Creo que ya vamos tarde    | ¿Qué hora es? Creo que ya vamos tarde. 
+    06  19.63- 25.62s libre      sim 100  Ayer llovió tanto que la calle quedó inu | Ayer llovió tanto que la calle quedó inundada, 
+    07  25.62- 30.16s libre      sim  99  Necesito comprar arroz, huevos, leche y  | necesito comprar arroz, huevo, leche y plátanos. 
+    08  30.25- 34.64s libre      sim  99  Ese partido estuvo muy bueno, ganamos 3  | Este partido estuvo muy bueno, ganamos 3 a 1. 
+
+189 clips -> datos\clips.csv  |  resumen -> resultados\preparar_audios.json

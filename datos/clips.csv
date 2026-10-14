@@ -1,0 +1,190 @@
+hablante,tipo,audio,n,tipo_frase,frase_esperada,duracion_s,ruta_celular,ruta_microfono,particion,transcripcion,similitud,transcripcion_clip,similitud_clip,revisar,metodo,inicio_s,fin_s
+cristian,miembro,1,1,libre,"Hola, soy Thonny, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",10.47,datos/clips/celular/cristian/cristian_a1_01.wav,,train,"Hola soy Tommy el asistente voz de este proyecto puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas",99,"Hola, soy Tommy el asistente de voz de este proyecto, puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",100,0,alineacion,0.00,10.47
+cristian,miembro,2,1,activacion,Hola Thonny,1.81,datos/clips/celular/cristian/cristian_a2_01.wav,,val,Hola Tommy,100,Hola Tommy,100,0,ocurrencias,0.00,1.81
+cristian,miembro,2,2,activacion,Hola Thonny,1.56,datos/clips/celular/cristian/cristian_a2_02.wav,,train,Hola Tommy.,100,Hola Tommy,100,0,ocurrencias,2.24,3.80
+cristian,miembro,2,3,activacion,Hola Thonny,1.49,datos/clips/celular/cristian/cristian_a2_03.wav,,train,Hola Tommy,100,Hola Tommy,100,0,ocurrencias,5.01,6.50
+cristian,miembro,2,4,activacion,Hola Thonny,1.46,datos/clips/celular/cristian/cristian_a2_04.wav,,train,Hola Tommy,100,"¡Hola, Tommy!",100,0,ocurrencias,7.69,9.15
+cristian,miembro,2,5,activacion,Hola Thonny,2.32,datos/clips/celular/cristian/cristian_a2_05.wav,,val,"Hola, Tommy,",100,Hola Tommy,100,0,ocurrencias,9.18,11.50
+cristian,miembro,2,6,activacion,Hola Thonny,0.61,datos/clips/celular/cristian/cristian_a2_06.wav,,train,hola,53,Hola,53,1,ocurrencias,11.57,12.18
+cristian,miembro,2,7,activacion,Hola Thonny,1.54,datos/clips/celular/cristian/cristian_a2_07.wav,,val,hola a tome,92,Hola Tommy,100,0,ocurrencias,13.26,14.80
+cristian,miembro,2,8,activacion,Hola Thonny,1.90,datos/clips/celular/cristian/cristian_a2_08.wav,,train,hola Tomé.,100,"Hola, Tommy.",100,0,ocurrencias,15.18,17.08
+cristian,miembro,2,9,activacion,Hola Thonny,2.24,datos/clips/celular/cristian/cristian_a2_09.wav,,train,hola,53,hola,53,1,ocurrencias,17.88,20.12
+cristian,miembro,2,10,activacion,Hola Thonny,1.16,datos/clips/celular/cristian/cristian_a2_10.wav,,train,"hola Tommy,",100,Hola Tommy,100,0,ocurrencias,20.34,21.50
+cristian,miembro,2,11,activacion,Hola Thonny,0.70,datos/clips/celular/cristian/cristian_a2_11.wav,,train,"hola Tommy,",100,Hola Tommy,100,0,ocurrencias,21.50,22.20
+cristian,miembro,2,12,activacion,Hola Thonny,1.13,datos/clips/celular/cristian/cristian_a2_12.wav,,val,hola Tommy,100,Hola Tommy,100,0,ocurrencias,22.26,23.39
+cristian,miembro,2,13,activacion,Hola Thonny,1.11,datos/clips/celular/cristian/cristian_a2_13.wav,,train,Hola Tommy,100,Hola Tommy,100,0,ocurrencias,23.42,24.54
+cristian,miembro,2,14,activacion,Hola Thonny,2.06,datos/clips/celular/cristian/cristian_a2_14.wav,,train,¡Hola! ¡También no!,62,"¡Hola, Tommy!",100,1,ocurrencias,25.31,27.37
+cristian,miembro,2,15,activacion,Hola Thonny,1.95,datos/clips/celular/cristian/cristian_a2_15.wav,,train,Hola Tommy,100,Hola Tommy,100,0,ocurrencias,27.55,29.51
+cristian,miembro,2,16,activacion,Hola Thonny,2.08,datos/clips/celular/cristian/cristian_a2_16.wav,,train,Hola Tommy,100,hola Tommy,100,0,ocurrencias,29.73,31.81
+cristian,miembro,2,17,activacion,Hola Thonny,1.39,datos/clips/celular/cristian/cristian_a2_17.wav,,train,Hola Tommy,100,Hola Tommy,100,0,ocurrencias,31.93,33.32
+cristian,miembro,2,18,activacion,Hola Thonny,1.52,datos/clips/celular/cristian/cristian_a2_18.wav,,train,¡Hola Tommy!,100,Hola Tommy,100,0,ocurrencias,33.63,35.15
+cristian,miembro,3,1,comando,Prende el bombillo,1.56,datos/clips/celular/cristian/cristian_a3_01.wav,,train,Prende el bombillo.,100,Prende el bombillo,100,0,alineacion,0.00,1.56
+cristian,miembro,3,2,comando,Enciende la luz,1.33,datos/clips/celular/cristian/cristian_a3_02.wav,,train,Encienda la luz.,93,Encienda la luz,93,0,alineacion,2.04,3.37
+cristian,miembro,3,3,comando,Apaga el bombillo,1.97,datos/clips/celular/cristian/cristian_a3_03.wav,,train,apaga el bombillo,100,apaga el bombillo,100,0,alineacion,3.69,5.67
+cristian,miembro,3,4,comando,Apaga la luz,1.51,datos/clips/celular/cristian/cristian_a3_04.wav,,train,Apaga la luz.,100,Apaga la luz.,100,0,alineacion,5.95,7.46
+cristian,miembro,3,5,comando,Prende el ventilador,1.63,datos/clips/celular/cristian/cristian_a3_05.wav,,train,Prende el ventilador.,100,Prende el ventilador.,100,0,alineacion,8.06,9.69
+cristian,miembro,3,6,comando,Enciende el ventilador,3.37,datos/clips/celular/cristian/cristian_a3_06.wav,,train,"Enciende el ventilador, apaga",88,Enciende el ventilador. Apaga el ventilador.,69,1,alineacion,9.77,13.14
+cristian,miembro,3,7,comando,Apaga el ventilador,1.99,datos/clips/celular/cristian/cristian_a3_07.wav,,train,"el ventilador,",81,el ventilador,81,0,alineacion,13.14,15.13
+cristian,miembro,3,8,comando,Ya apaga el ventilador,1.55,datos/clips/celular/cristian/cristian_a3_08.wav,,train,ya apaga el ventilador,100,Apaga el ventilador.,93,0,alineacion,15.13,16.68
+cristian,miembro,3,9,comando,Prende el cautín,1.83,datos/clips/celular/cristian/cristian_a3_09.wav,,val,prende el caudín.,94,Prende el caudín,94,0,alineacion,16.99,18.82
+cristian,miembro,3,10,comando,Enciende el cautín,1.97,datos/clips/celular/cristian/cristian_a3_10.wav,,train,Enciende el caoutín,97,Enciende el cartón,89,0,alineacion,19.13,21.10
+cristian,miembro,3,11,comando,Apaga el cautín,1.40,datos/clips/celular/cristian/cristian_a3_11.wav,,train,Apaga el,70,apaga y...,55,1,alineacion,21.43,22.83
+cristian,miembro,3,12,comando,Desconecta el cautín,1.87,datos/clips/celular/cristian/cristian_a3_12.wav,,train,desconecte el caudín.,90,desconecte el caudín,90,0,alineacion,23.91,25.78
+cristian,miembro,3,13,comando,Prende la plancha,1.72,datos/clips/celular/cristian/cristian_a3_13.wav,,train,Prended la plancha.,97,prender la plancha,97,0,alineacion,26.09,27.81
+cristian,miembro,3,14,comando,Enciende la plancha de cabello,2.68,datos/clips/celular/cristian/cristian_a3_14.wav,,train,Enciende la plancha de cabello.,100,Enciende la plancha de cabello,100,0,alineacion,27.81,30.49
+cristian,miembro,3,15,comando,Apaga la plancha,1.82,datos/clips/celular/cristian/cristian_a3_15.wav,,train,apagar la plancha,97,apagar la plancha,97,0,alineacion,30.91,32.73
+cristian,miembro,3,16,comando,Desconecta la plancha de cabello,2.17,datos/clips/celular/cristian/cristian_a3_16.wav,,train,desconecte la plancha de cabello,97,Desconecté la plancha de cabello,97,0,alineacion,32.77,34.94
+cristian,miembro,3,17,activacion,Hola Thonny,1.22,datos/clips/celular/cristian/cristian_a3_17.wav,,val,"Hola Tommy,",100,Hola Tommy.,100,0,alineacion,35.12,36.34
+cristian,miembro,3,18,comando,prende la luz,1.13,datos/clips/celular/cristian/cristian_a3_18.wav,,train,prende la luz.,100,Tiende la luz.,85,0,alineacion,36.43,37.56
+cristian,miembro,3,19,activacion,Hola Thonny,0.88,datos/clips/celular/cristian/cristian_a3_19.wav,,train,"Hola Tommy,",100,¡Vola Tommy!,91,0,alineacion,37.63,38.51
+cristian,miembro,3,20,comando,apaga el ventilador,1.43,datos/clips/celular/cristian/cristian_a3_20.wav,,train,apaga el ventilador.,100,Apaga el ventilador.,100,0,alineacion,38.59,40.02
+cristian,miembro,3,21,activacion,Hola Thonny,0.87,datos/clips/celular/cristian/cristian_a3_21.wav,,train,Hola Tommy.,100,¡Hola Tommy!,100,0,alineacion,40.09,40.96
+cristian,miembro,3,22,comando,prende el cautín,1.71,datos/clips/celular/cristian/cristian_a3_22.wav,,val,Prenda el cotino. Hola,70,"presenta El Cotin, hola",63,1,alineacion,41.23,42.94
+cristian,miembro,3,23,activacion,Hola Thonny,0.85,datos/clips/celular/cristian/cristian_a3_23.wav,,val,"Tommy,",71,,0,1,alineacion,42.94,43.79
+cristian,miembro,3,24,comando,apaga la plancha,1.10,datos/clips/celular/cristian/cristian_a3_24.wav,,val,apaga la plancha.,100,Rueda la plancha,75,0,alineacion,43.83,44.93
+cristian,miembro,4,1,libre,"Buenos días, ¿cómo amaneciste hoy?",2.52,datos/clips/celular/cristian/cristian_a4_01.wav,,train,"Buenos días, ¿Cómo amaneciste hoy?",100,"Buenos días, ¿Cómo amaneciste hoy?",100,0,alineacion,0.00,2.52
+cristian,miembro,4,2,libre,Mañana tengo clase temprano y todavía no he terminado el trabajo,4.33,datos/clips/celular/cristian/cristian_a4_02.wav,,train,mañana tengo clase temprano y todavía no ha terminado el trabajo,98,mañana tengo clase temprano y todavía no ha terminado el trabajo,98,0,alineacion,3.01,7.34
+cristian,miembro,4,3,libre,El perro del vecino ladró toda la noche,3.15,datos/clips/celular/cristian/cristian_a4_03.wav,,train,El perro del vecino ladró toda la noche.,100,El perro del vecino ladró toda la noche.,100,0,alineacion,7.94,11.09
+cristian,miembro,4,4,libre,Me gusta el café con pan pero sin azúcar,3.39,datos/clips/celular/cristian/cristian_a4_04.wav,,train,"Me gusta el café con pan, pero sin azúcar.",100,"Me gusta el café con pan, pero sin azúcar.",100,0,alineacion,11.51,14.90
+cristian,miembro,4,5,libre,¿Qué hora es? Creo que ya vamos tarde,3.55,datos/clips/celular/cristian/cristian_a4_05.wav,,train,¿Qué hora es? Creo que ya vamos tarde.,100,"¿Qué hora es? Creo que ya, vamos tarde.",100,0,alineacion,15.14,18.69
+cristian,miembro,4,6,libre,Ayer llovió tanto que la calle quedó inundada,6.22,datos/clips/celular/cristian/cristian_a4_06.wav,,train,Ayer llovió tanto que la calle se quedó Inundara.,95,Ayer llovió tanto que la calle se quedó inundada.,97,0,alineacion,19.03,25.25
+cristian,miembro,4,7,libre,"Necesito comprar arroz, huevos, leche y plátanos",4.93,datos/clips/celular/cristian/cristian_a4_07.wav,,val,"necesito comprar arroz, huevos, leche y plátanos",100,"Necesito comprar arroz, huevos, leche y plátanos.",100,0,alineacion,25.71,30.64
+cristian,miembro,4,8,libre,"Ese partido estuvo muy bueno, ganamos 3 a 1",4.37,datos/clips/celular/cristian/cristian_a4_08.wav,,train,"Ese partido estuvo muy bueno, ganamos 3 a 1.",100,"Ese partido estuvo muy bueno, ganamos 3 a 1.",100,0,alineacion,31.23,35.59
+cristian,miembro,5,1,activacion,Hola Thonny,1.02,datos/clips/celular/cristian/cristian_a5_01.wav,,test,"Hola Tom,",100,Hola a todos.,61,1,alineacion,0.00,1.02
+cristian,miembro,5,2,comando,prende la luz,0.87,datos/clips/celular/cristian/cristian_a5_02.wav,,test,prende la luz.,100,prender la luz.,96,0,alineacion,1.11,1.98
+cristian,miembro,5,3,activacion,Hola Thonny,1.50,datos/clips/celular/cristian/cristian_a5_03.wav,,test,"Hola Tommy,",100,Hola Tommy,100,0,alineacion,3.18,4.68
+cristian,miembro,5,4,comando,apaga la luz,0.93,datos/clips/celular/cristian/cristian_a5_04.wav,,test,apaga la luz.,100,Paga la luz.,96,0,alineacion,4.68,5.61
+cristian,miembro,5,5,activacion,Hola Thonny,1.19,datos/clips/celular/cristian/cristian_a5_05.wav,,test,¡Hola Tommy!,100,Hola Tommy,100,0,alineacion,6.84,8.03
+cristian,miembro,5,6,comando,prende el ventilador,1.22,datos/clips/celular/cristian/cristian_a5_06.wav,,test,Prende el bantillaje.,75,Prende el bantillazo.,80,0,alineacion,8.25,9.47
+cristian,miembro,5,7,activacion,Hola Thonny,1.31,datos/clips/celular/cristian/cristian_a5_07.wav,,test,"Hola Tommy,",100,Hola Tommy,100,0,alineacion,10.99,12.30
+cristian,miembro,5,8,comando,apaga el ventilador,1.23,datos/clips/celular/cristian/cristian_a5_08.wav,,test,apaga el ventilador,100,apaga el ventilador.,100,0,alineacion,12.37,13.60
+cristian,miembro,5,9,activacion,Hola Thonny,1.37,datos/clips/celular/cristian/cristian_a5_09.wav,,test,"Hola Tommy,",100,hola Tommy,100,0,alineacion,14.99,16.36
+cristian,miembro,5,10,comando,prende el cautín,1.06,datos/clips/celular/cristian/cristian_a5_10.wav,,test,prenda el cotino,81,Prenda el catín.,90,0,alineacion,16.45,17.51
+cristian,miembro,5,11,activacion,Hola Thonny,1.39,datos/clips/celular/cristian/cristian_a5_11.wav,,test,"Hola Tommy,",100,Hola a todos.,61,1,alineacion,19.09,20.48
+cristian,miembro,5,12,comando,apaga el cautín,1.12,datos/clips/celular/cristian/cristian_a5_12.wav,,test,apaga el caoutín,97,Paga el cautín.,97,0,alineacion,20.48,21.59
+cristian,miembro,5,13,activacion,Hola Thonny,2.01,datos/clips/celular/cristian/cristian_a5_13.wav,,test,"Hola Tommy,",100,"Hola Tom, prende",76,0,alineacion,23.08,25.09
+cristian,miembro,5,14,comando,prende la plancha,1.10,datos/clips/celular/cristian/cristian_a5_14.wav,,test,prende la plancha,100,¡A la prancha!,69,1,alineacion,25.13,26.23
+cristian,miembro,5,15,activacion,Hola Thonny,1.97,datos/clips/celular/cristian/cristian_a5_15.wav,,test,"Hola Tommy, a parar la",67,Hola Tommy,100,0,alineacion,27.55,29.52
+cristian,miembro,5,16,comando,apaga la plancha,0.63,datos/clips/celular/cristian/cristian_a5_16.wav,,test,plancha,61,Francia.,35,1,alineacion,29.56,30.19
+johan,miembro,1,1,libre,"Hola, soy Thonny, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",10.33,datos/clips/celular/johan/johan_a1_01.wav,,val,"Hola, soy Tony el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",100,"Hola soy Tony, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",100,0,alineacion,0.66,10.99
+johan,miembro,1,2,libre,"Hola, soy Thonny, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",9.62,datos/clips/celular/johan/johan_a1_02.wav,,train,"Hola, soy Tony, el asistente de voz de este proyecto, puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",100,"Hola, soy Tony, el asistente de voz de este proyecto, puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",100,0,alineacion,12.15,21.77
+johan,miembro,1,3,libre,"Hola, soy Thonny, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",11.23,datos/clips/celular/johan/johan_a1_03.wav,,train,"Hola soy Tony el asistente de voz de este proyecto puedo prender y apagar el bombillo el ventilador, el cautín y la plancha ¿Cuándo me lo pidas?",100,"Hola, soy Tony, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",100,0,alineacion,22.54,33.78
+johan,miembro,2,1,activacion,Hola Thonny,1.33,datos/clips/celular/johan/johan_a2_01.wav,,val,"Hola Tony,",100,Hola Tony,100,0,ocurrencias,3.29,4.62
+johan,miembro,2,2,activacion,Hola Thonny,0.79,datos/clips/celular/johan/johan_a2_02.wav,,train,Hola Tony,100,¿Hola Tony?,100,0,ocurrencias,4.69,5.48
+johan,miembro,2,3,activacion,Hola Thonny,1.09,datos/clips/celular/johan/johan_a2_03.wav,,train,Hola Tony.,100,Hola Tony,100,0,ocurrencias,5.66,6.75
+johan,miembro,2,4,activacion,Hola Thonny,1.40,datos/clips/celular/johan/johan_a2_04.wav,,train,"Hola Tony,",100,Hola Tony,100,0,ocurrencias,8.39,9.79
+johan,miembro,2,5,activacion,Hola Thonny,0.87,datos/clips/celular/johan/johan_a2_05.wav,,train,Hola Tony,100,"¡Hola, Tony!",100,0,ocurrencias,9.85,10.72
+johan,miembro,2,6,activacion,Hola Thonny,1.03,datos/clips/celular/johan/johan_a2_06.wav,,train,Hola Tony,100,¡Hola Tony!,100,0,ocurrencias,10.79,11.83
+johan,miembro,2,7,activacion,Hola Thonny,1.45,datos/clips/celular/johan/johan_a2_07.wav,,train,"hola Tony,",100,Hola Tony,100,0,ocurrencias,13.35,14.80
+johan,miembro,2,8,activacion,Hola Thonny,0.83,datos/clips/celular/johan/johan_a2_08.wav,,train,hola Tony,100,"Hola, Tony.",100,0,ocurrencias,14.89,15.72
+johan,miembro,2,9,activacion,Hola Thonny,0.93,datos/clips/celular/johan/johan_a2_09.wav,,val,"¿Hola, Tony?",100,Hola Tony,100,0,ocurrencias,15.93,16.86
+johan,miembro,2,10,activacion,Hola Thonny,1.14,datos/clips/celular/johan/johan_a2_10.wav,,train,"Hola Toni, hola",81,"¡Hola, Tony! ¡Hola, Tony!",65,1,ocurrencias,18.18,19.32
+johan,miembro,2,11,activacion,Hola Thonny,0.50,datos/clips/celular/johan/johan_a2_11.wav,,train,"Toni, hola",55,,0,1,ocurrencias,19.32,19.82
+johan,miembro,2,12,activacion,Hola Thonny,0.51,datos/clips/celular/johan/johan_a2_12.wav,,train,Toni,71,,0,1,ocurrencias,19.82,20.33
+johan,miembro,2,13,activacion,Hola Thonny,1.19,datos/clips/celular/johan/johan_a2_13.wav,,train,¡Hola Tony!,100,Hola Tony,100,0,ocurrencias,22.33,23.52
+johan,miembro,2,14,activacion,Hola Thonny,0.93,datos/clips/celular/johan/johan_a2_14.wav,,train,"Hola, Tony.",100,"Hola, Tony.",100,0,ocurrencias,23.80,24.73
+johan,miembro,2,15,activacion,Hola Thonny,0.71,datos/clips/celular/johan/johan_a2_15.wav,,val,¡Hola Tony!,100,¡Hola Tony!,100,0,ocurrencias,25.47,26.18
+johan,miembro,3,1,comando,Prende el bombillo,1.45,datos/clips/celular/johan/johan_a3_01.wav,,train,¡Prende el bombillo!,100,¡Prende el bombillo!,100,0,alineacion,1.18,2.63
+johan,miembro,3,2,comando,Enciende la luz,1.37,datos/clips/celular/johan/johan_a3_02.wav,,train,Enciende la luz.,100,enciende la luz.,100,0,alineacion,3.82,5.19
+johan,miembro,3,3,comando,Apaga el bombillo,1.46,datos/clips/celular/johan/johan_a3_03.wav,,train,APAGA EL BOMBILLO,100,Apaga el bombillo.,100,0,alineacion,6.25,7.71
+johan,miembro,3,4,comando,Apaga la luz,1.47,datos/clips/celular/johan/johan_a3_04.wav,,train,Apaga la luz.,100,Apaga la luz.,100,0,alineacion,8.30,9.77
+johan,miembro,3,5,comando,Prende el ventilador,1.29,datos/clips/celular/johan/johan_a3_05.wav,,val,Prende el ventilador.,100,Prende el ventilador.,100,0,alineacion,10.88,12.16
+johan,miembro,3,6,comando,Enciende el ventilador,1.89,datos/clips/celular/johan/johan_a3_06.wav,,val,enciende el ventilador.,100,enciende el ventilador,100,0,alineacion,12.54,14.43
+johan,miembro,3,7,comando,Apaga el ventilador,1.43,datos/clips/celular/johan/johan_a3_07.wav,,train,Apaga el ventilador.,100,apaga el ventilador,100,0,alineacion,15.07,16.50
+johan,miembro,3,8,comando,Ya apaga el ventilador,1.84,datos/clips/celular/johan/johan_a3_08.wav,,train,ya apaga el ventilador,100,ya apaga el ventilador,100,0,alineacion,17.35,19.18
+johan,miembro,3,9,comando,Prende el cautín,1.57,datos/clips/celular/johan/johan_a3_09.wav,,train,Prende el cautín.,100,Prende el cautín.,100,0,alineacion,21.32,22.89
+johan,miembro,3,10,comando,Enciende el cautín,1.45,datos/clips/celular/johan/johan_a3_10.wav,,train,enciende el cautín.,100,enciende el cautín.,100,0,alineacion,23.35,24.80
+johan,miembro,3,11,comando,Apaga el cautín,1.40,datos/clips/celular/johan/johan_a3_11.wav,,train,Apaga el caudín.,93,Apaga el cautín.,100,0,alineacion,25.38,26.77
+johan,miembro,3,12,comando,Desconecta el cautín,2.07,datos/clips/celular/johan/johan_a3_12.wav,,train,Desconecta el cautín,100,Desconecta el cautín,100,0,alineacion,26.90,28.97
+johan,miembro,3,13,comando,Prende la plancha,1.23,datos/clips/celular/johan/johan_a3_13.wav,,val,¡Prende la plancha!,100,Prende la plancha.,100,0,alineacion,29.58,30.81
+johan,miembro,3,14,comando,Enciende la plancha de cabello,2.16,datos/clips/celular/johan/johan_a3_14.wav,,train,enciende la plancha de cabello.,100,enciende la plancha de cabello,100,0,alineacion,31.36,33.52
+johan,miembro,3,15,comando,Apaga la plancha,1.63,datos/clips/celular/johan/johan_a3_15.wav,,train,Apaga la plancha.,100,Apaga la plancha.,100,0,alineacion,34.02,35.65
+johan,miembro,3,16,comando,Desconecta la plancha de cabello,1.91,datos/clips/celular/johan/johan_a3_16.wav,,train,desconecta la plancha de cabello.,100,desconecta la plancha de cabello.,100,0,alineacion,36.63,38.54
+johan,miembro,3,17,activacion,Hola Thonny,1.63,datos/clips/celular/johan/johan_a3_17.wav,,train,"Hola, soy Tony.",85,"Hola, soy Tony.",85,0,alineacion,39.38,41.01
+johan,miembro,3,18,comando,prende la luz,0.99,datos/clips/celular/johan/johan_a3_18.wav,,train,¡Prende la luz!,100,Prende la luz.,100,0,alineacion,41.32,42.31
+johan,miembro,3,19,activacion,Hola Thonny,1.46,datos/clips/celular/johan/johan_a3_19.wav,,train,"Hola, soy Tony.",85,"Hola, soy Tony.",85,0,alineacion,42.94,44.40
+johan,miembro,3,20,comando,apaga el ventilador,1.23,datos/clips/celular/johan/johan_a3_20.wav,,train,Apaga el ventilador.,100,apaga el ventilador.,100,0,alineacion,44.45,45.68
+johan,miembro,3,21,activacion,Hola Thonny,1.21,datos/clips/celular/johan/johan_a3_21.wav,,train,"Hola, soy Tony.",85,"Hola, soy Tony.",85,0,alineacion,46.08,47.28
+johan,miembro,3,22,comando,prende el cautín,1.18,datos/clips/celular/johan/johan_a3_22.wav,,train,Prende el cautín.,100,prende el cautín.,100,0,alineacion,47.56,48.74
+johan,miembro,3,23,activacion,Hola Thonny,1.27,datos/clips/celular/johan/johan_a3_23.wav,,val,"Hola, soy Tony.",85,"Hola, soy Tony.",85,0,alineacion,49.28,50.55
+johan,miembro,3,24,comando,apaga la plancha,0.99,datos/clips/celular/johan/johan_a3_24.wav,,val,Apaga la plancha.,100,apaga la plancha.,100,0,alineacion,50.64,51.63
+johan,miembro,4,1,libre,"Buenos días, ¿cómo amaneciste hoy?",2.25,datos/clips/celular/johan/johan_a4_01.wav,,train,"Buenos días, ¿cómo amaneciste hoy?",100,"Buenos días, ¿cómo amaneciste hoy?",100,0,alineacion,0.51,2.76
+johan,miembro,4,2,libre,Mañana tengo clase temprano y todavía no he terminado el trabajo,3.75,datos/clips/celular/johan/johan_a4_02.wav,,train,Mañana tengo clases temprano y todavía no he terminado el trabajo.,99,mañana tengo clases temprano y todavía no he terminado el trabajo,99,0,alineacion,4.39,8.14
+johan,miembro,4,3,libre,El perro del vecino ladró toda la noche,2.77,datos/clips/celular/johan/johan_a4_03.wav,,val,El perro del vecino ladro toda la noche.,100,El perro del vecino ladro toda la noche.,100,0,alineacion,9.11,11.88
+johan,miembro,4,4,libre,Me gusta el café con pan pero sin azúcar,2.50,datos/clips/celular/johan/johan_a4_04.wav,,train,Me gusta el café con pan pero sin azúcar.,100,Me gusta el café con pan pero sin azúcar.,100,0,alineacion,12.89,15.40
+johan,miembro,4,5,libre,¿Qué hora es? Creo que ya vamos tarde,3.76,datos/clips/celular/johan/johan_a4_05.wav,,train,¿Qué hora es? Creo que ya vamos tarde.,100,¿Qué hora es? Creo que ya vamos tarde,100,0,alineacion,16.26,20.03
+johan,miembro,4,6,libre,Ayer llovió tanto que la calle quedó inundada,2.75,datos/clips/celular/johan/johan_a4_06.wav,,train,Ayer llovió tanto que la calle quedó inundada.,100,Ayer llovió tanto que la calle quedó inundada.,100,0,alineacion,20.75,23.50
+johan,miembro,4,7,libre,"Necesito comprar arroz, huevos, leche y plátanos",3.95,datos/clips/celular/johan/johan_a4_07.wav,,train,"necesito comprar arroz, huevos, leche y plátanos.",100,"necesito comprar arroz, huevos, leche y plátanos",100,0,alineacion,23.98,27.93
+johan,miembro,4,8,libre,"Ese partido estuvo muy bueno, ganamos 3 a 1",3.49,datos/clips/celular/johan/johan_a4_08.wav,,train,"Ese partido estuvo muy bueno, ganamos 3 a 1.",100,"Ese partido estuvo muy bueno, ganamos 3 a 1.",100,0,alineacion,28.72,32.21
+johan,miembro,4,9,libre,(habla libre),6.79,datos/clips/celular/johan/johan_a4_09.wav,,train,"el día de hoy me levanté hice mi desayuno, organizé mi cuarto.",100,,100,0,alineacion,33.53,40.32
+johan,miembro,4,10,libre,(habla libre),2.50,datos/clips/celular/johan/johan_a4_10.wav,,val,saludé a mis familiares.,100,,100,0,alineacion,41.26,43.76
+johan,miembro,4,11,libre,(habla libre),8.02,datos/clips/celular/johan/johan_a4_11.wav,,train,enseguida me alisté. ¿Me oyes? y para ese día... a irme a mi trabajo. Me,100,,100,0,alineacion,44.24,52.26
+johan,miembro,4,12,libre,(habla libre),3.87,datos/clips/celular/johan/johan_a4_12.wav,,train,fui a trabajar y llevo trabajando todo el día.,100,,100,0,alineacion,52.31,56.18
+johan,miembro,4,13,libre,(habla libre),1.62,datos/clips/celular/johan/johan_a4_13.wav,,train,hasta el momento.,100,,100,0,alineacion,56.85,58.47
+johan,miembro,5,1,activacion,Hola Thonny,0.79,datos/clips/celular/johan/johan_a5_01.wav,,test,hola a todos,61,"¡Hola, Tony!",100,0,silencio,2.23,3.02
+johan,miembro,5,2,comando,prende la luz,0.84,datos/clips/celular/johan/johan_a5_02.wav,,test,¡Prende la luz!,100,¡Prende la luz!,100,0,silencio,4.52,5.36
+johan,miembro,5,3,activacion,Hola Thonny,0.86,datos/clips/celular/johan/johan_a5_03.wav,,test,¡Hola Tony!,100,¿Hola Tony?,100,0,silencio,7.26,8.13
+johan,miembro,5,4,comando,apaga la luz,0.99,datos/clips/celular/johan/johan_a5_04.wav,,test,Apaga la luz.,100,Apaga la luz.,100,0,silencio,9.40,10.39
+johan,miembro,5,5,activacion,Hola Thonny,0.92,datos/clips/celular/johan/johan_a5_05.wav,,test,¿Hola Tony?,100,¿Hola Tony?,100,0,silencio,12.04,12.96
+johan,miembro,5,6,comando,prende el ventilador,1.15,datos/clips/celular/johan/johan_a5_06.wav,,test,Prende el ventilador.,100,Prende el ventilador.,100,0,silencio,14.82,15.97
+johan,miembro,5,7,activacion,Hola Thonny,0.88,datos/clips/celular/johan/johan_a5_07.wav,,test,Hola Tony.,100,Hola Tony,100,0,silencio,17.58,18.46
+johan,miembro,5,8,comando,apaga el ventilador,1.23,datos/clips/celular/johan/johan_a5_08.wav,,test,Apaga el ventilador.,100,Apaga el ventilador.,100,0,silencio,19.94,21.17
+johan,miembro,5,9,activacion,Hola Thonny,0.85,datos/clips/celular/johan/johan_a5_09.wav,,test,Hola Tony,100,Hola Tony,100,0,silencio,22.85,23.70
+johan,miembro,5,10,comando,prende el cautín,1.03,datos/clips/celular/johan/johan_a5_10.wav,,test,Prende el cautín.,100,Prende el cautín.,100,0,silencio,25.73,26.76
+johan,miembro,5,11,activacion,Hola Thonny,0.85,datos/clips/celular/johan/johan_a5_11.wav,,test,Hola Tony,100,Hola Tony.,100,0,silencio,28.16,29.01
+johan,miembro,5,12,comando,apaga el cautín,1.14,datos/clips/celular/johan/johan_a5_12.wav,,test,Apaga el Cautin.,100,Apaga el caudín.,93,0,silencio,30.46,31.61
+johan,miembro,5,13,activacion,Hola Thonny,0.85,datos/clips/celular/johan/johan_a5_13.wav,,test,¿Hola Tony?,100,¿Hola Tony?,100,0,silencio,33.04,33.89
+johan,miembro,5,14,comando,prende la plancha,0.98,datos/clips/celular/johan/johan_a5_14.wav,,test,Prende la plancha,100,Prende la plancha,100,0,silencio,35.49,36.47
+johan,miembro,5,15,activacion,Hola Thonny,0.87,datos/clips/celular/johan/johan_a5_15.wav,,test,Hola Tony,100,"Hola, Tony.",100,0,silencio,38.27,39.13
+johan,miembro,5,16,comando,apaga la plancha,1.05,datos/clips/celular/johan/johan_a5_16.wav,,test,apaga la plancha,100,Apaga la plancha.,100,0,silencio,40.78,41.83
+rocko,miembro,1,1,libre,"Hola, soy Thonny, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",10.62,datos/clips/celular/rocko/rocko_a1_01.wav,,train,"Hola, soy Tony, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pides",99,"Hola, soy Tony el asistente de voz de este proyecto, puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",100,0,alineacion,0.00,10.62
+rocko,miembro,1,2,libre,"Hola, soy Thonny, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",10.98,datos/clips/celular/rocko/rocko_a1_02.wav,,train,"Hola, soy Tony, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",100,"Hola, soy Tony, el asistente de voz de este proyecto, puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",100,0,alineacion,11.45,22.43
+rocko,miembro,1,3,libre,"Hola, soy Thonny, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pidas.",9.88,datos/clips/celular/rocko/rocko_a1_03.wav,,train,"Hola, soy Tony, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pides.",99,"Hola, soy Tony, el asistente de voz de este proyecto. Puedo prender y apagar el bombillo, el ventilador, el cautín y la plancha cuando me lo pides.",99,0,alineacion,23.82,33.71
+rocko,miembro,2,1,activacion,Hola Thonny,1.70,datos/clips/celular/rocko/rocko_a2_01.wav,,train,"Hola Tony,",100,Hola Tony,100,0,ocurrencias,0.00,1.70
+rocko,miembro,2,2,activacion,Hola Thonny,0.83,datos/clips/celular/rocko/rocko_a2_02.wav,,val,Hola Tony,100,¡Hola Tony!,100,0,ocurrencias,1.73,2.56
+rocko,miembro,2,3,activacion,Hola Thonny,1.12,datos/clips/celular/rocko/rocko_a2_03.wav,,train,¡Hola Tony!,100,¡Hola Tony!,100,0,ocurrencias,2.75,3.87
+rocko,miembro,2,4,activacion,Hola Thonny,0.97,datos/clips/celular/rocko/rocko_a2_04.wav,,train,¡Hola Tony!,100,¡Hola Tony!,100,0,ocurrencias,4.64,5.61
+rocko,miembro,2,5,activacion,Hola Thonny,1.13,datos/clips/celular/rocko/rocko_a2_05.wav,,train,Hola Tony,100,Hola Tony,100,0,ocurrencias,7.55,8.68
+rocko,miembro,2,6,activacion,Hola Thonny,0.84,datos/clips/celular/rocko/rocko_a2_06.wav,,train,Hola Tony.,100,Hola Tony,100,0,ocurrencias,9.21,10.05
+rocko,miembro,2,7,activacion,Hola Thonny,0.96,datos/clips/celular/rocko/rocko_a2_07.wav,,val,hola Tony,100,hola Tony,100,0,ocurrencias,10.42,11.38
+rocko,miembro,2,8,activacion,Hola Thonny,1.67,datos/clips/celular/rocko/rocko_a2_08.wav,,train,hola Tony,100,hola Tony,100,0,ocurrencias,11.72,13.39
+rocko,miembro,2,9,activacion,Hola Thonny,1.16,datos/clips/celular/rocko/rocko_a2_09.wav,,train,¡Hola Tony!,100,Hola Tony,100,0,ocurrencias,14.17,15.34
+rocko,miembro,2,10,activacion,Hola Thonny,1.60,datos/clips/celular/rocko/rocko_a2_10.wav,,train,"hola Tony,",100,Hola Tony,100,0,ocurrencias,16.74,18.34
+rocko,miembro,2,11,activacion,Hola Thonny,0.75,datos/clips/celular/rocko/rocko_a2_11.wav,,train,hola Tony,100,hola Tony,100,0,ocurrencias,18.34,19.09
+rocko,miembro,2,12,activacion,Hola Thonny,1.61,datos/clips/celular/rocko/rocko_a2_12.wav,,test,hola Tony,100,Hola Tony,100,0,ocurrencias,19.37,20.98
+rocko,miembro,2,13,activacion,Hola Thonny,0.77,datos/clips/celular/rocko/rocko_a2_13.wav,,test,hola Tony,100,¡Hola Tony!,100,0,ocurrencias,21.02,21.79
+rocko,miembro,2,14,activacion,Hola Thonny,0.62,datos/clips/celular/rocko/rocko_a2_14.wav,,test,hola Tony,100,¡Hola Tony!,100,0,ocurrencias,21.79,22.41
+rocko,miembro,2,15,activacion,Hola Thonny,1.00,datos/clips/celular/rocko/rocko_a2_15.wav,,test,"Hola Tony,",100,"Hola, Toni.",100,0,ocurrencias,22.41,23.40
+rocko,miembro,2,16,activacion,Hola Thonny,0.68,datos/clips/celular/rocko/rocko_a2_16.wav,,test,hola Tony.,100,Hola Toni.,100,0,ocurrencias,23.40,24.08
+rocko,miembro,3,1,comando,Prende el bombillo,3.01,datos/clips/celular/rocko/rocko_a3_01.wav,,val,"prender el bombillo,",97,prender el bombillo,97,0,alineacion,0.00,3.01
+rocko,miembro,3,2,comando,Enciende la luz,1.06,datos/clips/celular/rocko/rocko_a3_02.wav,,train,enciende la luz,100,de la luz,75,0,alineacion,3.01,4.07
+rocko,miembro,3,3,comando,Apaga el bombillo,2.73,datos/clips/celular/rocko/rocko_a3_03.wav,,val,"apaga el bombillo,",100,Apaga el bombillo,100,0,alineacion,4.43,7.16
+rocko,miembro,3,4,comando,Apaga la luz,1.72,datos/clips/celular/rocko/rocko_a3_04.wav,,train,"apaga la luz,",100,,0,1,alineacion,7.23,8.95
+rocko,miembro,3,5,comando,Prende el ventilador,1.22,datos/clips/celular/rocko/rocko_a3_05.wav,,train,prende el ventilador,100,Prende el ventilador,100,0,alineacion,8.95,10.17
+rocko,miembro,3,6,comando,Enciende el ventilador,2.37,datos/clips/celular/rocko/rocko_a3_06.wav,,train,Enciendo el ventilador,95,enciende el ventilador,100,0,alineacion,10.32,12.69
+rocko,miembro,3,7,comando,Apaga el ventilador,1.57,datos/clips/celular/rocko/rocko_a3_07.wav,,train,Apaga el ventilador,100,Apague el ventilador,92,0,alineacion,13.13,14.69
+rocko,miembro,3,8,comando,Ya apaga el ventilador,2.36,datos/clips/celular/rocko/rocko_a3_08.wav,,train,Ya apaga el ventilador,100,Ya apaga el ventilador,100,0,alineacion,14.69,17.05
+rocko,miembro,3,9,comando,Prende el cautín,1.52,datos/clips/celular/rocko/rocko_a3_09.wav,,train,Prende el cautín,100,Prende el cautín,100,0,alineacion,17.74,19.27
+rocko,miembro,3,10,comando,Enciende el cautín,1.54,datos/clips/celular/rocko/rocko_a3_10.wav,,train,enciende el cautín,100,enciende el cautín,100,0,alineacion,19.71,21.26
+rocko,miembro,3,11,comando,Apaga el cautín,2.22,datos/clips/celular/rocko/rocko_a3_11.wav,,train,"apague el caoutín,",88,Apagel Cautín,93,0,alineacion,21.56,23.78
+rocko,miembro,3,12,comando,Desconecta el cautín,0.99,datos/clips/celular/rocko/rocko_a3_12.wav,,val,desconecte el caoutín,93,conector caudín,69,1,alineacion,23.78,24.77
+rocko,miembro,3,13,comando,Prende la plancha,2.39,datos/clips/celular/rocko/rocko_a3_13.wav,,train,"prende la plancha,",100,prende la plancha,100,0,alineacion,24.88,27.27
+rocko,miembro,3,14,comando,Enciende la plancha de cabello,1.46,datos/clips/celular/rocko/rocko_a3_14.wav,,val,enciende la plancha de cabello,100,Desciende la plancha de cabello.,95,0,alineacion,27.27,28.73
+rocko,miembro,3,15,comando,Apaga la plancha,2.45,datos/clips/celular/rocko/rocko_a3_15.wav,,train,apaga la plancha y,94,Apaga la plancha,100,0,alineacion,28.89,31.34
+rocko,miembro,3,16,comando,Desconecta la plancha de cabello,1.56,datos/clips/celular/rocko/rocko_a3_16.wav,,train,desconecta la plancha de cabello,100,y conecta la plancha de caja,80,0,alineacion,31.34,32.91
+rocko,miembro,3,17,activacion,Hola Thonny,0.97,datos/clips/celular/rocko/rocko_a3_17.wav,,test,"Hola Tony,",100,¡Hola Tony!,100,0,alineacion,33.73,34.70
+rocko,miembro,3,18,comando,prende la luz,1.70,datos/clips/celular/rocko/rocko_a3_18.wav,,test,prende la luz,100,Prende la luz,100,0,alineacion,34.70,36.40
+rocko,miembro,3,19,activacion,Hola Thonny,1.01,datos/clips/celular/rocko/rocko_a3_19.wav,,test,"Hola Tony,",100,Hola Tony,100,0,alineacion,36.40,37.41
+rocko,miembro,3,20,comando,apaga el ventilador,1.47,datos/clips/celular/rocko/rocko_a3_20.wav,,test,apaga el ventilador,100,apague el ventilador,92,0,alineacion,37.47,38.94
+rocko,miembro,3,21,activacion,Hola Thonny,1.06,datos/clips/celular/rocko/rocko_a3_21.wav,,test,"Hola Tony,",100,Hola Tony,100,0,alineacion,38.94,40.00
+rocko,miembro,3,22,comando,prende el cautín,1.64,datos/clips/celular/rocko/rocko_a3_22.wav,,test,prende el cautín,100,prender cautín,87,0,alineacion,40.09,41.73
+rocko,miembro,3,23,activacion,Hola Thonny,0.83,datos/clips/celular/rocko/rocko_a3_23.wav,,test,"Hola Tony,",100,¡Hola Tony!,100,0,alineacion,41.73,42.56
+rocko,miembro,3,24,comando,apaga la plancha,1.74,datos/clips/celular/rocko/rocko_a3_24.wav,,test,apaga la plancha,100,apaga la plancha,100,0,alineacion,42.65,44.39
+rocko,miembro,4,1,libre,"Buenos días, ¿cómo amaneciste hoy?",3.50,datos/clips/celular/rocko/rocko_a4_01.wav,,train,buenos días como amaneciste hoy,100,"Buenos días, ¿cómo amaneciste hoy?",100,0,alineacion,0.00,3.50
+rocko,miembro,4,2,libre,Mañana tengo clase temprano y todavía no he terminado el trabajo,4.28,datos/clips/celular/rocko/rocko_a4_02.wav,,train,mañana tengo clase temprano y todavía no he terminado el trabajo,100,mañana tengo clase temprano y todavía no he terminado el trabajo,100,0,alineacion,3.50,7.78
+rocko,miembro,4,3,libre,El perro del vecino ladró toda la noche,3.51,datos/clips/celular/rocko/rocko_a4_03.wav,,train,el perro del vecino ladro toda la noche,100,el perro del vecino ladro toda la noche,100,0,alineacion,8.55,12.06
+rocko,miembro,4,4,libre,Me gusta el café con pan pero sin azúcar,3.17,datos/clips/celular/rocko/rocko_a4_04.wav,,train,me gusta el café con pan pero sin azúcar,100,"Me gusta el café con pan, pero sin azúcar.",100,0,alineacion,12.06,15.23
+rocko,miembro,4,5,libre,¿Qué hora es? Creo que ya vamos tarde,3.46,datos/clips/celular/rocko/rocko_a4_05.wav,,train,¿Qué hora es? Creo que ya vamos tarde.,100,¿Qué hora es? Creo que ya vamos tarde.,100,0,alineacion,15.79,19.26
+rocko,miembro,4,6,libre,Ayer llovió tanto que la calle quedó inundada,5.99,datos/clips/celular/rocko/rocko_a4_06.wav,,val,"Ayer llovió tanto que la calle quedó inundada,",100,Ayer llovió tanto que la calle quedó inundada,100,0,alineacion,19.63,25.62
+rocko,miembro,4,7,libre,"Necesito comprar arroz, huevos, leche y plátanos",4.54,datos/clips/celular/rocko/rocko_a4_07.wav,,val,"necesito comprar arroz, huevo, leche y plátanos.",99,"comprar arroz, huevo, leche y plátanos.",88,0,alineacion,25.62,30.16
+rocko,miembro,4,8,libre,"Ese partido estuvo muy bueno, ganamos 3 a 1",4.39,datos/clips/celular/rocko/rocko_a4_08.wav,,train,"Este partido estuvo muy bueno, ganamos 3 a 1.",99,"Este partido estuvo muy bueno, ganamos 3 a 1.",99,0,alineacion,30.25,34.64

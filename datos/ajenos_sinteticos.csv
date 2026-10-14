@@ -1,0 +1,265 @@
+hablante,tipo,sexo,ruta,texto,canal,duracion_s,particion
+cof_00610,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_00610_imp01.wav,Hola Thonny,opus_whatsapp,2.08,train
+cof_00610,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_00610_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,1.66,train
+cof_00610,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_00610_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,2.08,train
+cof_00610,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_00610_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,1.94,train
+cof_00610,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_00610_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,1.88,train
+cof_00610,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_00610_imp06.wav,Hola Thonny,opus_whatsapp,2.08,train
+cof_00610,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_00610_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,1.94,train
+cof_00610,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_00610_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.60,train
+cof_01523,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_01523_imp01.wav,Hola Thonny,aac_celular,1.43,train
+cof_01523,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_01523_imp02.wav,"Hola Thonny, prende la luz",aac_celular,1.14,train
+cof_01523,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_01523_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,1.43,train
+cof_01523,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_01523_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,1.33,train
+cof_01523,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_01523_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,1.29,train
+cof_01523,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_01523_imp06.wav,Hola Thonny,aac_celular,1.43,train
+cof_01523,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_01523_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,1.33,train
+cof_01523,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_01523_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,1.10,train
+cof_02436,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02436_imp01.wav,Hola Thonny,opus_whatsapp,1.44,train
+cof_02436,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02436_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,1.15,train
+cof_02436,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02436_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,1.44,train
+cof_02436,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02436_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,1.34,train
+cof_02436,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02436_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,1.29,train
+cof_02436,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02436_imp06.wav,Hola Thonny,opus_whatsapp,1.44,train
+cof_02436,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02436_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,1.34,train
+cof_02436,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02436_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.10,train
+cof_02484,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02484_imp01.wav,Hola Thonny,aac_celular,1.70,train
+cof_02484,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02484_imp02.wav,"Hola Thonny, prende la luz",aac_celular,1.35,train
+cof_02484,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02484_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,1.70,train
+cof_02484,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02484_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,1.59,train
+cof_02484,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02484_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,1.53,train
+cof_02484,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02484_imp06.wav,Hola Thonny,aac_celular,1.70,train
+cof_02484,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02484_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,1.59,train
+cof_02484,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_02484_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,1.30,train
+cof_03034,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03034_imp01.wav,Hola Thonny,opus_whatsapp,1.94,val
+cof_03034,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03034_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,1.55,val
+cof_03034,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03034_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,1.94,val
+cof_03034,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03034_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,1.80,val
+cof_03034,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03034_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,1.74,val
+cof_03034,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03034_imp06.wav,Hola Thonny,opus_whatsapp,1.94,val
+cof_03034,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03034_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,1.80,val
+cof_03034,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03034_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.48,val
+cof_03349,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03349_imp01.wav,Hola Thonny,aac_celular,1.53,test
+cof_03349,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03349_imp02.wav,"Hola Thonny, prende la luz",aac_celular,1.22,test
+cof_03349,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03349_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,1.53,test
+cof_03349,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03349_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,1.42,test
+cof_03349,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03349_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,1.38,test
+cof_03349,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03349_imp06.wav,Hola Thonny,aac_celular,1.53,test
+cof_03349,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03349_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,1.42,test
+cof_03349,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03349_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,1.16,test
+cof_03397,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03397_imp01.wav,Hola Thonny,opus_whatsapp,2.36,test
+cof_03397,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03397_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,1.89,test
+cof_03397,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03397_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,2.36,test
+cof_03397,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03397_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,2.20,test
+cof_03397,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03397_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,2.12,test
+cof_03397,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03397_imp06.wav,Hola Thonny,opus_whatsapp,2.36,test
+cof_03397,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03397_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,2.20,test
+cof_03397,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_03397_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.80,test
+cof_04310,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_04310_imp01.wav,Hola Thonny,aac_celular,1.15,val
+cof_04310,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_04310_imp02.wav,"Hola Thonny, prende la luz",aac_celular,0.92,val
+cof_04310,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_04310_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,1.15,val
+cof_04310,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_04310_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,1.07,val
+cof_04310,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_04310_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,1.03,val
+cof_04310,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_04310_imp06.wav,Hola Thonny,aac_celular,1.15,val
+cof_04310,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_04310_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,1.07,val
+cof_04310,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_04310_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,0.87,val
+cof_05223,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_05223_imp01.wav,Hola Thonny,opus_whatsapp,2.27,test
+cof_05223,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_05223_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,1.81,test
+cof_05223,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_05223_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,2.27,test
+cof_05223,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_05223_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,2.12,test
+cof_05223,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_05223_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,2.05,test
+cof_05223,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_05223_imp06.wav,Hola Thonny,opus_whatsapp,2.27,test
+cof_05223,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_05223_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,2.12,test
+cof_05223,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_05223_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.74,test
+cof_06136,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_06136_imp01.wav,Hola Thonny,aac_celular,1.99,train
+cof_06136,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_06136_imp02.wav,"Hola Thonny, prende la luz",aac_celular,1.60,train
+cof_06136,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_06136_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,1.99,train
+cof_06136,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_06136_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,1.87,train
+cof_06136,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_06136_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,1.79,train
+cof_06136,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_06136_imp06.wav,Hola Thonny,aac_celular,1.99,train
+cof_06136,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_06136_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,1.87,train
+cof_06136,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_06136_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,1.53,train
+cof_07049,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07049_imp01.wav,Hola Thonny,opus_whatsapp,2.99,val
+cof_07049,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07049_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,2.38,val
+cof_07049,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07049_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,2.99,val
+cof_07049,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07049_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,2.78,val
+cof_07049,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07049_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,2.69,val
+cof_07049,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07049_imp06.wav,Hola Thonny,opus_whatsapp,2.99,val
+cof_07049,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07049_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,2.78,val
+cof_07049,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07049_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,2.28,val
+cof_07508,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07508_imp01.wav,Hola Thonny,aac_celular,1.86,train
+cof_07508,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07508_imp02.wav,"Hola Thonny, prende la luz",aac_celular,1.48,train
+cof_07508,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07508_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,1.86,train
+cof_07508,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07508_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,1.73,train
+cof_07508,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07508_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,1.66,train
+cof_07508,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07508_imp06.wav,Hola Thonny,aac_celular,1.86,train
+cof_07508,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07508_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,1.73,train
+cof_07508,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_07508_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,1.42,train
+cof_08421,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08421_imp01.wav,Hola Thonny,opus_whatsapp,4.45,train
+cof_08421,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08421_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,3.55,train
+cof_08421,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08421_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,4.45,train
+cof_08421,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08421_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,4.15,train
+cof_08421,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08421_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,4.00,train
+cof_08421,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08421_imp06.wav,Hola Thonny,opus_whatsapp,4.45,train
+cof_08421,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08421_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,4.15,train
+cof_08421,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08421_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,3.40,train
+cof_08784,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08784_imp01.wav,Hola Thonny,aac_celular,2.46,train
+cof_08784,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08784_imp02.wav,"Hola Thonny, prende la luz",aac_celular,1.96,train
+cof_08784,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08784_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,2.46,train
+cof_08784,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08784_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,2.29,train
+cof_08784,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08784_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,2.22,train
+cof_08784,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08784_imp06.wav,Hola Thonny,aac_celular,2.46,train
+cof_08784,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08784_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,2.29,train
+cof_08784,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_08784_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,1.89,train
+cof_09334,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09334_imp01.wav,Hola Thonny,opus_whatsapp,2.21,train
+cof_09334,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09334_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,1.76,train
+cof_09334,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09334_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,2.21,train
+cof_09334,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09334_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,2.06,train
+cof_09334,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09334_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,1.98,train
+cof_09334,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09334_imp06.wav,Hola Thonny,opus_whatsapp,2.21,train
+cof_09334,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09334_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,2.06,train
+cof_09334,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09334_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.70,train
+cof_09697,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09697_imp01.wav,Hola Thonny,aac_celular,4.00,train
+cof_09697,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09697_imp02.wav,"Hola Thonny, prende la luz",aac_celular,3.20,train
+cof_09697,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09697_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,4.00,train
+cof_09697,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09697_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,3.73,train
+cof_09697,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09697_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,3.59,train
+cof_09697,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09697_imp06.wav,Hola Thonny,aac_celular,4.00,train
+cof_09697,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09697_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,3.73,train
+cof_09697,ajeno_sintetico,f,C:/Users/duvan/datasets/slr72/sinteticos/cof_09697_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,3.06,train
+com_00610,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_00610_imp01.wav,Hola Thonny,opus_whatsapp,1.54,train
+com_00610,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_00610_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,1.23,train
+com_00610,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_00610_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,1.54,train
+com_00610,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_00610_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,1.44,train
+com_00610,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_00610_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,1.39,train
+com_00610,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_00610_imp06.wav,Hola Thonny,opus_whatsapp,1.54,train
+com_00610,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_00610_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,1.44,train
+com_00610,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_00610_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.17,train
+com_01523,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_01523_imp01.wav,Hola Thonny,aac_celular,1.53,train
+com_01523,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_01523_imp02.wav,"Hola Thonny, prende la luz",aac_celular,1.22,train
+com_01523,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_01523_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,1.53,train
+com_01523,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_01523_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,1.42,train
+com_01523,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_01523_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,1.37,train
+com_01523,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_01523_imp06.wav,Hola Thonny,aac_celular,1.53,train
+com_01523,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_01523_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,1.42,train
+com_01523,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_01523_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,1.16,train
+com_02121,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02121_imp01.wav,Hola Thonny,opus_whatsapp,1.21,train
+com_02121,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02121_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,0.96,train
+com_02121,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02121_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,1.21,train
+com_02121,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02121_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,1.13,train
+com_02121,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02121_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,1.09,train
+com_02121,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02121_imp06.wav,Hola Thonny,opus_whatsapp,1.21,train
+com_02121,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02121_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,1.13,train
+com_02121,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02121_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,0.93,train
+com_02436,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02436_imp01.wav,Hola Thonny,aac_celular,1.29,train
+com_02436,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02436_imp02.wav,"Hola Thonny, prende la luz",aac_celular,1.02,train
+com_02436,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02436_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,1.29,train
+com_02436,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02436_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,1.21,train
+com_02436,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02436_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,1.16,train
+com_02436,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02436_imp06.wav,Hola Thonny,aac_celular,1.29,train
+com_02436,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02436_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,1.21,train
+com_02436,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02436_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,0.98,train
+com_02484,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02484_imp01.wav,Hola Thonny,opus_whatsapp,1.37,train
+com_02484,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02484_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,1.09,train
+com_02484,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02484_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,1.37,train
+com_02484,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02484_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,1.28,train
+com_02484,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02484_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,1.23,train
+com_02484,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02484_imp06.wav,Hola Thonny,opus_whatsapp,1.37,train
+com_02484,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02484_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,1.28,train
+com_02484,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_02484_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.05,train
+com_03034,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03034_imp01.wav,Hola Thonny,aac_celular,2.52,train
+com_03034,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03034_imp02.wav,"Hola Thonny, prende la luz",aac_celular,2.02,train
+com_03034,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03034_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,2.52,train
+com_03034,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03034_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,2.35,train
+com_03034,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03034_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,2.26,train
+com_03034,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03034_imp06.wav,Hola Thonny,aac_celular,2.52,train
+com_03034,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03034_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,2.35,train
+com_03034,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03034_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,1.93,train
+com_03349,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03349_imp01.wav,Hola Thonny,opus_whatsapp,2.62,train
+com_03349,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03349_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,2.09,train
+com_03349,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03349_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,2.62,train
+com_03349,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03349_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,2.44,train
+com_03349,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03349_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,2.36,train
+com_03349,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03349_imp06.wav,Hola Thonny,opus_whatsapp,2.62,train
+com_03349,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03349_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,2.44,train
+com_03349,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03349_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,2.01,train
+com_03397,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03397_imp01.wav,Hola Thonny,aac_celular,1.55,test
+com_03397,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03397_imp02.wav,"Hola Thonny, prende la luz",aac_celular,1.23,test
+com_03397,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03397_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,1.55,test
+com_03397,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03397_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,1.44,test
+com_03397,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03397_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,1.39,test
+com_03397,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03397_imp06.wav,Hola Thonny,aac_celular,1.55,test
+com_03397,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03397_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,1.44,test
+com_03397,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_03397_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,1.17,test
+com_04310,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_04310_imp01.wav,Hola Thonny,opus_whatsapp,2.54,train
+com_04310,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_04310_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,2.03,train
+com_04310,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_04310_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,2.54,train
+com_04310,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_04310_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,2.37,train
+com_04310,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_04310_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,2.28,train
+com_04310,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_04310_imp06.wav,Hola Thonny,opus_whatsapp,2.54,train
+com_04310,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_04310_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,2.37,train
+com_04310,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_04310_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.94,train
+com_05223,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_05223_imp01.wav,Hola Thonny,aac_celular,2.49,test
+com_05223,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_05223_imp02.wav,"Hola Thonny, prende la luz",aac_celular,1.98,test
+com_05223,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_05223_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,2.49,test
+com_05223,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_05223_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,2.31,test
+com_05223,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_05223_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,2.23,test
+com_05223,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_05223_imp06.wav,Hola Thonny,aac_celular,2.49,test
+com_05223,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_05223_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,2.31,test
+com_05223,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_05223_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,1.90,test
+com_06136,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_06136_imp01.wav,Hola Thonny,opus_whatsapp,1.96,train
+com_06136,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_06136_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,1.57,train
+com_06136,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_06136_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,1.96,train
+com_06136,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_06136_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,1.83,train
+com_06136,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_06136_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,1.77,train
+com_06136,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_06136_imp06.wav,Hola Thonny,opus_whatsapp,1.96,train
+com_06136,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_06136_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,1.83,train
+com_06136,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_06136_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.50,train
+com_07049,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07049_imp01.wav,Hola Thonny,aac_celular,1.86,val
+com_07049,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07049_imp02.wav,"Hola Thonny, prende la luz",aac_celular,1.48,val
+com_07049,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07049_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,1.86,val
+com_07049,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07049_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,1.74,val
+com_07049,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07049_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,1.67,val
+com_07049,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07049_imp06.wav,Hola Thonny,aac_celular,1.86,val
+com_07049,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07049_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,1.74,val
+com_07049,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07049_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,1.42,val
+com_07508,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07508_imp01.wav,Hola Thonny,opus_whatsapp,1.61,test
+com_07508,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07508_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,1.28,test
+com_07508,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07508_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,1.61,test
+com_07508,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07508_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,1.50,test
+com_07508,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07508_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,1.45,test
+com_07508,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07508_imp06.wav,Hola Thonny,opus_whatsapp,1.61,test
+com_07508,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07508_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,1.50,test
+com_07508,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_07508_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.23,test
+com_08421,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08421_imp01.wav,Hola Thonny,aac_celular,4.33,val
+com_08421,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08421_imp02.wav,"Hola Thonny, prende la luz",aac_celular,3.46,val
+com_08421,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08421_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,4.33,val
+com_08421,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08421_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,4.04,val
+com_08421,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08421_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,3.89,val
+com_08421,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08421_imp06.wav,Hola Thonny,aac_celular,4.33,val
+com_08421,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08421_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,4.04,val
+com_08421,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08421_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,3.32,val
+com_08784,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08784_imp01.wav,Hola Thonny,opus_whatsapp,1.73,train
+com_08784,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08784_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,1.39,train
+com_08784,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08784_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,1.73,train
+com_08784,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08784_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,1.62,train
+com_08784,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08784_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,1.56,train
+com_08784,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08784_imp06.wav,Hola Thonny,opus_whatsapp,1.73,train
+com_08784,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08784_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,1.62,train
+com_08784,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_08784_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.32,train
+com_09334,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09334_imp01.wav,Hola Thonny,aac_celular,3.86,val
+com_09334,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09334_imp02.wav,"Hola Thonny, prende la luz",aac_celular,3.09,val
+com_09334,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09334_imp03.wav,"Hola Thonny, apaga el ventilador",aac_celular,3.86,val
+com_09334,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09334_imp04.wav,"Hola Thonny, prende el cautín",aac_celular,3.61,val
+com_09334,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09334_imp05.wav,"Hola Thonny, apaga la plancha",aac_celular,3.48,val
+com_09334,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09334_imp06.wav,Hola Thonny,aac_celular,3.86,val
+com_09334,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09334_imp07.wav,"Hola Thonny, prende la plancha",aac_celular,3.61,val
+com_09334,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09334_imp08.wav,"Hola Thonny, apaga la luz",aac_celular,2.95,val
+com_09697,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09697_imp01.wav,Hola Thonny,opus_whatsapp,2.13,train
+com_09697,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09697_imp02.wav,"Hola Thonny, prende la luz",opus_whatsapp,1.71,train
+com_09697,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09697_imp03.wav,"Hola Thonny, apaga el ventilador",opus_whatsapp,2.13,train
+com_09697,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09697_imp04.wav,"Hola Thonny, prende el cautín",opus_whatsapp,1.99,train
+com_09697,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09697_imp05.wav,"Hola Thonny, apaga la plancha",opus_whatsapp,1.92,train
+com_09697,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09697_imp06.wav,Hola Thonny,opus_whatsapp,2.13,train
+com_09697,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09697_imp07.wav,"Hola Thonny, prende la plancha",opus_whatsapp,1.99,train
+com_09697,ajeno_sintetico,m,C:/Users/duvan/datasets/slr72/sinteticos/com_09697_imp08.wav,"Hola Thonny, apaga la luz",opus_whatsapp,1.63,train

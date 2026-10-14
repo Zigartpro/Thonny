@@ -1,0 +1,365 @@
+{
+  "fecha": "2026-10-11T21:44:35",
+  "audios": [
+    {
+      "audio": "cristian/que_necesitas.wav",
+      "hablante": "cristian",
+      "texto": "Dime, ¿qué necesitas?",
+      "inteligibilidad": 100,
+      "transcripcion": "Dime qué necesitas.",
+      "parecido_propio": 0.505,
+      "parecido_otros": {
+        "johan": 0.141,
+        "rocko": 0.073
+      }
+    },
+    {
+      "audio": "cristian/no_entendi.wav",
+      "hablante": "cristian",
+      "texto": "No te entendí, ¿me repites?",
+      "inteligibilidad": 100,
+      "transcripcion": "¿No te entendí? ¿Me repites?",
+      "parecido_propio": 0.598,
+      "parecido_otros": {
+        "johan": 0.136,
+        "rocko": 0.089
+      }
+    },
+    {
+      "audio": "cristian/prender_bombillo.wav",
+      "hablante": "cristian",
+      "texto": "Listo, prendí la luz.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, prendí la luz.",
+      "parecido_propio": 0.528,
+      "parecido_otros": {
+        "johan": 0.167,
+        "rocko": 0.185
+      }
+    },
+    {
+      "audio": "cristian/apagar_bombillo.wav",
+      "hablante": "cristian",
+      "texto": "Listo, apagué la luz.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, apague la luz.",
+      "parecido_propio": 0.411,
+      "parecido_otros": {
+        "johan": 0.101,
+        "rocko": 0.268
+      }
+    },
+    {
+      "audio": "cristian/prender_ventilador.wav",
+      "hablante": "cristian",
+      "texto": "Listo, prendí el ventilador.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo prendí el ventilador",
+      "parecido_propio": 0.681,
+      "parecido_otros": {
+        "johan": 0.22,
+        "rocko": 0.188
+      }
+    },
+    {
+      "audio": "cristian/apagar_ventilador.wav",
+      "hablante": "cristian",
+      "texto": "Listo, apagué el ventilador.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo apague el ventilador.",
+      "parecido_propio": 0.694,
+      "parecido_otros": {
+        "johan": 0.245,
+        "rocko": 0.245
+      }
+    },
+    {
+      "audio": "cristian/prender_cautin.wav",
+      "hablante": "cristian",
+      "texto": "Listo, prendí el cautín.",
+      "inteligibilidad": 95,
+      "transcripcion": "Listo, prendí el caudín",
+      "parecido_propio": 0.641,
+      "parecido_otros": {
+        "johan": 0.231,
+        "rocko": 0.162
+      }
+    },
+    {
+      "audio": "cristian/apagar_cautin.wav",
+      "hablante": "cristian",
+      "texto": "Listo, apagué el cautín.",
+      "inteligibilidad": 100,
+      "transcripcion": "listo apague el cautín",
+      "parecido_propio": 0.682,
+      "parecido_otros": {
+        "johan": 0.193,
+        "rocko": 0.187
+      }
+    },
+    {
+      "audio": "cristian/prender_plancha.wav",
+      "hablante": "cristian",
+      "texto": "Listo, prendí la plancha.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo prendí la plancha",
+      "parecido_propio": 0.692,
+      "parecido_otros": {
+        "johan": 0.215,
+        "rocko": 0.225
+      }
+    },
+    {
+      "audio": "cristian/apagar_plancha.wav",
+      "hablante": "cristian",
+      "texto": "Listo, apagué la plancha.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo apague la plancha",
+      "parecido_propio": 0.727,
+      "parecido_otros": {
+        "johan": 0.213,
+        "rocko": 0.24
+      }
+    },
+    {
+      "audio": "johan/que_necesitas.wav",
+      "hablante": "johan",
+      "texto": "Dime, ¿qué necesitas?",
+      "inteligibilidad": 100,
+      "transcripcion": "Dime, ¿qué necesitas?",
+      "parecido_propio": 0.622,
+      "parecido_otros": {
+        "cristian": 0.189,
+        "rocko": 0.093
+      }
+    },
+    {
+      "audio": "johan/no_entendi.wav",
+      "hablante": "johan",
+      "texto": "No te entendí, ¿me repites?",
+      "inteligibilidad": 100,
+      "transcripcion": "No te entendí, me repites.",
+      "parecido_propio": 0.609,
+      "parecido_otros": {
+        "cristian": 0.179,
+        "rocko": 0.091
+      }
+    },
+    {
+      "audio": "johan/prender_bombillo.wav",
+      "hablante": "johan",
+      "texto": "Listo, prendí la luz.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, prendí la luz.",
+      "parecido_propio": 0.649,
+      "parecido_otros": {
+        "cristian": 0.221,
+        "rocko": 0.128
+      }
+    },
+    {
+      "audio": "johan/apagar_bombillo.wav",
+      "hablante": "johan",
+      "texto": "Listo, apagué la luz.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, apague la luz.",
+      "parecido_propio": 0.595,
+      "parecido_otros": {
+        "cristian": 0.107,
+        "rocko": 0.024
+      }
+    },
+    {
+      "audio": "johan/prender_ventilador.wav",
+      "hablante": "johan",
+      "texto": "Listo, prendí el ventilador.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, prendí el ventilador.",
+      "parecido_propio": 0.712,
+      "parecido_otros": {
+        "cristian": 0.212,
+        "rocko": 0.089
+      }
+    },
+    {
+      "audio": "johan/apagar_ventilador.wav",
+      "hablante": "johan",
+      "texto": "Listo, apagué el ventilador.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, apague el ventilador.",
+      "parecido_propio": 0.726,
+      "parecido_otros": {
+        "cristian": 0.222,
+        "rocko": 0.137
+      }
+    },
+    {
+      "audio": "johan/prender_cautin.wav",
+      "hablante": "johan",
+      "texto": "Listo, prendí el cautín.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, prendí el cautín.",
+      "parecido_propio": 0.502,
+      "parecido_otros": {
+        "cristian": 0.14,
+        "rocko": 0.065
+      }
+    },
+    {
+      "audio": "johan/apagar_cautin.wav",
+      "hablante": "johan",
+      "texto": "Listo, apagué el cautín.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, apague el cautín.",
+      "parecido_propio": 0.48,
+      "parecido_otros": {
+        "cristian": 0.128,
+        "rocko": 0.042
+      }
+    },
+    {
+      "audio": "johan/prender_plancha.wav",
+      "hablante": "johan",
+      "texto": "Listo, prendí la plancha.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, prendí la plancha.",
+      "parecido_propio": 0.474,
+      "parecido_otros": {
+        "cristian": 0.105,
+        "rocko": 0.027
+      }
+    },
+    {
+      "audio": "johan/apagar_plancha.wav",
+      "hablante": "johan",
+      "texto": "Listo, apagué la plancha.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, apague la plancha.",
+      "parecido_propio": 0.49,
+      "parecido_otros": {
+        "cristian": 0.14,
+        "rocko": 0.02
+      }
+    },
+    {
+      "audio": "rocko/que_necesitas.wav",
+      "hablante": "rocko",
+      "texto": "Dime, ¿qué necesitas?",
+      "inteligibilidad": 100,
+      "transcripcion": "Dime, ¿Qué necesitas?",
+      "parecido_propio": 0.489,
+      "parecido_otros": {
+        "cristian": 0.07,
+        "johan": 0.22
+      }
+    },
+    {
+      "audio": "rocko/no_entendi.wav",
+      "hablante": "rocko",
+      "texto": "No te entendí, ¿me repites?",
+      "inteligibilidad": 100,
+      "transcripcion": "No te entendí, ¿me repites?",
+      "parecido_propio": 0.584,
+      "parecido_otros": {
+        "cristian": 0.145,
+        "johan": 0.181
+      }
+    },
+    {
+      "audio": "rocko/prender_bombillo.wav",
+      "hablante": "rocko",
+      "texto": "Listo, prendí la luz.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, prendí la luz.",
+      "parecido_propio": 0.487,
+      "parecido_otros": {
+        "cristian": 0.149,
+        "johan": 0.127
+      }
+    },
+    {
+      "audio": "rocko/apagar_bombillo.wav",
+      "hablante": "rocko",
+      "texto": "Listo, apagué la luz.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, apagué la luz.",
+      "parecido_propio": 0.429,
+      "parecido_otros": {
+        "cristian": 0.228,
+        "johan": 0.056
+      }
+    },
+    {
+      "audio": "rocko/prender_ventilador.wav",
+      "hablante": "rocko",
+      "texto": "Listo, prendí el ventilador.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, prendí el ventilador.",
+      "parecido_propio": 0.629,
+      "parecido_otros": {
+        "cristian": 0.133,
+        "johan": 0.182
+      }
+    },
+    {
+      "audio": "rocko/apagar_ventilador.wav",
+      "hablante": "rocko",
+      "texto": "Listo, apagué el ventilador.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo apague el ventilador",
+      "parecido_propio": 0.545,
+      "parecido_otros": {
+        "cristian": 0.116,
+        "johan": 0.098
+      }
+    },
+    {
+      "audio": "rocko/prender_cautin.wav",
+      "hablante": "rocko",
+      "texto": "Listo, prendí el cautín.",
+      "inteligibilidad": 98,
+      "transcripcion": "Listo, prendí el caoutín.",
+      "parecido_propio": 0.573,
+      "parecido_otros": {
+        "cristian": 0.219,
+        "johan": 0.165
+      }
+    },
+    {
+      "audio": "rocko/apagar_cautin.wav",
+      "hablante": "rocko",
+      "texto": "Listo, apagué el cautín.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, apague el cautín.",
+      "parecido_propio": 0.56,
+      "parecido_otros": {
+        "cristian": 0.273,
+        "johan": 0.165
+      }
+    },
+    {
+      "audio": "rocko/prender_plancha.wav",
+      "hablante": "rocko",
+      "texto": "Listo, prendí la plancha.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, prendí la plancha",
+      "parecido_propio": 0.596,
+      "parecido_otros": {
+        "cristian": 0.215,
+        "johan": 0.213
+      }
+    },
+    {
+      "audio": "rocko/apagar_plancha.wav",
+      "hablante": "rocko",
+      "texto": "Listo, apagué la plancha.",
+      "inteligibilidad": 100,
+      "transcripcion": "Listo, apague la plancha.",
+      "parecido_propio": 0.652,
+      "parecido_otros": {
+        "cristian": 0.227,
+        "johan": 0.085
+      }
+    }
+  ]
+}

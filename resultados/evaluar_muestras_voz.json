@@ -1,0 +1,83 @@
+{
+  "fecha": "2026-10-11T21:28:54",
+  "texto": "Hola, soy Toni. Listo, prendí la luz. ¿Qué más necesitas?",
+  "muestras": [
+    {
+      "muestra": "cristian_toma1.wav",
+      "hablante": "cristian",
+      "inteligibilidad": 89,
+      "transcripcion": "Hola, soy Tony. Prendí la luz. ¿Cuáles más necesitas?",
+      "parecido_propio": 0.68,
+      "parecido_otros": {
+        "johan": 0.209,
+        "rocko": 0.184
+      }
+    },
+    {
+      "muestra": "johan_toma1.wav",
+      "hablante": "johan",
+      "inteligibilidad": 89,
+      "transcripcion": "Hola, soy Tony. Prendí la luz. ¿Cuáles más necesitas?",
+      "parecido_propio": 0.745,
+      "parecido_otros": {
+        "cristian": 0.155,
+        "rocko": 0.136
+      }
+    },
+    {
+      "muestra": "johan_toma2.wav",
+      "hablante": "johan",
+      "inteligibilidad": 96,
+      "transcripcion": "Hola, soy Tony. Listo, prendí la luz. ¿Cuá más necesitas?",
+      "parecido_propio": 0.737,
+      "parecido_otros": {
+        "cristian": 0.183,
+        "rocko": 0.123
+      }
+    },
+    {
+      "muestra": "johan_toma3.wav",
+      "hablante": "johan",
+      "inteligibilidad": 87,
+      "transcripcion": "Hola, soy Tony. Prendí la luz. ¿Cuántas más necesitas?",
+      "parecido_propio": 0.616,
+      "parecido_otros": {
+        "cristian": 0.132,
+        "rocko": 0.088
+      }
+    },
+    {
+      "muestra": "rocko_toma1.wav",
+      "hablante": "rocko",
+      "inteligibilidad": 98,
+      "transcripcion": "Hola, soy Tony. Listo, prendí la luz. ¿Fue más necesitas?",
+      "parecido_propio": 0.697,
+      "parecido_otros": {
+        "cristian": 0.109,
+        "johan": 0.165
+      }
+    },
+    {
+      "muestra": "rocko_toma2.wav",
+      "hablante": "rocko",
+      "inteligibilidad": 84,
+      "transcripcion": "Hola, listo, prendí la luz. ¿Cuá más necesitas?",
+      "parecido_propio": 0.643,
+      "parecido_otros": {
+        "cristian": 0.117,
+        "johan": 0.162
+      }
+    },
+    {
+      "muestra": "rocko_toma3.wav",
+      "hablante": "rocko",
+      "inteligibilidad": 87,
+      "transcripcion": "sola y tonidisto prendí la luz. Cue más necesitas.",
+      "parecido_propio": 0.619,
+      "parecido_otros": {
+        "cristian": 0.069,
+        "johan": 0.113
+      }
+    }
+  ]
+}
